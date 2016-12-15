@@ -1,0 +1,2473 @@
+[ 2016-10-27T09:21:04+08:00 ] ::1 /uufenxiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0015s ]
+
+[ 2016-10-27T09:21:04+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-10-27T09:21:08+08:00 ] ::1 /uufenxiao/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 and islock=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='000' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-10-27T09:21:10+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0064s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufenxiao\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-10-27T09:22:13+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Uuce&a=uu_re
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-10-27T09:22:15+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0033s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-10-27T09:22:16+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-10-27T09:22:19+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0035s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-10-27T09:23:21+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0033s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-10-27T09:23:24+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0025s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-10-27T09:36:39+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-10-27T09:37:07+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-10-27T09:37:15+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-10-27T09:37:16+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-10-27T09:38:26+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-10-27T09:38:52+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-10-27T09:41:16+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0035s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-10-27T09:44:11+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-10-27T09:46:32+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0033s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-10-27T09:57:15+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_info&id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-10-27T09:57:17+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 30 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0026s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-10-27T09:58:55+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 30 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-10-27T09:58:58+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 30 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-10-27T09:59:45+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-10-27T09:59:46+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-10-27T10:01:00+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 30 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-10-27T10:08:54+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-10-27T10:09:57+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-10-27T10:12:01+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-10-27T10:32:15+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-10-27T10:33:38+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-10-27T10:33:52+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0031s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-10-27T11:40:15+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-10-27T11:48:02+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-10-27T11:48:21+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-10-27T11:48:35+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0026s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-10-27T11:49:49+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-10-27T11:49:52+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-10-27T11:51:45+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-10-27T11:51:58+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-10-27T11:53:36+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-10-27T11:53:48+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-10-27T11:54:39+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-10-27T11:58:30+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-10-27T11:59:04+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-10-27T11:59:56+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0035s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-10-27T13:40:39+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-10-27T13:40:51+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-10-27T13:41:06+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-10-27T13:45:59+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-10-27T14:09:00+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-10-27T14:09:09+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-10-27T14:10:53+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-10-27T14:13:12+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-10-27T14:22:15+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0040s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-10-27T14:24:21+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0036s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-10-27T14:24:23+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0039s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2016-10-27T14:25:05+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0047s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-10-27T14:27:09+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0037s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-10-27T14:27:09+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0045s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-10-27T14:27:10+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0037s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-10-27T14:28:15+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0071s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-10-27T14:38:27+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-10-27T14:38:40+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 36 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-10-27T15:34:45+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0044s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-10-27T15:34:49+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0106s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+
+[ 2016-10-27T15:36:53+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0043s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-10-27T15:37:02+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0041s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+
+[ 2016-10-27T15:41:14+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-10-27T15:41:16+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0048s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+
+[ 2016-10-27T15:45:06+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0036s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-10-27T15:45:11+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0071s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_travel` WHERE ( tr_id= ) LIMIT 1  
+
+[ 2016-10-27T15:49:48+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-10-27T15:50:03+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-10-27T15:50:05+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-10-27T15:50:56+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0043s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-10-27T15:50:59+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-10-27T16:29:47+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0033s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2016-10-27T16:30:00+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-10-27T16:42:04+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0036s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-10-27T16:42:13+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2016-10-27T16:45:45+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-10-27T16:49:00+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-10-27T16:49:03+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-10-27T16:49:49+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0039s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-10-27T16:49:57+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-10-27T16:50:08+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-10-27T16:50:12+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0056s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-10-27T16:50:16+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2016-10-27T16:52:56+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0044s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-10-27T16:53:05+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 37 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-10-27T16:54:35+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0063s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-10-27T16:54:39+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 39 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2016-10-27T17:20:03+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0052s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-10-27T17:20:16+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0044s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-10-27T17:22:32+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 38 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-10-27T17:43:09+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0038s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102710052519','1477561389','1','0','0','0','0','0') [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-10-27T17:44:05+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0037s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-10-27T17:44:07+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0036s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102755545210','1477561447','1','0','0','0','0','0') [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-10-27T17:45:09+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0039s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102753555110','1477561509','1','0','0','0','0','0') [ RunTime:0.0021s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-10-27T17:45:43+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0035s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2016-10-27T17:46:09+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0037s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-10-27T17:46:10+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0044s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102750994910','1477561570','1','0','0','0','0','0') [ RunTime:0.0038s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-10-27T17:48:18+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0042s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102750975456','1477561698','1','0','0','0','0','0') [ RunTime:0.0057s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-10-27T17:48:27+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0037s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102798485656','1477561707','1','0','0','0','0','0') [ RunTime:0.0042s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-10-27T17:48:30+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0056s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102710151569','1477561710','1','0','0','0','0','0') [ RunTime:0.0019s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-10-27T17:48:32+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0036s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-10-27T17:48:34+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0037s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('123','0','2016102750521015','1477561714','1','0','0','0','0','0') [ RunTime:0.0035s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-10-27T17:49:18+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0046s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-10-27T17:49:19+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0046s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-10-27T17:49:20+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0035s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('0','0','2016102748985110','1477561760','1','0','0','0','0','0') [ RunTime:0.0038s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-10-27T17:50:16+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_apply&tr_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0048s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-10-27T17:50:18+08:00 ] ::1 /uufenxiao/index.php/Home/Travel/apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0052s ]
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('6','0','2016102757102524','1477561817','1','0','0','0','0','0') [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufenxiao\Application\Home\Controller\TravelController.class.php on line 50 and defined D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufenxiao\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+

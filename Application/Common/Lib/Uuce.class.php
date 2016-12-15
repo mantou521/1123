@@ -14,15 +14,15 @@ class Uuce{
         //减去
         $Kucun=M('uukucun');
         $goods=M('uukucun')->where('goods_id='.$goods_id.' and user_id='.$id)->find();
-        $tra_num=count(explode(',',$goods_sn));
+        $tra_num=count(uuSntoArr($goods_sn));
         $save['goods_num']=$goods['goods_num']-$tra_num;
-        $save['goods_sn']=rtrim(str_replace($goods_sn.',','',$goods['goods_sn'].','),',');
+        $save['goods_sn']=orderdel($goods['goods_sn'],$goods_sn);
         M('uukucun')->where('goods_id='.$goods_id.' and user_id='.$id)->save($save);
         //转让
         if ($type==1) {
             $judge=$Kucun->where('goods_id='.$goods_id.' and user_id='.$toid)->find();
             if ($judge) {
-                $data['goods_sn']=$judge['goods_sn'].",".$goods_sn;
+                $data['goods_sn']=joinCoding($judge['goods_sn'],$goods_sn);
                 $data['goods_num']=$tra_num+$judge['goods_num'];
                 $Kucun->where('goods_id='.$goods_id.' and user_id='.$toid)->save($data);
             }else{

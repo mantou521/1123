@@ -1,0 +1,408 @@
+[ 2016-08-25T09:05:51+08:00 ] ::1 /thinkphp_3.2.3/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Css
+
+[ 2016-08-25T09:05:51+08:00 ] ::1 /thinkphp_3.2.3/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:05:51+08:00 ] ::1 /thinkphp_3.2.3/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-08-25T09:05:51+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:05:51+08:00 ] ::1 /thinkphp_3.2.3/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-08-25T09:05:51+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:07:45+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:45+08:00 ] ::1 /thinkphp_3.2.3/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:45+08:00 ] ::1 /thinkphp_3.2.3/Public/Home/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T09:07:45+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:07:45+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:45+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:07:47+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:47+08:00 ] ::1 /thinkphp_3.2.3/Public/Home/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T09:07:47+08:00 ] ::1 /thinkphp_3.2.3/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:47+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:07:47+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:47+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/Public/Home/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/Public/Home/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/Public/Home/js/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:07:48+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:08:08+08:00 ] ::1 /thinkphp_3.2.3/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:08:08+08:00 ] ::1 /thinkphp_3.2.3/js/my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Js
+
+[ 2016-08-25T09:08:08+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:10:59+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T09:10:59+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:11:01+08:00 ] ::1 /thinkphp_3.2.3/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Sys
+
+[ 2016-08-25T09:11:03+08:00 ] ::1 /thinkphp_3.2.3/images/uu_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Images
+
+[ 2016-08-25T09:12:16+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T09:30:31+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T09:33:12+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T09:36:02+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T09:36:03+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:16:41+08:00 ] ::1 /thinkphp_3.2.3/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Sys
+
+[ 2016-08-25T10:16:45+08:00 ] ::1 /thinkphp_3.2.3/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Sys
+
+[ 2016-08-25T10:53:35+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:53:35+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:53:35+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:53:35+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:55:42+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:56:41+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:56:41+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T10:56:42+08:00 ] ::1 /thinkphp_3.2.3/__PUBLIC_/Home/js/jquery-1.8.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:__PUBLIC_
+
+[ 2016-08-25T11:56:05+08:00 ] ::1 /thinkphp_3.2.3/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-08-25T11:56:05+08:00 ] ::1 /thinkphp_3.2.3/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-08-25T15:45:07+08:00 ] ::1 /thinkphp_3.2.3/Public/Home//thinkphp_3.2.3/Public/Home/images/kucun1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T15:45:10+08:00 ] ::1 /thinkphp_3.2.3/Public/Home//thinkphp_3.2.3/Public/Home/images/kucun1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T15:45:12+08:00 ] ::1 /thinkphp_3.2.3/Public/Home//thinkphp_3.2.3/Public/Home/images/kucun1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T15:45:41+08:00 ] ::1 /thinkphp_3.2.3/Public/Home//thinkphp_3.2.3/Public/Home/images/kucun1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004321s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:PublicHome
+
+[ 2016-08-25T16:52:44+08:00 ] ::1 /thinkphp_3.2.3/PublicHome/js/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:PublicHome
+

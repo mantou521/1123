@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>转让记录</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="游邮文化,UU"/>
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-comp">
+    <meta name="renderer" content="ie-stand">
+    <meta name="description" content="游邮文化,UU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/Home/js/my.js"></script>
+</head>
+<body>
+<include file="Common:header"/>
+<div class="container_w main_w">
+    <div class="container main">
+        <include file="Common:index_left"/>
+        <div class="r main_right">
+            <div class="main_right_title main_right_title_blue">
+                <em></em>
+                <span>我的库存<a href="index.php?m=Home&c=Uuce&a=uu_kucun" class="yeji_span"> &gt; 转让记录</a></span>
+            </div>
+            <div class="main_right_con kucun_con">
+                <div class="kucun_head">
+                    <a href="index.php?m=Home&c=Uuce&a=uu_kucun">我的库存</a>
+                    <span>转让记录</span>
+                </div>
+                <div class="record">
+                    <table class="record_tab" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th>UU册名称</th>
+                            <th>转出时间</th>
+                            <th>转出类型</th>
+                            <th>转出数量</th>
+                            <th>单价</th>
+                            <th>编码</th>
+                            <th>接收人</th>
+                            <th>编号</th>
+                            <th>电话</th>
+                            <th>邮寄地址</th>
+                        </tr>
+                        <foreach name="record" item="vo">
+                        <tr>
+                            <td>{$vo.goods_name}</td>
+                            <td>
+                                <span><php>echo date('Y-m-d',$vo['time'])</php></span>
+                                <span><php>echo date('H:i:s',$vo['time'])</php></span>
+                            </td>
+                            <td class="td_type"><if condition="($vo.type eq 1)">内部转让<else />外部转让</if></td>
+                            <td>{$vo.goods_num}本</td>
+                            <td>{$vo.goods_price}元</td>
+                            <td>
+                                <span>{$vo.goods_sn}</span>
+                            </td>
+                            <td>{$vo.consignee}</td>
+                            <td>{$vo.user_num}</td>
+                            <td>{$vo.mobile}</td>
+                            <td>
+                                {$vo.address}
+                            </td>
+                        </tr>
+                        </foreach>
+                    </table>
+                </div>
+                <div class="div_text_center yeji_page">
+                    {$page}
+                    <div class="ye_together">每页10条，共<em>{$yetotal}</em>页</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="c container_w login_foot_w">
+    <div class="container footer div_text_center">
+        Copyright@2013Enterprise information All Rights Reserved 京ICP备 01245785号
+    </div>
+</div>
+</body>
+</html>

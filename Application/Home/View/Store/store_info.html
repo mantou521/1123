@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开店报单</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="游邮文化,UU"/>
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-comp">
+    <meta name="renderer" content="ie-stand">
+    <meta name="description" content="游邮文化,UU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/Home/js/validation.js"></script>
+    <script src="__PUBLIC__/Home/js/my.js"></script>
+</head>
+<body>
+<include file="./Common/header"/>
+<div class="container_w main_w">
+    <div class="container main">
+        <include file="./Common/index_left"/>
+        <div class="r main_right">
+            <div class="main_right_title main_right_title_blue">
+                <em></em>
+                <span>报单<a href="sys.html" class="yeji_span"> &gt; 开店报单</a></span>
+            </div>
+            <div class="main_right_con">
+                <div class="reg_con_input_all">
+                    <div class="main_right_con1">
+                        <h4>店铺信息</h4>
+
+                        <div class="reg_con_span edit_con_input reg_mar_l">
+                            <span>店铺地址：</span>
+                            <span>{$user.address}</span>
+                        </div>
+                        <div class="reg_con_span edit_con_input reg_mar_l">
+                            <span>开店级别：</span>
+                            <span>{$user.sname}</span>
+                        </div>
+                        <div class="reg_con_span edit_con_input reg_mar_l">
+                            <span>货铺类型：</span>
+                            <span>100%铺货</span>
+                        </div>
+                        <div class="reg_con_span edit_con_input reg_mar_l">
+                            <span>营业执照：</span>
+                            <img src="__PUBLIC__/Home/images/upload/store/{$user.img}" alt=""/>
+                        </div>
+                        <div class="reg_con_span edit_con_input reg_mar_l">
+                            <span>加盟费用：</span>
+                            <span class="jiage_size">￥<em>{$user.free}</em></span>
+                        </div>
+                    </div>
+                </div>
+                <if condition="$user.slevel gt 1">
+                    <div class="login_bot reg_bot reg_btn_font">
+                        <div class="cur login_bot_span_login" id="wechat-share">升级店铺</div>
+                    </div>
+                </if>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="c container_w login_foot_w">
+    <div class="container footer div_text_center">
+        Copyright@2013Enterprise information All Rights Reserved 京ICP备 01245785号
+    </div>
+</div>
+<!-- up_alert-->
+<div class="dialog wechat-share-dialog">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content"  style="opacity: 1;">
+        <div class="dia_header">
+            <span>店铺升级</span>
+            <img src="__PUBLIC__/Home/images/dia_close.png" alt="" class="dialog-close"/>
+        </div>
+        <form class="dia_cont">
+            <div class="dia_cont1">
+                <input type="hidden" id="userid" value="{$_SESSION.id}" >
+                <span class="dia_span">选择提升的级别：</span>
+                <?php $mon=$level[0]['free']-$user['free']?>
+                <select class="sel">
+                    <foreach name="level" item="vo">
+                        <?php $le=$user['slevel']; $cha=$vo['free']-$user['free'];?>
+                        <if condition="($vo.slevel lt $le)">
+                            <option value="{$vo.slevel}" jp="{$cha}" checked="checked">{$vo.sname}</option>
+
+                        </if>
+                    </foreach>
+                </select>
+            </div>
+            <div class="dia_cont2">
+                <span class="dia_span">应付金额：￥</span>
+
+                <span class="dia_cont2_color" >{$mon}</span>
+            </div>
+            <div class="dia_cont3">
+                <span>支付方式：</span>
+                <!-- radio-->
+                <ul class="dia_radio">
+                    <li>
+                        <input type="radio" name="zhifu" value="1"/>
+                        <span><i></i></span>
+                        在线支付
+                    </li>
+                    <li>
+                        <input type="radio" name="zhifu" value="2"/>
+                        <span><i></i></span>
+                        线下支付
+                    </li>
+                </ul>
+            </div>
+            <div class="up_zhifu">
+                <a href="javaScript:;">确认升级</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    /*select*/
+    $('.sel').change(function(){
+        $('.dia_cont2_color').html($(".sel option:selected").attr('jp'));
+        //console.log($(this).val());
+    });
+    $('.up_zhifu').click(function(){
+
+        var free= $('.dia_cont2_color ').text();
+        var uplevel= $('.sel ').val();
+        var type= $('.dia_radio li input[name="zhifu"]:checked').val();
+        var userid= $('#userid').val();
+        $.ajax({
+            url:"__URL__/store_up",
+            type:'post',
+            data:{'free':free,uplevel:uplevel,type:type,userid:userid},
+            dataType:'json',
+            success:function(data){
+                if(data=='false'){
+                    alert('您已经申请,请等待审核')
+                }else{
+                    if($('.dia_radio li:eq(0)').hasClass('zhifu_cur')){
+                        window.location.href="index.php?m=Home&c=Order&a=order_pay&order_sn="+data+"&type=5";
+                    }else{
+                        window.location.href='{:U('Store/open_offline',array('type'=>'update'))}';
+                    }
+
+                }
+            }
+        })
+
+    })
+
+
+    //确认升级
+    //    $('.up_zhifu a').click(function(){
+    //        if($('.dia_radio li:eq(0)').hasClass('zhifu_cur')){
+    //            window.location.href='open_online.html';
+    //        }else{
+    //            window.location.href='open_offline.html';
+    //        }
+    //    });
+</script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旅游报单-订单详情</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="游邮文化,UU"/>
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-comp">
+    <meta name="renderer" content="ie-stand">
+    <meta name="description" content="游邮文化,UU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/Home/js/my.js"></script>
+    <script src="__PUBLIC__/Home/js/laydate/laydate.js"></script>
+    <style>
+        .button-holder{margin-top: -55px;margin-left: 50px;}
+        .yeji_input_radio{display: none;opacity: 0;}
+        .regular-radio + label {
+            -webkit-appearance: none;
+            background-color: #fafafa;
+            border: 1px solid #cacece;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+            padding:6px;
+            border-radius: 50px;
+            display: inline-block;
+            position: relative;
+        }
+        .regular-radio:checked + label:after {
+            content: ' ';
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            position: absolute;
+            top: 1px;
+            background: #99a1a7;
+            box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+            text-shadow: 0px;
+            left: 1px;
+            font-size: 32px;
+        }
+        /*/!*.main_w,.container.main,.main_right{height:4000px;}*!/
+        /!*.product_right_con{height:3800px;}*!/
+        .main{padding-top: 0;}*/
+    </style>
+</head>
+<body>
+<include file="Common:header"/>
+<div class="container_w main_w">
+    <div class="container main">
+        <include file="Common:index_left"/>
+        <div class="r main_right">
+            <div class="main_right_title main_right_title_blue">
+                <em></em>
+                <span>报单<a href="lvyou_yeji.html" class="yeji_span"> &gt; 旅游业绩</a></span>
+            </div>
+            <div class="product_right_con baodan_con">
+                <h3 class="ruzhi_con_h3">&nbsp</h3>
+                <div class="main_right_con1">
+                    <h4>报团信息</h4>
+                    <div class="bt">
+                        <table class="result_tab record_tab feed_tab" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <th>路线名称</th>
+                                <th>出发日期</th>
+                                <th>人数</th>
+                                <th>交通方式</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="">{$vo.tr_name}</a>
+                                </td>
+                                <td>
+                                    <span>{$vo.t}</span>
+                                </td>
+                                <td>
+                                    <span>{$vo.y_num}（成人）</span>
+                                    <span>{$vo.c_num}（儿童）</span>
+                                </td>
+                                <td>
+                                    <span><if condition="($vo.type eq 1)">火车<else/>飞机 </if> </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="main_right_con1">
+                    <h4>出团人信息</h4>
+                    <div class="bts">
+                        <foreach name="users" item="us">
+                        <div class="bt_box">
+                            <p>
+                                <span class="bt_span_l">姓名：</span>
+                                <span>{$us.user_name}</span>
+                            </p>
+                            <p>
+                                <span class="bt_span_l">性别：</span>
+                                <span><if condition="$us.sex eq 1">男<else/>女</if></span>
+                            </p>
+                            <p>
+                                <span class="bt_span_l">电话（选填）：</span>
+                                <span>{$us.mobile}</span>
+                            </p>
+                            <p>
+                                <span class="bt_span_l">身份证号：</span>
+                                <span>{$us.usercard}</span>
+                            </p>
+                            <p>
+                                <span class="bt_span_l">身份证复印件</span>
+                                <a href="{:U('Travel/img',array('img'=>$us['card_thumb']))} " target="_blank" class="card_img">查看</a>
+                            </p>
+                            <p>
+                                <span class="bt_span_l">携带儿童：</span>
+                                <span>{$us.c_num}名</span>
+                            </p>
+                        </div>
+                        </foreach>
+                    </div>
+                    <!--<div class="bt_more">更多>></div>-->
+                </div>
+                <if condition="$vo.total gt 0">
+                <div class="main_right_con1">
+                    <h4>费用项加详细说明</h4>
+                    <div class="bt feed_p">
+                        <p>备注：{$vo.remark}</p>
+                        <p>费用总计：<span><i>¥ </i>{$vo.total}</span></p>
+                        <p>支付方式：<em>在线支付</em></p>
+                    </div>
+                </div>
+                <div class="feed_btn">
+                
+                    <a href="{:U('Pay/doalipay',array('order_id'=>$vo['id'],'total'=>$vo['total'],'type'=>'travel'))}">确认支付</a>
+                    <a href="javaScript:;" id="wechat-share">取消订单</a>
+                </div>
+                </if>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Common:footer"/>
+
+<!-- up_alert-->
+<div class="dialog wechat-share-dialog">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content"  style="opacity: 1;">
+        <div class="dia_header">
+            <span>取消订单</span>
+            <img src="__PUBLIC__/Home/images/dia_close.png" alt="" class="dialog-close"/>
+        </div>
+        <form class="layui-form dia_cont tishi_cont">
+            <div class="close_h">取消原因：</div>
+            <textarea class="close_tex" lay-verify="required" name="cancel_reason"></textarea>
+            <div class="close_sure">
+                <input type="hidden" name="id" value="{$vo.id}">
+                <a lay-submit lay-filter="user" href="javaScript:;">确认取消</a>
+                <a href="">暂不取消</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    !function(){
+        laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+        laydate({elem: '#demo1'});//绑定元素
+    }();
+    $('.main_w').height('1500px');
+    $('.container.main').height('1500px');
+    $('.main_right').height('1500px');
+    $('.main').height('1300px');
+    $('.baodan_con').height('1300px');
+
+    layui.use('form', function(){
+        var form = layui.form(),
+                $ = layui.jquery
+        //监听提交
+        form.on('submit(user)', function(data){
+            var userInfo = data.field;
+            var url = "{:U('Travel/cancel_order')}";
+            $.post(url,userInfo,function(data){
+                if(data.status == 'error'){
+                    layer.msg(data.msg,{icon: 5});//失败的表情
+                    return;
+                }else if(data.status == 'success'){
+                    layer.msg(data.msg, {
+                        icon: 6,//成功的表情
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        layer_close();
+                        location.reload();
+                    });
+                }
+            })
+
+            return false;//阻止表单跳转
+        });
+    });
+</script>

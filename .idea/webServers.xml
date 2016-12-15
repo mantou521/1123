@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="86228e34-eb08-4ffb-9436-ac0c790de0e9" name="uufx" url="http://121.40.157.111">
+        <fileTransfer host="121.40.157.111" port="22" rootFolder="/data/wwwroot/uufx.yoyoce.com" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,805 @@
+[ 2016-11-09T14:26:00+08:00 ] ::1 /uufenxiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined variable: tra D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0023s ]
+
+[ 2016-11-09T14:26:00+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2016-11-09T14:26:06+08:00 ] ::1 /uufenxiao/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 and islock=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='000' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-11-09T14:26:07+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0073s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufenxiao\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-11-09T14:26:17+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Member&a=sys
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\MemberController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='1' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='2' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='12' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='22' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='23' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='37' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='38' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='40' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='41' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='39' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='24' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='25' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='35' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='36' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='26' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='27' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='28' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='29' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='30' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='31' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='33' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='34' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='32' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='42' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='13' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='17' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='18' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='14' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='19' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='20' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='15' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='21' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='16' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='3' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='4' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='5' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='6' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='9' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='11' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='7' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='8' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='43' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='47' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='48' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='49' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='44' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='46' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='45' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='10' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='109' and ispay=1 ) ORDER BY id asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2016-11-09T14:26:20+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Member&a=human
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\MemberController.class.php 第 34 行.
+NOTIC: [8] Undefined index: radio D:\htdocs\uufenxiao\Application\Home\Controller\MemberController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( (repath like '%\,1\,%' or id=1 ) and ispay=1  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( (repath like '%\,1\,%' or id=1 ) and ispay=1  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0031s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-11-09T14:27:28+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-11-09T14:27:30+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-11-09T14:27:34+08:00 ] ::1 /uufenxiao/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 and islock=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='000' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-11-09T14:27:35+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0039s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufenxiao\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-11-09T14:27:43+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-11-09T14:27:49+08:00 ] ::1 /uufenxiao/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '123' AND password1= 'c4ca4238a0b923820dcc509a6f75849b' and ispay=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-11-09T14:27:50+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-11-09T14:27:59+08:00 ] ::1 /uufenxiao/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002834s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 and islock=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='000' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-11-09T14:28:01+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0051s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufenxiao\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-11-09T14:28:08+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Member&a=per_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM think_member M INNER JOIN think_ulevel L on L.ulevel=M.ulevel  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,L.*,M.username,M.nickname,T.type_name,FROM_UNIXTIME( `date`,'%Y-%m-%d ' ) AS t FROM think_store S INNER JOIN think_member M on S.user_id=M.id INNER JOIN think_store_level L on S.st_level=L.slevel INNER JOIN think_store_type T on T.type=S.st_type  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store_level` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `think_storeup_record` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `think_storeup_record` [ RunTime:0.0035s ]
+SQL: SELECT L.*,R.*,FROM_UNIXTIME( `date`,'%Y年%m月%d日 ' ) AS t FROM think_storeup_record R INNER JOIN think_store_level L on L.slevel=R.level  WHERE ( R.pay_status=1 and R.user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `slevel`,`sname`,`free` FROM `think_store_level`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-11-09T14:28:14+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Member&a=userset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\uufenxiao\Application\Home\Controller\MemberController.class.php 第 188 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-11-09T14:28:20+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Member&a=userset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `password1`='c4ca4238a0b923820dcc509a6f75849b' WHERE ( id=1 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-11-09T14:28:45+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Member&a=userset
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\uufenxiao\Application\Home\Controller\MemberController.class.php 第 188 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0031s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-11-09T14:28:49+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0046s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufenxiao\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-11-09T14:30:07+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-11-09T14:30:08+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-11-09T14:30:12+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '1' AND password1= 'c4ca4238a0b923820dcc509a6f75849b' and ispay=1 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-11-09T14:30:14+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-11-09T14:30:18+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-11-09T14:30:20+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-11-09T14:30:26+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= 'c4ca4238a0b923820dcc509a6f75849b' and ispay=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= 'c4ca4238a0b923820dcc509a6f75849b' and ispay=1 and islock=0 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='000' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-11-09T14:30:27+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0032s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufenxiao\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-11-09T14:32:47+08:00 ] ::1 /uufenxiao/index.php?m=Home&c=Travel&a=travel_feedback&order_sn=2016102757102524
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0043s ]
+SQL: SELECT T.tr_name,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id  WHERE ( user_id=1  and order_sn=2016102757102524 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `think_travel_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `think_travel_user` WHERE ( order_id=2016102757102524 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0040s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-11-09T17:23:05+08:00 ] ::1 /uufenxiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Undefined variable: tra D:\htdocs\uufenxiao\Application\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0006s ]
+

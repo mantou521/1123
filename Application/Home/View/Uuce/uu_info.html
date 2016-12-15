@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UU册报单详情</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="游邮文化,UU"/>
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-comp">
+    <meta name="renderer" content="ie-stand">
+    <meta name="description" content="游邮文化,UU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <!--可无视-->
+    <!--<link href="__PUBLIC__/Home/css/main.css" rel="stylesheet" type="text/css" />-->
+    <!--必要样式-->
+    <!--<link href="http://cdn.bootcss.com/bootstrap/3.3.6/__PUBLIC__/Home/css/bootstrap.css" rel="stylesheet" type="text/css" />-->
+    <link href="__PUBLIC__/Home/css/city-picker.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/Home/js/validation.js"></script>
+    <script src="__PUBLIC__/Home/js/my.js"></script>
+    <script src="__PUBLIC__/Home/js/login.js"></script>
+    <script src="__PUBLIC__/Home/js/laydate/laydate.js"></script>
+    <style>
+        .reg_con_input input.data_list {
+            background: white;
+        }
+
+
+        .reg_con_input_all {
+            padding-top: 10px;
+        }
+        .button-holder{margin-top: -55px;margin-left: 50px;}
+        .yeji_input_radio{display: none;opacity: 0;}
+
+        .regular-radio + label {
+            -webkit-appearance: none;
+            background-color: #fafafa;
+            border: 1px solid #cacece;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+            padding:6px;
+            border-radius: 50px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .regular-radio:checked + label:after {
+            content: ' ';
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            position: absolute;
+            top: 1px;
+            background: #99a1a7;
+            box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+            text-shadow: 0px;
+            left: 1px;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+<include file="Common:header"/>
+<div class="container_w main_w">
+    <div class="container main">
+        <include file="Common:index_left"/>
+        <div class="r main_right">
+            <div class="main_right_title main_right_title_blue">
+                <em></em>
+                <span>报单<a href="" class="yeji_span"> &gt; UU册报单</a><a href="uu_baodan_info.html" class="yeji_span"> &gt; 详情</a></span>
+            </div>
+            <div class="c yeji_con_tiaojian product_right_con buy_right_con">
+                <div class="buy_right_con_top">
+                    <div class="l buy_right_con_top_l">
+                        <img src="__PUBLIC__/Uploads/uuce/{$good['thumb']}" alt="" class="uu_big_img">
+                        <div class="uu_imgs">
+                            <div class="uu_img_left" style="background-image: url(__PUBLIC__/Home/images/3_left.png)"></div>
+                            <div class="uu_img_mid">
+                                <ul class="uu_img_ul">
+                                    <foreach name="img" item="mg">
+                                    <li>
+                                        <a href="javaScript:;" class="uu_img">
+                                            <img src="__PUBLIC__/Uploads/{$mg}" alt=""/>
+                                        </a>
+                                    </li>
+                                    </foreach>
+                                </ul>
+                            </div>
+                            <div class="uu_img_right" style="background-image: url(__PUBLIC__/Home/images/3_right.png)"></div>
+                        </div>
+                    </div>
+                    <form name="form" action="{:U('Home/Uuce/uu_order')}" method="post">
+                    <div class="l buy_right_con_top_r">
+                        <p>{$good['goods_name']}{$good['goods_description']}</p>
+                        <p class="buy_right_price">
+                            <label>价　　格：</label>
+                            <span><em>¥</em> {$good['goods_price']}</span>
+                        </p>
+                        <p class="buy_right_price">
+                            <label>数　　量：</label>
+                            <span class="jiajian jian">-</span>
+                            <input type="text" name="goods_num" value="1"/>
+                            <span class="jiajian jia">+</span>
+                        </p>
+                        <p class="buy_right_price">
+                            <label>选择编号：</label>
+                            <!--<div style="display: inline-block;height:32px;line-height:32px;">-->
+                            <i>手动选择：</i>
+                            <!--<span style="display:inline-block;height:32px;line-height:32px;">-->
+                                <input type="radio" name="ch_sn" value="1" class="uu_choose uu_input" id="wechat-share">
+                            <!--</span>-->
+                            <i>自动选择：</i>
+                            <input type="radio" name="ch_sn" value="2" class="uu_number uu_input" checked="checked" >
+                            <!--</div>-->
+                            <!--<a href="javaScript:;" class="uu_choose" id="wechat-share">手动选择</a>-->
+                            <!--<a href="javaScript:;" class="uu_choose">自动选择</a>-->
+                            <textarea name="text" type="text" class="uu_number"></textarea>
+                        </p>
+                        <div >
+                            <input type="hidden" name="goods_id" value="{$good.goods_id}">
+                            <input type="submit" value="立即报单" class="cur ruzhi_zhifu buy_zhifu" >
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="recommend">其它推荐</div>
+                <div class="recommended">
+                    <dl>
+                        <dt><a href="uu_baodan_info.html"><img src="__PUBLIC__/Home/images/1.jpg" alt=""></a></dt>
+                        <dd>
+                            <a href="uu_baodan_info.html"><上海迪士尼DISNEY-华东五市双飞6日游></a>
+                            <p class="uu_details"><a href="uu_baodan_info.html">禅意拈花湾，国际五星...</a><em class='price'>¥ 880</em></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="uu_baodan_info.html"><img src="__PUBLIC__/Home/images/1.jpg" alt=""></a></dt>
+                        <dd>
+                            <a href="uu_baodan_info.html"><上海迪士尼DISNEY-华东五市双飞6日游></a>
+                            <p class="uu_details"><a href="uu_baodan_info.html">禅意拈花湾，国际五星...</a><em class='price'>¥ 880</em></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="uu_baodan_info.html"><img src="__PUBLIC__/Home/images/1.jpg" alt=""></a></dt>
+                        <dd>
+                            <a href="uu_baodan_info.html"><上海迪士尼DISNEY-华东五市双飞6日游></a>
+                            <p class="uu_details"><a href="uu_baodan_info.html">禅意拈花湾，国际五星...</a><em class='price'>¥ 880</em></p>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="c container_w login_foot_w">
+    <div class="container footer div_text_center">
+        Copyright@2013Enterprise information All Rights Reserved 京ICP备 01245785号
+    </div>
+</div>
+<!-- up_bianhao-->
+<div  class="dialog wechat-share-dialog">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content alert_radios"  style="opacity: 1;">
+        <div class="dia_header">
+            <span>选择编码</span>
+            <img src="__PUBLIC__/Home/images/dia_close.png" alt="" class="dialog-close"/>
+        </div>
+        <form class="dia_cont tishi_cont">
+            <div class="alert_rad">
+                <ul class="bm_radio">
+                    <foreach name="good_sn" item="sn">
+                    <li>
+                        <input type="checkbox" name=""/>
+                        <span><i></i></span>
+                        <em>{$sn}</em>
+                    </li>
+                    </foreach>
+                </ul>
+                <div class="bm_last">
+                    <div class="bm_ye">
+     <!--                   <a href="" class="bm_prev">上一页</a>
+                        <span class="current">1</span>
+                        <a href="" class="">2</a>
+                        <a href="" class="">3</a>
+                        <a href="" class="">4</a>
+                        <a href="" class="">5</a>
+                        <a href="" class="">6</a>
+                        <span>...</span>
+                        <a href="" class="">20</a>
+                        <a href="" class="bm_next">下一页</a>-->
+                    </div>
+                    <ul class="bm_all">
+                        <li>
+                            <input type="checkbox" name=""/>
+                            <span><i></i></span>
+                            <em>全选</em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="alert_bm">确认</div>
+        </form>
+    </div>
+</div>
+<!-- up_alert-->
+<div style="display: none" class="dialog2 wechat-share-dialog">
+    <div class="dialog-overlay"></div>
+    <div class="dialog-content2 uu-content"  style="opacity: 1;">
+        <div class="dia_header">
+            <span>收件信息填写</span>
+            <img src="__PUBLIC__/Home/images/dia_close.png" alt="" class="dialog-close2"/>
+        </div>
+        <form class="dia_cont">
+            <div class="uu_cont1">
+                <div class="uu_ipt">
+                    <span class="uu_span">收件人姓名：</span>
+                    <input type="text" value=""/>
+                </div>
+                <div class="uu_ipt">
+                    <span class="uu_span">联系方式：</span>
+                    <input type="text" value=""/>
+                </div>
+                <div class="reg_con_input uu_ipt2 one">
+                    <div>
+                        <span class="dizhi">收货住址：</span>
+                        <div class="form-group">
+                            <div style="position: relative;">
+                                <input id="city-picker3" class="form-control" readonly type="text" value="北京市/北京市/东城区" data-toggle="city-picker">
+                            </div>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <input tip="收货住址" type="text" name="phone" id="phone" placeholder="输入详细地址" class="data_list details_ipt a1" value="">
+                </div>
+            </div>
+            <div class="dia_cont2 free_cont2">
+                <span class="dia_span">应付金额：</span>
+                <span class="dia_cont2_color">￥8800.00</span>
+            </div>
+            <div class="dia_cont3">
+                <span>支付方式：</span>
+                <!-- radio-->
+                <em>在线支付</em>
+            </div>
+            <div class="up_zhifu">
+                <a href="open_online.html">确认支付</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+<!-- 城市选择-->
+<script src="js_city/jquery.js"></script>
+<script src="js_city/bootstrap.js"></script>
+<script src="js_city/city-picker.data.js"></script>
+<script src="js_city/city-picker.js"></script>
+<script src="js_city/main.js"></script>
+
+<script>
+    !function(){
+        laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+        laydate({elem: '#demo1'});//绑定元素
+        laydate({elem: '#demo2'});//绑定元素
+    }();
+</script>
+<script>
+    $('.buy_right_price span.jia').click(function(){
+        $val=$(this).parent().find('input').val();
+        // alert($val);
+        $val=parseInt($val);
+
+        $val=$val+1;
+
+        if(isNaN($val)){
+            $val=1;
+        }
+        $(this).parent().find('input').val($val);
+    })
+    $('.buy_right_price span.jian').click(function(){
+        $val=$(this).parent().find('input').val();
+        $val=parseInt($val);
+
+        // alert($val);
+        $val=$val-1;
+        if($val<=0){
+            $val=0;
+        }
+
+        if(isNaN($val)){
+            $val=1;
+        }
+        $(this).parent().find('input').val($val);
+    })
+
+</script>

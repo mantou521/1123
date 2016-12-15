@@ -1,0 +1,1494 @@
+[ 2016-11-18T13:22:09+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-11-18T13:22:16+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-11-18T13:22:17+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-11-18T13:22:17+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-11-18T13:22:39+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Admin&a=admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_role.role_id=think_admin_user.role_id   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3226f918dacc74d0e61fbe12999479d2.php 第 31 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3226f918dacc74d0e61fbe12999479d2.php 第 31 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3226f918dacc74d0e61fbe12999479d2.php 第 33 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3226f918dacc74d0e61fbe12999479d2.php 第 33 行.
+NOTIC: [8] Undefined index: t /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3226f918dacc74d0e61fbe12999479d2.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2016-11-18T13:22:42+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Admin&a=admin_role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `think_admin_role` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_admin_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-11-18T13:22:48+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0007s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 25 行.
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 29 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2016-11-18T13:36:19+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0008s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 25 行.
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 29 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2016-11-18T13:36:21+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-11-18T13:36:25+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2016-11-18T13:38:13+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=webup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/default/uufenxiao/ThinkPHP/Library/Think/Upload.class.php 第 171 行.
+NOTIC: [8] Undefined variable: lunbotu /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 118 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2016-11-18T13:38:20+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=webup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/default/uufenxiao/ThinkPHP/Library/Think/Upload.class.php 第 171 行.
+NOTIC: [8] Undefined variable: lunbotu /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 118 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-11-18T13:41:25+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-11-18T13:41:25+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-11-18T13:41:29+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2016-11-18T13:41:56+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2016-11-18T13:43:57+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=webup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/default/uufenxiao/ThinkPHP/Library/Think/Upload.class.php 第 171 行.
+NOTIC: [8] Undefined variable: lunbotu /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 118 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2016-11-18T13:44:06+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=webup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/default/uufenxiao/ThinkPHP/Library/Think/Upload.class.php 第 171 行.
+NOTIC: [8] Undefined variable: lunbotu /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 118 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2016-11-18T13:45:14+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: INSERT INTO `think_goods` (`src`,`goods_name`,`goods_description`,`goods_keywords`,`goods_price`,`goods_content`,`goods_num`,`is_on_sale`,`sort`,`goods_sn`,`thumb`) VALUES ('[\"2016-11-18\\/582e951d8a760.jpg\",\"2016-11-18\\/582e9526d0f9f.jpg\"]','杭州5日游','上有天堂，下有苏杭','杭州 西湖 ','500','<p>北京市<br/>从起点向正北方向出发 <br/>沿正义路行驶370米，右转进入东长安街 <br/>沿东长安街行驶960米，直行进入建国门内大街 <br/>沿建国门内大街行驶1.4公里，朝东便门方向，靠右进入建国门桥 <br/>沿建国门桥行驶10米，过建国门桥约260米后直行上匝道 <br/>沿匝道行驶1.1公里，过汇诚金桥约250米后直行进入通惠河北路 <br/>沿通惠河北路行驶2.8公里，过左侧的大望写字楼B座约110米后，直行进入四惠桥 <br/>沿四惠桥行驶720米，过四惠桥约530米后直行进入京通快速路 <br/>沿京通快速路行驶3.6公里，朝机场高速/东五环/京哈高速/原京沈高速方向，靠右进入远通桥 <br/>沿远通桥行驶740米，直行进入东五环路 <br/>沿东五环路行驶6.1公里，朝京津高速公路/天津方向，靠右进入化工立交桥 <br/>沿化工立交桥行驶430米，过化工桥约770米后直行进入京津高速 <br/>沿京津高速行驶46.3公里，朝静海/济南/梅江会展中心/上海方向，靠右进入和平庄互通 <br/>沿和平庄互通行驶1.4公里，直行进入京沪高速 <br/>沿京沪高速行驶48.7公里，朝外环西路/津静桥/滨海新区/东营方向，靠右进入当城互通 <br/>沿当城互通行驶930米，直行进入荣乌高速 <br/>沿荣乌高速行驶26.8公里，朝团泊新城/东营/G18方向，靠右进入大沽排污河桥 <br/>沿大沽排污河桥行驶2.2公里，直行进入荣乌高速 <br/>沿荣乌高速行驶156.0公里，过大寨河大桥约520米后直行进入长深高速 <br/>沿长深高速行驶55.5公里，直行进入滨莱高速 <br/>沿滨莱高速行驶118.9公里，过莱芜枢纽立交桥约620米后直行进入京沪高速 <br/>沿京沪高速行驶56.4公里，直行进入新泰枢纽立交 <br/>沿新泰枢纽立交行驶750米，过新泰枢纽立交约590米后直行进入京沪高速 <br/>沿京沪高速行驶425.7公里，朝海安/润扬大桥/S28方向，靠右进入丁伙枢纽立交桥 <br/>沿丁伙枢纽立交桥行驶1.4公里，直行进入启扬高速 <br/>沿启扬高速行驶34.0公里，过金桥约90米后直行进入扬溧高速 <br/>沿扬溧高速行驶97.9公里，靠右进入新昌枢纽 <br/>沿新昌枢纽行驶3.3公里，直行进入长深高速 <br/>沿长深高速行驶164.0公里，直行进入上塘高架 <br/>沿上塘高架行驶11.8公里，从文晖路出口离开靠右上 <br/>沿匝道行驶410米，直行进入上塘路 <br/>沿上塘路行驶330米，右转进入文晖路 <br/>沿文晖路行驶1.2公里，过右侧的文晖大厦约200米后，左转进入湖墅南路 <br/>沿湖墅南路行驶610米，到达终点 <br/><br/>杭州市<br/></p>','1','0','0','010；011；012；013；014；015；016；017；018；019；020','1611180145141.jpg') [ RunTime:0.0166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-11-18T13:45:15+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-11-18T13:50:08+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2016-11-18T13:50:11+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Travel/travel_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-11-18T13:50:12+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Travel/upload/image/20161116/1479286997710733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-11-18T13:50:20+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Travel/upload/image/20161118/1479448220990757.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-11-18T13:50:34+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2016-11-18T13:50:40+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=12 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: img /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2016-11-18T13:50:50+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Goods/upload/image/20161118/1479448250900480.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-11-18T13:50:54+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: UPDATE `think_goods` SET `goods_name`='杭州5日游',`goods_description`='上有天堂，下有苏杭',`goods_keywords`='杭州 西湖 ',`goods_price`='500.00',`goods_content`='',`goods_num`='1',`is_on_sale`='0',`sort`='0',`goods_sn`='010；011；012；013；014；015；016；017；018；019；020' WHERE ( goods_id=12 ) [ RunTime:0.0154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2016-11-18T13:50:56+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-11-18T13:54:18+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Mem&a=member_del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( id>0 and ispay=0 ) ORDER BY id asc  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 30 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 30 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-11-18T13:54:49+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Mem/member_act
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='116' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='116' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `recount`='1' WHERE ( id=116 ) [ RunTime:0.0003s ]
+SQL: UPDATE `think_member` SET `ispay`='1' WHERE ( id=116 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id>1 and ispay=1 ) ORDER BY id desc  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,116\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,116\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,115\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,115\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,114\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,114\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,113\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,113\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,109\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,109\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,49\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,49\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,48\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,48\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,47\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,47\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,46\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,46\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,45\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,45\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,44\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,44\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,43\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,43\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,42\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,42\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,41\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,41\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,40\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,40\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,39\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,39\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,38\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,38\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,37\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,37\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,36\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,36\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,35\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,35\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,34\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,34\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,33\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,33\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,32\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,32\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,31\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,31\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,30\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,30\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,29\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,29\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,28\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,28\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,27\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,27\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,26\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,26\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,25\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,25\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,24\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,24\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,23\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,23\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,22\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,22\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,21\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,21\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,20\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,20\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,19\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,19\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,18\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,18\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,17\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,17\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,16\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,16\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,15\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,15\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,14\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,14\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,13\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,13\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,12\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,12\,%' and ulevel='2' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,11\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,11\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,10\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,10\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,9\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,9\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,8\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,8\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,7\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,7\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,6\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,6\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,5\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,5\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,4\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,4\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,3\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,3\,%' and ulevel='1' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,2\,%' and ispay=1  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%\,2\,%' and ulevel='2' and ispay=1  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id>0 and ispay=1 and ulevel>=3 ) ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=1 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id>1 and ispay=1 ) ORDER BY id desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=116 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,114,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=115 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=114 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=113 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=109 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,8,43,47,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=49 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,8,43,47,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=48 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,8,43,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=47 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,8,44,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=46 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,8,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=45 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,8,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=44 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,8,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=43 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=42 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,23,38,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=41 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,23,38,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=40 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,23,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=39 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,23,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=38 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,23,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=37 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,25,35,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=36 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,25,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=35 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,31,33,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=34 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,31,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=33 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=32 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=31 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=30 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=29 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=28 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=27 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=26 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=25 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=24 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=23 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,12,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=22 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,15,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=21 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,14,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=20 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,14,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=19 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,13,17,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=18 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,13,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=17 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=16 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=15 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=14 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=13 ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,2,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=12 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,6,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=11 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=10 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,6,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=9 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=8 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=7 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=6 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=4 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=3 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 and ispay=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_member` SET `departnum`='00010000' WHERE ( id=2 ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2016-11-18T13:54:53+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Store&a=store_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_storeup_record` [ RunTime:0.0005s ]
+SQL: SELECT S.*,L.*,U.*,M.username,M.nickname FROM think_storeup_record U INNER JOIN think_member M on U.user_id=M.id INNER JOIN think_store S on M.id=S.user_id INNER JOIN think_store_level L on S.st_level=L.slevel  WHERE ( U.pay_status=0 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_store_level` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_store_level` WHERE ( slevel='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_store_level` WHERE ( slevel='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_store_level` WHERE ( slevel='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_store_level` WHERE ( slevel='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_store_level` WHERE ( slevel='' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_store_level` WHERE ( slevel='' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/5a36d5bfd8d3d5576e845a1f199dff49.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/5a36d5bfd8d3d5576e845a1f199dff49.php 第 34 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/5a36d5bfd8d3d5576e845a1f199dff49.php 第 36 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/5a36d5bfd8d3d5576e845a1f199dff49.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-11-18T14:04:23+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Mem&a=member_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( id>0 and ispay=1 ) ORDER BY id asc  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=114 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 34 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 36 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2016-11-18T14:04:25+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-11-18T14:04:27+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=12 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: img /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-11-18T14:10:04+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-11-18T14:10:11+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-11-18T14:10:12+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2016-11-18T14:10:12+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-11-18T14:10:15+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-11-18T14:10:16+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-11-18T14:10:20+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0008s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 25 行.
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 29 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-11-18T14:21:20+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-11-18T14:21:23+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-11-18T14:22:39+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=webup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/default/uufenxiao/ThinkPHP/Library/Think/Upload.class.php 第 171 行.
+NOTIC: [8] Undefined variable: lunbotu /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 118 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-11-18T14:22:47+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=webup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/default/uufenxiao/ThinkPHP/Library/Think/Upload.class.php 第 171 行.
+NOTIC: [8] Undefined variable: lunbotu /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 118 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-11-18T14:39:42+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2016-11-18T14:39:42+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-11-18T14:39:45+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2016-11-18T14:39:48+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=12 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: img /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2016-11-18T14:40:53+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: UPDATE `think_goods` SET `goods_name`='杭州5日游',`goods_description`='上有天堂，下有苏杭',`goods_keywords`='杭州 西湖 ',`goods_price`='500.00',`goods_content`='',`goods_num`='1',`is_on_sale`='0',`sort`='0',`goods_sn`='010；011；012；013；014；015；016；017；018；019；020' WHERE ( goods_id=12 ) [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-11-18T14:40:55+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2016-11-18T14:47:08+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Mem&a=member_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( id>0 and ispay=1 ) ORDER BY id asc  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=114 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 34 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 36 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/87eefa145d23ccebe4f833c29d29b778.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-11-18T15:05:29+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Mem&a=member_del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( id>0 and ispay=0 ) ORDER BY id asc  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 30 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 30 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/1f8eb0a158d0365b74a3267634ab39e9.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+

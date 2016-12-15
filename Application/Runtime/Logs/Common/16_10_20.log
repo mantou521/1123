@@ -1,0 +1,1212 @@
+[ 2016-10-20T09:04:20+08:00 ] ::1 /uufenxiao/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-10-20T09:59:09+08:00 ] ::1 /uufenxiao/person_xiugai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Person_xiugai
+
+[ 2016-10-20T10:31:28+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:28+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:28+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:28+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:28+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:29+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:29+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:29+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:29+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:31:29+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:33+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:33+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:33+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:33+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:33+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:34+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:34+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:34+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:34+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:36:34+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:42+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:53+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:53+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:53+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:53+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:53+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:54+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:54+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:54+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:54+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:55:54+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:08+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:08+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:08+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:08+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:08+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:09+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:09+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:09+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:09+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:09+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T10:56:26+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:18+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:18+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:18+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:18+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:19+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:19+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:19+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:19+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:02:19+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:04+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:04+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:04+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:04+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:04+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:05+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:05+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:05+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:05+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:05+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:15+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:19+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:19+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:19+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:19+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:19+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:20+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:20+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:20+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:20+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:03:20+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:11:52+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:13:39+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:17:53+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:16+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:16+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:16+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:16+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:16+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:17+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:17+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:17+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:17+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:17+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:35+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:41+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:41+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:41+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:41+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:41+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:41+08:00 ] ::1 /uufenxiao/js_city/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:42+08:00 ] ::1 /uufenxiao/js_city/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:42+08:00 ] ::1 /uufenxiao/js_city/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:42+08:00 ] ::1 /uufenxiao/js_city/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:18:42+08:00 ] ::1 /uufenxiao/js_city/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Js_city
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:18+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:19+08:00 ] ::1 /uufenxiao/Public/Home/js/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.data.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/city-picker.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:19:23+08:00 ] ::1 /uufenxiao/Public/Home/js/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:34:57+08:00 ] ::1 /uufenxiao/Public/Home/images/hang.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:34:57+08:00 ] ::1 /uufenxiao/Public/Home/images/hang.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:35:08+08:00 ] ::1 /uufenxiao/Public/Home/images/hang.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T11:49:22+08:00 ] ::1 /uufenxiao/Public/Home/images/index_icon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:12:04+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200311031.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:12:04+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200311031.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:16:04+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200311031.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:16:04+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200311031.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:21:24+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200321181.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:21:24+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200321181.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:23:40+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200322241.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:23:40+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200322241.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:29:47+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200322241.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:29:47+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200322241.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:45:43+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200345341.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:45:43+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200345341.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:46:27+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200345461.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:46:27+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200345461.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:48:26+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200347551.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:48:26+08:00 ] ::1 /uufenxiao/Public/Home/images/upload/1610200347551.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-20T15:49:41+08:00 ] ::1 /uufenxiao/images/dia_close.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+ERR: 无法加载模块:Images
+
+[ 2016-10-20T15:49:41+08:00 ] ::1 /uufenxiao/images/dia_close.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+ERR: 无法加载模块:Images
+

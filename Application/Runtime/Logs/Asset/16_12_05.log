@@ -1,0 +1,27 @@
+[ 2016-12-05T16:57:20+08:00 ] 124.207.55.90 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480928240158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [2] file_get_contents(./public/js/ueditor/config.json): failed to open stream: No such file or directory /data/wwwroot/uufx.yoyoce.com/Application/Asset/Controller/UeditorController.class.php 第 200 行.
+
+[ 2016-12-05T17:04:18+08:00 ] 124.207.55.90 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480928658680
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2] file_get_contents(./public/js/ueditor/config.json): failed to open stream: No such file or directory /data/wwwroot/uufx.yoyoce.com/Application/Asset/Controller/UeditorController.class.php 第 200 行.
+
+[ 2016-12-05T17:18:07+08:00 ] 124.207.55.90 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480929487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2] file_get_contents(./public/js/ueditor/config.json): failed to open stream: No such file or directory /data/wwwroot/uufx.yoyoce.com/Application/Asset/Controller/UeditorController.class.php 第 200 行.
+

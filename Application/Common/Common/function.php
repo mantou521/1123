@@ -449,6 +449,36 @@ function orderdel($a,$b){
         return $a;
     }
 }
+/*
+ * uu编号是否包含
+ * a 大的
+ * */
+function existUusn($a,$b){
+    $flag = true ;
+    $a=array_filter(explode(',',$a));
+    $b=array_filter(explode(',',$b));
+    foreach($b as $v){
+        if(!in_array($v,$a)){
+            $flag=false;
+            break;
+        }
+    }
+    return $flag;
+}
+
+/*
+ * 将数据库中uu册编号处理返回
+ * */
+function uuSntoArr($sn){
+    $a=array_filter(explode(',',$sn));
+    return $a;
+}
+
+function uuSntoSt($sn){
+    $a=array_filter(explode(',',$sn));
+    $newa=implode(',',$a);
+    return $newa;
+}
 
 /*合并两个编码*/
 function joinCoding($a,$b){

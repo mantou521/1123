@@ -1,0 +1,9 @@
+[ 2016-12-08T14:20:01+08:00 ] 124.207.55.90 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1481178003935
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2] file_get_contents(./public/js/ueditor/config.json): failed to open stream: No such file or directory /data/wwwroot/uufx.yoyoce.com/Application/Asset/Controller/UeditorController.class.php 第 200 行.
+

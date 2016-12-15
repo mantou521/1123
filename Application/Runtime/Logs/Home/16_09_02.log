@@ -1,0 +1,1861 @@
+[ 2016-09-02T09:03:59+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `think_data` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0437s ]
+
+[ 2016-09-02T09:03:59+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-09-02T09:03:59+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-09-02T09:04:06+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0426s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '001' AND password1= 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-09-02T09:04:07+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-09-02T09:04:14+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '001' AND password1= 'e3ceb5881a0a1fdaad01296d7554868d' ) LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='001' ) LIMIT 1   [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-09-02T09:04:16+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `think_data` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-09-02T09:04:21+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/userset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 155 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-09-02T09:04:21+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+
+[ 2016-09-02T09:04:29+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `think_data` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-09-02T09:07:19+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0392s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='1' ) ORDER BY id asc  [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='2' ) ORDER BY id asc  [ RunTime:0.0395s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='3' ) ORDER BY id asc  [ RunTime:0.0398s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='4' ) ORDER BY id asc  [ RunTime:0.0397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-09-02T09:07:21+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `think_data` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0466s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-09-02T09:07:25+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-09-02T09:07:30+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0443s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '002' AND password1= '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='002' ) LIMIT 1   [ RunTime:0.0412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-09-02T09:07:31+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `think_data` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0356s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-09-02T09:09:31+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-09-02T09:09:33+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-09-02T09:09:35+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0392s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='2' ) ORDER BY id asc  [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-09-02T09:09:37+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%2%'  ) LIMIT 1   [ RunTime:0.0361s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%2%'  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-09-02T09:09:38+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.1875s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-09-02T09:09:39+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0388s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-09-02T09:11:41+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/userset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0393s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 158 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-09-02T09:12:04+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/userset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0490s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 158 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant bankcard - assumed 'bankcard' D:\htdocs\thinkphp_3.2.3\Application\Runtime\Cache\Home\cc1ddff2286333d88fd00e307b748454.php Á¨¨ 81 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-09-02T09:12:07+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/userset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0389s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 158 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant bankcard - assumed 'bankcard' D:\htdocs\thinkphp_3.2.3\Application\Runtime\Cache\Home\cc1ddff2286333d88fd00e307b748454.php Á¨¨ 81 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-09-02T09:12:56+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-09-02T09:12:59+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-09-02T09:13:07+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= 'test01' AND password1= '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.0378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-09-02T09:13:08+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-09-02T09:13:12+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '001' AND password1= '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.0348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-09-02T09:13:14+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-09-02T09:13:17+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0455s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '001' AND password1= 'e3ceb5881a0a1fdaad01296d7554868d' ) LIMIT 1   [ RunTime:0.0351s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='001' ) LIMIT 1   [ RunTime:0.0399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-09-02T09:13:19+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-09-02T09:13:23+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0387s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='1' ) ORDER BY id asc  [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='2' ) ORDER BY id asc  [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='3' ) ORDER BY id asc  [ RunTime:0.0389s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='4' ) ORDER BY id asc  [ RunTime:0.0371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-09-02T09:13:24+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0386s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-09-02T09:13:29+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `think_member` WHERE (  username= '' or nickname= '001'  ) LIMIT 1   [ RunTime:0.0391s ]
+
+[ 2016-09-02T09:13:29+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/mem_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE (  username= '' or nickname= '001'  ) LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0391s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0448s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0358s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-09-02T09:13:35+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/mem_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE (  username= '' or nickname= '001'  ) LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0372s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-09-02T09:13:37+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/mem_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE (  username= '' or nickname= '001'  ) LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0355s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-09-02T09:20:37+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/userset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0391s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 158 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Use of undefined constant bankcard - assumed 'bankcard' D:\htdocs\thinkphp_3.2.3\Application\Runtime\Cache\Home\cc1ddff2286333d88fd00e307b748454.php Á¨¨ 81 Ë°å.
+NOTIC: [8] Use of undefined constant usertel - assumed 'usertel' D:\htdocs\thinkphp_3.2.3\Application\Runtime\Cache\Home\cc1ddff2286333d88fd00e307b748454.php Á¨¨ 85 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-09-02T09:21:05+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/userset.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0403s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 158 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant bankcard - assumed 'bankcard' D:\htdocs\thinkphp_3.2.3\Application\Runtime\Cache\Home\cc1ddff2286333d88fd00e307b748454.php Á¨¨ 81 Ë°å.
+NOTIC: [8] Use of undefined constant usertel - assumed 'usertel' D:\htdocs\thinkphp_3.2.3\Application\Runtime\Cache\Home\cc1ddff2286333d88fd00e307b748454.php Á¨¨ 85 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-09-02T09:23:41+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-09-02T09:31:58+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0388s ]
+
+[ 2016-09-02T09:31:58+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-09-02T09:35:24+08:00 ] ::1 /thinkphp_3.2.3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0393s ]
+
+[ 2016-09-02T09:35:24+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-09-02T09:36:15+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0392s ]
+
+[ 2016-09-02T09:36:15+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-09-02T09:55:53+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0431s ]
+
+[ 2016-09-02T09:55:53+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-09-02T10:13:25+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0393s ]
+
+[ 2016-09-02T10:13:25+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-09-02T10:13:30+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0405s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '001' AND password1= 'e3ceb5881a0a1fdaad01296d7554868d' ) LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='001' ) LIMIT 1   [ RunTime:0.0374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-09-02T10:13:31+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-09-02T10:13:34+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0412s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) LIMIT 1   [ RunTime:0.0341s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0393s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-09-02T10:13:41+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `think_member` WHERE (  username= '' or nickname= '001'  ) LIMIT 1   [ RunTime:0.0390s ]
+
+[ 2016-09-02T10:13:41+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/mem_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE (  username= '' or nickname= '001'  ) LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0354s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-09-02T10:29:18+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0388s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-09-02T10:29:20+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0392s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='1' ) ORDER BY id asc  [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='2' ) ORDER BY id asc  [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='3' ) ORDER BY id asc  [ RunTime:0.0398s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='4' ) ORDER BY id asc  [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='5' ) ORDER BY id asc  [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='7' ) ORDER BY id asc  [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='8' ) ORDER BY id asc  [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='6' ) ORDER BY id asc  [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-09-02T10:29:22+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0373s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0394s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0397s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='7' ) LIMIT 1   [ RunTime:0.0397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-09-02T10:29:28+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `think_member` WHERE (  username= '' or nickname= '002'  ) LIMIT 1   [ RunTime:0.0398s ]
+
+[ 2016-09-02T10:29:28+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/mem_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE (  username= '' or nickname= '002'  ) LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '2'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0379s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0408s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '2'   ) LIMIT 1   [ RunTime:0.0353s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '2'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-09-02T10:29:45+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0379s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0398s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.0398s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='7' ) LIMIT 1   [ RunTime:0.0396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.286806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.286871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-09-02T10:29:50+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `think_member` WHERE (  username= '' or nickname= '003'  ) LIMIT 1   [ RunTime:0.0382s ]
+
+[ 2016-09-02T10:29:50+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/mem_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE (  username= '' or nickname= '003'  ) LIMIT 1   [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '3'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0346s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0371s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '3'   ) LIMIT 1   [ RunTime:0.0344s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '3'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-09-02T11:12:02+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-09-02T11:12:03+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0387s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( repath like '%1%'  ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-09-02T11:12:38+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='1' ) ORDER BY id asc  [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-09-02T11:12:40+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/conm_re.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 88 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-09-02T11:13:06+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/conm_re
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0393s ]
+SQL: SELECT MAX(id) AS tp_max FROM `think_member` LIMIT 1   [ RunTime:0.0351s ]
+SQL: SELECT * FROM `think_member` WHERE ( id in(0,1,0)  and ulevel>=3 and departnum>0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0370s ]
+SQL: INSERT INTO `think_member` (`nickname`,`password1`,`reid`,`rname`,`repath`,`relevel`,`username`,`usercard`,`usertel`,`useraddress`,`bankname`,`bankcard`,`sex`,`birthday`,`rdt`,`xueli`,`postcode`,`img1`,`img2`,`img3`,`ulevel`,`e_ulevel`,`usernum`,`departnum`) VALUES ('001','96e79218965eb72c92a549dd5a330112','1','ÁÆ°ÁêÜÂëò',',1,','1','Âº†‰∏â','370236235233221','13111111111','Âåó‰∫¨Â∏ÇÂåó‰∫¨Â∏Ç‰∏úÂüéÂå∫fdsafdsafdsafd','‰∏≠ÂõΩÂª∫ËÆæÈì∂Ë°å','62274111','0','2016-09-05','1472785986','Â∞èÂ≠¶','2511111','1609021113061.jpg','1609021113062.jpg','1609021113063.jpg','1','E','0012511111E','00110000') [ RunTime:0.0350s ]
+SQL: UPDATE `think_member` SET `recount`='3' WHERE ( id=1 ) [ RunTime:0.0348s ]
+SQL: SELECT * FROM `think_member` WHERE ( id>0 ) ORDER BY id desc  [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%2%'  ) LIMIT 1   [ RunTime:0.0356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%2%' and ulevel='1'  ) LIMIT 1   [ RunTime:0.0348s ]
+NOTIC: [8] Undefined variable: uplevel D:\htdocs\thinkphp_3.2.3\Application\Home\Common\function.php Á¨¨ 173 Ë°å.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%1%'  ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( repath like '%1%' and ulevel='5'  ) LIMIT 1   [ RunTime:0.0348s ]
+NOTIC: [8] Undefined variable: uplevel D:\htdocs\thinkphp_3.2.3\Application\Home\Common\function.php Á¨¨ 173 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-09-02T11:13:08+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/conm_re.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Undefined index: re_submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 88 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-09-02T11:13:09+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0392s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='1' ) ORDER BY id asc  [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='2' ) ORDER BY id asc  [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-09-02T11:15:58+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-09-02T11:16:04+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0382s ]
+SQL: SELECT * FROM `think_member` WHERE ( reid='1' ) ORDER BY id asc  [ RunTime:0.0395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-09-02T13:04:46+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0385s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-09-02T16:24:27+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:24:48+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:25:09+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:25:30+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:25:51+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/sys.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 17 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:26:12+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:26:33+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Member/human.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 34 Ë°å.
+NOTIC: [8] Undefined index: radio D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\MemberController.class.php Á¨¨ 39 Ë°å.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:40:27+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:40:48+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:41:09+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:41:30+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:41:51+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:42:12+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:42:33+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:42:54+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:43:15+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+ (trying to connect via tcp://121.40.216.156:3306) D:\htdocs\thinkphp_3.2.3\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 103 Ë°å.
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-09-02T16:45:26+08:00 ] ::1 /thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0847s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0478s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-09-02T16:45:31+08:00 ] ::1 /thinkphp_3.2.3/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\thinkphp_3.2.3\Application\Home\Controller\IndexController.class.php Á¨¨ 39 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+

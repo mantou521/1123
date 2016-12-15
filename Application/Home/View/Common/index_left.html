@@ -1,0 +1,56 @@
+
+<?php
+        $us_menu['pay_status']=0;
+        $User=M('member');
+        $us_menu=$User->table('think_store S')
+        ->join('think_member M on S.user_id=M.id')
+        ->field('S.*,M.username,M.nickname')
+        ->where('M.id='.$_SESSION['id'])
+        ->find();
+?>
+
+<div class="l main_left">
+    <ul>
+        <li class="cur main_left_menu" style="background: #006445;"><a href="">系统菜单</a></li>
+        <li onOff='0' class="cur main_left_li_dif main_left_li1">
+            <span>人力</span>
+            <ol>
+                <li><a href="{:U('Home/Member/sys')}">系统架构</a></li>
+                <li><a href="{:U('Home/Member/human')}">人力架构</a></li>
+            </ol>
+        </li>
+        <li onOff='0' class="cur main_left_li_dif main_left_li2">
+            <span>业绩</span>
+            <ol>
+                <li><a href="{:U('Home/Performc/uu_pc')}">UU册业绩</a></li>
+                <li><a href="{:U('Home/Performc/travel_pc')}">旅游业绩</a></li>
+                <li><a href="{:U('Home/Performc/recommend_pc')}">入职推荐业绩</a></li>
+            </ol>
+        </li>
+        <li class="cur main_left_li3">
+            <span><a href="{:U('Home/Uuce/uu_kucun')}">我的库存</a></span>
+        </li>
+        <li onOff='0' class="cur main_left_li_dif main_left_li4">
+            <span>报单</span>
+                <li><a href="{:U('Home/Uuce/uu_re')}">UU册报单</a></li>
+                <li><a href="{:U('Home/Travel/travel_list')}">旅游报单</a></li>
+                <li><a href="{:U('Home/Member/conm_re')}">入职推荐报单</a></li>
+                    <if condition="($us_menu.pay_type eq 2 && $us_menu.pay_img eq 0)">
+                        <li><a href="{:U('Home/Store/open_offline')}">开店报单</a></li>
+                        <elseif condition="$us_menu.pay_status neq 1"/>
+                        <li><a href="{:U('Home/Member/store')}">开店报单</a></li>
+                    </if>
+                <if condition="($us_menu.pay_status eq 1)">
+                <li><a href="{:U('Home/Store/store_info')}">店铺信息</a></li>
+                </if>
+            </ol>
+        </li>
+        <li class="cur main_left_li5"  style="background: url(__PUBLIC__/Home/images/edit.jpg) no-repeat 15px center;">
+            <span><a href="{:U('Home/Member/userset')}">密码修改</a></span>
+        </li>
+        <li class="cur main_left_li5"  style="background: url(__PUBLIC__/Home/images/personal_cur.png) no-repeat 15px center;">
+            <span><a href="{:U('Home/Member/per_info')}"  style="color:#006445;">个人信息</a></span>
+        </li>
+
+    </ul>
+</div>

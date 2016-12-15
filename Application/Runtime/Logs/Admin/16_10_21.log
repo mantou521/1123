@@ -1,0 +1,241 @@
+[ 2016-10-21T10:24:13+08:00 ] ::1 /uufenxiao/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-10-21T10:24:13+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Undefined index: lo_submit D:\htdocs\uufenxiao\Application\Admin\Controller\IndexController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-10-21T10:24:20+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-10-21T10:24:21+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-10-21T10:24:21+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-10-21T10:24:25+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Mem&a=member_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( id>0 and ispay=1 ) ORDER BY id asc  [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 34 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 34 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 36 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-10-21T10:24:29+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-10-21T10:24:32+08:00 ] ::1 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: img D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-10-21T10:25:24+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Goods&a=product_edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: 1 D:\htdocs\uufenxiao\Application\Admin\Controller\GoodsController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0036s ]
+SQL: UPDATE `think_goods` SET `goods_name`='&lt;上海迪士尼Disney-华东五市双飞6日游&gt;',`goods_description`='禅意小镇拈花湾，国际五星乌镇西栅内客栈。',`goods_keywords`='',`goods_price`='998.00',`goods_content`='&lt;p&gt;&amp;amp;lt;p&amp;amp;gt;阿斯蒂芬&amp;amp;lt;br/&amp;amp;gt;&amp;amp;lt;/p&amp;amp;gt;&lt;/p&gt;',`is_on_sale`='0',`sort`='0',`goods_sn`='1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,1001,' WHERE ( goods_id=6 ) [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-10-21T10:25:25+08:00 ] ::1 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-10-21T10:25:33+08:00 ] ::1 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: img D:\htdocs\uufenxiao\Application\Runtime\Cache\Admin\2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+

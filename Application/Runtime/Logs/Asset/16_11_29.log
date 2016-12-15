@@ -1,0 +1,314 @@
+[ 2016-11-29T09:39:35+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480383575347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-11-29T09:39:41+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:43:17+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480383797712
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-11-29T09:43:22+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:45:30+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480383930073
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-11-29T09:45:35+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:47:02+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480384022183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-11-29T09:47:06+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:49:09+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480384149046
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-11-29T09:49:12+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:50:24+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480384224557
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-11-29T09:50:31+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:57:58+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480384678144
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-11-29T09:58:01+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:58:47+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480384727015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-11-29T09:58:50+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T09:59:41+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480384781034
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-11-29T09:59:44+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T10:14:51+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480385691066
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-11-29T10:15:03+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T10:15:13+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480385713693
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-11-29T10:20:17+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480386017158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-11-29T10:20:20+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T10:27:30+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480386450764
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-11-29T10:47:22+08:00 ] ::1 /uufenxiao/index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480387642302
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-11-29T10:47:28+08:00 ] ::1 /uufenxiao/index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T10:47:45+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480387665838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-11-29T10:49:31+08:00 ] ::1 /uufenxiao/index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480387771564
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-11-29T10:50:43+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480387843439
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-11-29T10:50:46+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T10:55:45+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480388145349
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-11-29T10:55:48+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T10:55:55+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480388155406
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-11-29T10:55:59+08:00 ] 127.0.0.1 /index.php?m=Asset&c=Ueditor&a=upload&action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\htdocs\uufenxiao\ThinkPHP\Library\Think\Upload.class.php 第 171 行.
+
+[ 2016-11-29T13:05:46+08:00 ] 124.207.55.90 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480395945023
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [2] file_get_contents(./public/js/ueditor/config.json): failed to open stream: No such file or directory /data/wwwroot/uufx.yoyoce.com/Application/Asset/Controller/UeditorController.class.php 第 200 行.
+
+[ 2016-11-29T13:06:25+08:00 ] 124.207.55.90 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480395984260
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] file_get_contents(./public/js/ueditor/config.json): failed to open stream: No such file or directory /data/wwwroot/uufx.yoyoce.com/Application/Asset/Controller/UeditorController.class.php 第 200 行.
+
+[ 2016-11-29T13:07:51+08:00 ] 124.207.55.90 /index.php?m=Asset&c=Ueditor&a=upload&action=config&&noCache=1480396069912
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [2] file_get_contents(./public/js/ueditor/config.json): failed to open stream: No such file or directory /data/wwwroot/uufx.yoyoce.com/Application/Asset/Controller/UeditorController.class.php 第 200 行.
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息修改</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="游邮文化,UU"/>
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-comp">
+    <meta name="renderer" content="ie-stand">
+    <meta name="description" content="游邮文化,UU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/Home/js/my.js"></script>
+    <script src="__PUBLIC__/Home/js/validation.js"></script>
+</head>
+
+<body>
+<include file="./Common/header"/>
+<div class="container_w main_w">
+    <div class="container main">
+        <include file="./Common/index_left"/>
+        <div class="r main_right">
+            <div class="main_right_title main_right_title_blue">
+                <em></em>
+                <span>信息修改</span>
+            </div>
+            <div class="main_right_con">
+                <form name="form1" method="post" action="">
+                <div class="reg_con_input_all edit_con_input_all">
+                    <div class="reg_con_input edit_con_input">
+                        <span>旧密码：</span>
+                        <input  tip='密码' type="password" name="pwd"  class="data_list" required="required" placeholder="请输入密码">
+                    </div>
+                    <div class="reg_con_input edit_con_input">
+                        <span>新密码：</span>
+                        <input  tip='密码' type="password" name="newpwd"  class="data_list" required="required" placeholder="请输入密码">
+                    </div>
+                </div>
+                <div class="login_bot reg_bot div_text_center">
+                    <input class="cur login_bot_span_login login_bot_span_reg" type="submit" name="re_submit"  value="保存" >
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="./Common/footer"/>
+
+</body>
+</html>

@@ -1,0 +1,1537 @@
+[ 2016-11-16T09:12:51+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2016-11-16T09:13:01+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-11-16T09:13:02+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-11-16T09:13:02+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2016-11-16T09:48:51+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-11-16T09:48:57+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-11-16T09:50:31+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: INSERT INTO `think_goods` (`src`,`goods_name`,`goods_description`,`goods_keywords`,`goods_price`,`goods_content`,`is_on_sale`,`sort`,`goods_sn`,`thumb`) VALUES ('null','北京3日游','北京3日游','北京 长城 天安门 天坛','1000','<p>北京3日游</p>','0','0','001；002；003；004；005；006；007；008；009','1611160950311.jpg') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-11-16T09:50:32+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-11-16T13:54:16+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-11-16T13:54:42+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-11-16T13:54:43+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-11-16T13:54:43+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-11-16T14:46:22+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2016-11-16T14:47:10+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-11-16T14:47:11+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2016-11-16T14:47:11+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-11-16T15:25:23+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2016-11-16T15:25:30+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-11-16T15:25:31+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2016-11-16T15:25:32+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2016-11-16T15:27:46+08:00 ] 124.202.207.110 /uufenxiao/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+
+[ 2016-11-16T15:27:47+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-11-16T15:28:01+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-11-16T15:28:02+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2016-11-16T15:28:02+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-11-16T15:28:09+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-11-16T15:28:11+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-11-16T15:28:16+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2016-11-16T15:28:28+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2016-11-16T15:32:58+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined offset: 1 /data/wwwroot/default/uufenxiao/Application/Admin/Controller/GoodsController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0013s ]
+SQL: INSERT INTO `think_goods` (`src`,`goods_name`,`goods_description`,`goods_keywords`,`goods_price`,`goods_content`,`is_on_sale`,`sort`,`goods_sn`,`thumb`) VALUES ('null','澳新十二日游','澳新十二日游','澳新十二日游','888','<h3 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; font-size: 12px; font-weight: normal; text-align: center; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; widows: 1;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span><a href=\"http://u.52cold.com/index.php?m=content&c=index&a=show&catid=39&id=8#\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; -webkit-transition: background-color; transition: background-color; outline: none; font-size: 15px; color: rgb(59, 156, 255); display: inline-block; padding: 22px 5px 10px;\">行程特色</a><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span></h3><p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">悉尼：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 市区游览＋新南威尔士州美术馆＋蓝山＋悉尼港游轮晚餐</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">新西兰：&nbsp;&nbsp; 毛利文化村＋爱歌顿农场＋牛排餐</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">黄金海岸：梦幻世界＋激浪世界＋</span><strong style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\">sky point</strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">观景台＋下午茶＋抱考拉照片</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">墨尔本：&nbsp;&nbsp;&nbsp;&nbsp; 市区游览＋圣科达布莱顿海滩</span></p><h3 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; font-size: 12px; font-weight: normal; text-align: center; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; widows: 1;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span><a href=\"http://u.52cold.com/index.php?m=content&c=index&a=show&catid=39&id=8#\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; -webkit-transition: background-color; transition: background-color; outline: none; font-size: 15px; color: rgb(59, 156, 255); display: inline-block; padding: 22px 5px 10px;\">行程简览</a><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span></h3><p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D1、北京\\上海\\广州✈墨尔本 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp; 乘机飞往墨尔本、多为转机、一般第二天抵达，（机票自理）</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 用餐：X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：X</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D2、&nbsp; 抵达后市区游览：【皇家植物园】是全世界设计最好的植物园之一。【墨尔本旧国会大厦】：建筑美轮美奂，别具风格。【圣派翠克大教堂】南半球最大最高的天主教堂，细致的彩绘花窗玻璃;巧夺天工的木雕及石匠工艺,都突显出天主教堂的宏伟与庄严。【菲兹路易公园】规划为英国国旗图案，该园更富天然情趣。园内充满浓荫绿意，十分清幽雅致。【库克船长小屋】（外景）库克船长是最早登上澳洲大陆并宣布它为英国领土的英国人，被视为澳大利亚的开国者。【圣科达布莱顿海滩】长长一排彩色小屋，是墨尔本的经典定格之一。这些充满设计感的木屋，令海滩变成了一个独特的存在！这是一片绵延的安全、沙质细软的海滨浴场，这些小屋沿着海滩而建，衬映着墨尔本壮丽的城市景观，是众多海滩上最受欢迎的之一。随后前往墨尔本土特产店。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 用餐：午晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281528534070.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D3、墨尔本✈黄金海岸</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 黄金海岸，它是澳大利亚昆士兰州非常有代表性的知名旅游胜地，抵达后游览【梦幻世界】前往澳大利亚著名的主题公园——Dream world游玩。是南半球最大的主题乐园。园内包含东南澳大利亚最大的野生动物园: 袋鼠 考拉王国，我社特别赠送每位团员梦幻世界中的抱考拉照片一张。梦幻农庄、剪羊毛秀……这些仅仅是梦幻世界最基本的项目。揭秘澳洲原住民文化的土著文化体验区结合了他们与野生动物间的水乳交融，南半球最大的虎穴老虎岛透露出澳洲人热心保护珍稀物种的秘密为方便游览。中午不再集合统一安排午餐，午餐敬请在园内自理。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp;&nbsp; 【激浪世界】激浪世界是位于澳大利亚昆士兰州的黄金海岸的一个水上乐园，是唯一一个拥有世界4种热门水上滑道的水上机动游戏乐园，也是澳大利亚最新、最大的水上主题公园。激浪世界的设计充分利用了水资源，每项游乐活动都同水有关联，将游客带到了一个海浪、沙滩和海水的世界。有10个精心打造的以沙滩为主题的区域，包括有绿屋、浪中浪、回旋湾等。园中有几个知名的水滑道、一个大的波浪池、儿童游乐区等，深受小孩的喜爱。每天园中都熙熙攘攘，笑声不断，大人孩子都玩的很尽兴。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;用餐：早X晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529465675.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D4、黄金海岸</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 早餐后游览【出海口】这是一个无风也会起浪的地方，拍岸的浪花随风拂面，令人陶醉。这里是冲浪爱好者最喜爱的地方。【冲浪海滩】是澳大利亚最著名的渡假胜地之一。【RIVERMILL】南森山是极具澳洲代表性的原始雨林，Rivermill主题农庄就坐落在这里。这个澳洲农庄也是澳洲人非常喜爱的一种休闲场所，这里近距离接触一些澳洲农舍小动物，全身心的體驗澳洲當地人休閒放鬆的生活。【SkyPoint观景台】SkyPoint 拥有全世界最快捷的电梯服务，可以在42.7秒时间把客人从底层送到第77层， 也是全澳州唯一一个可以看见海岸沙滩的观景层。他的高度只是与艾菲尔铁塔相差1米而已，可见他的高度惊人。在此可以让您360°瞭望黄金海岸 (Gold Coast) 的美景的同时享用美味且富于情调的澳式糕点下午茶。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp; 用餐：早午晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529799653.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D5、黄金海岸-布里斯班</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 早餐后游览布里斯班澳洲的第三大城市，由于这里有不少树袋熊——考拉的保护区，因而人们又称它为“考拉之都”。布里斯班有着迷人的自然风光，多种多样的动植物生活在这里，特别是一些澳洲特产的动物。抵达后游览【南岸公园】在这里您可以体验一下布里斯班人的休闲生活。【故事桥】（车览）故事桥是布里斯本最著名的大桥，是澳洲设计并建造的最大的钢铁大桥。【袋鼠角】是一个观看整个布里斯班城市风光和河流风光的观光点。想要一览布里斯班的地平线，&nbsp;这里是绝佳角度。【市政厅广场】（车览）布里斯本市政厅，是布里斯本的标志，也是澳大利亚最富丽堂皇的市政厅。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 用餐：早午晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529780542.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D6、 布里斯班✈奥克兰</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">奥克兰是新西兰最大的城市和首要港口，是新西兰海外贸易、国内工商业中心和交通枢纽。 奥克兰市位于新西兰北岛的北部，是一座包裹著神奇海洋世界的现代都市，城市环绕著怀特玛塔港（Waitemata Harbour）和豪拉基湾（Hauraki Gulf）两岸建设, 港湾优良,也因此造就了新西兰海岸都市的独特风格。新西兰平均每2.7人就有一人拥有一艘船，因此，奥克兰又有“帆船之都”的美誉。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">用餐：早X晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529504527.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D7、奥克兰-罗托鲁阿（233KM乘车约3小时）&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">乘车前往罗托鲁阿，罗托鲁瓦也是纽西兰的地热之乡，因为地处火山活跃地带上，到处是高温达200℃的热水，还有不断冒出的硫磺气，整个城市弥着着一股硫磺臭味。抵达后游览：【Matamata小镇】（途经）它可是大名鼎鼎的《魔戒》首部曲中霍比特人居住村庄的取景点。【毛利文化村】这里展示了毛利人的古朴精致的雕刻、历史，文化和传统。【温泉地热公园】游览数平方公里的地热公园，这里的地热喷泉眼全部裸露地表，我们可以在此放松一下，泡泡温泉足浴。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">用餐：早午晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529620642.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D8、罗托鲁阿-奥克兰</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">早餐后游览：【政府花园】这曾是当年毛利人的议会大楼。【埃歌顿农场】欣赏19只不同品种的公羊，还可以与各种可爱动物零距离接触，亲手喂食，奇异果树下品尝奇异果酒及特色蜂蜜。【红木森林】红木森林里种植了170多种不同的数目，漫步其中感受自然之肺的清新。【罗托罗瓦湖】团友可在观赏美景之余，与湖畔的黑天鹅及海鸟嬉戏，享受一翻休闲的生活。【罗吐鲁阿山顶牛排午餐】随后前往羊毛被加工厂。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">用餐：早午晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529309884.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D9 奥克兰✈悉尼</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">抵达后市区游览：【奥克兰大学】（外景）。它不仅历史悠久，而且拥有先进的科学技术和教学方法。【美国帆船杯赛村】这里是当地居民较喜爱聚集的休闲场所。【休闲游艇俱乐部】（途经）这里的富裕人家不仅有海边别墅，而且有自家的码头与游艇。【高级豪华住宅区】（途经）欣赏奥克兰的富人区风光。【海湾大桥】（途径）奥克兰海港大桥是奥克兰极富代表性的一处景致。工党纪念碑】是</span><a href=\"http://baike.baidu.com/view/1486999.htm\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; transition: background-color; outline: none; font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\">工党</a><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">第一任领袖迈克尔·乔瑟夫·萨文奇(Michael Joseph Savage)而建。【伊甸山】位于奥克兰市内的死火山口，是奥克兰的最高处，登上山顶可以俯瞰整个奥克兰市。随后前往马泰安土特产店。坐国际航班飞往悉尼。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">用餐：早午X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529287300.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D10、悉尼-蓝山 -悉尼</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">【蓝山国家公园】：蓝山全地区生长着庞大的原始森林和亚热带雨林。蓝山总是被一层淡蓝色遮蔽，显得异常美丽，亦透着神秘，蓝山也因此得名。【埃科角与三姊妹岩】：沿着埃科角路右拐的尽头处是观赏三姐妹岩的最佳位置埃科角。埃科角的前面贾米森谷谷底就是蓝山的标志就是三姐妹峰。【温特沃斯瀑布公园】:周边丛林茂盛，有很多壮观的自然景色，亲临其境更能感叹大自然鬼斧神工的创作能力。【拉鲁小镇】:蓝山脚下的LEURA小镇，它的美丽绝不输给欧洲的童话小镇。尤其适合秋赏红叶，春赏樱。附近有很多咖啡屋，熙熙攘攘的非常热闹。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">用餐：早午晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529662218.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">D11、 悉尼</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">早餐后游览：【悉尼大学】（外景）古色古香的校舍在1857年建成，保留着</span><a href=\"http://baike.baidu.com/view/3692.htm\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; transition: background-color; outline: none; font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\">澳大利亚</a><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">传统建筑和文化特色。【圣玛利亚大教堂】悉尼天主教社区的精神家园。【海德公园】对于仅200多年历史的澳洲来说，应该是一个相当古老的公园。作为伦敦式样的典范，那大片洁净的草坪，百年以上的参天大树，柔和的丘陵和亚奇伯德喷泉，都是游人们流连忘返的地方。【麦考利夫人椅子公园】游览&quot;麦考利夫人椅子&quot;公园，在这里可以拍到以悉尼港剧院、海港大桥、广阔海平面组成的全景照片。【新南威尔士州美术馆】（如遇闭馆只参观外观）馆内主要展出的是澳大利亚各个时期的美术作品，也有印象派大师和亚洲的美术作品。每年澳大利亚美术界最重要的三项艺术大奖的评选都在这里，获奖的作品也都在这里展出。【悉尼歌剧院】（外观），世界知名、造型宏伟的悉尼歌剧院，它的美丽外型与周围景致相得益彰， 不论是白天或夜晚皆展现了迷人的风采。【悉尼鱼市场】（Sydney Fish Market）是悉尼乃至澳洲最大集批发、零售与餐饮与一体的鱼市场, 在这里您可以一边欣赏海景，午餐自理，您可自费品尝当地各色海鲜，别有一番风味。【悉尼海港大桥】号称世界第一单孔拱桥的宏伟大桥，您将途径此桥与举世闻名的</span><a href=\"http://baike.baidu.com/view/14473.htm\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; transition: background-color; outline: none; font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\">悉尼歌剧院</a><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">隔海相望。【悉尼港游船】傍晚乘坐游轮环游景色绝佳的世界三大美港的天然港湾，并在船上享用美味的三道式西式晚餐。海湾里不时可见快艇掠过水面；此时是拍照留念的最好机会。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">随后前往悉尼土特产店。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">用餐：早午晚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 酒店：三-四星</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><img alt=\"\" src=\"/ueditor/php/upload/image/20161116/1479281529817407.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px; width: 720px; margin: 8px 0px; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">11 悉尼✈上海</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">MU562&nbsp; Y&nbsp;&nbsp; TH26MAY&nbsp; SYDPVG DK1&nbsp;&nbsp; 1100 1920&nbsp;&nbsp;&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">早餐后乘机返回，结束愉快的澳新之旅</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><strong style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\">注：此行程及航班、酒店仅供参考，具体行程在会根据具体航班情况适当调整，最终行程以出团通知为准。</strong></p><h3 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; font-size: 12px; font-weight: normal; text-align: center; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; widows: 1;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span><a href=\"http://u.52cold.com/index.php?m=content&c=index&a=show&catid=39&id=8#\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; -webkit-transition: background-color; transition: background-color; outline: none; font-size: 15px; color: rgb(59, 156, 255); display: inline-block; padding: 22px 5px 0px;\">费用信息</a><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span></h3><h2 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 15px 0px 0px 18px; font-size: 13px; font-weight: normal; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; widows: 1;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: 微软雅黑;\">一、服务标准</span></h2><p><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-size: 12px; widows: 1; font-family: 微软雅黑;\">签证标准：澳大利亚和新西兰均为ADS团体另纸签证。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>酒店标准：常规三-四星级，酒店星级以当地酒店评定为准，境外酒店双人间有时为一大床+一沙发床或一大床+一单人床形式；遇散客拼团，若团体出现单间我社有权调整夫妻及亲属住宿安排或调整单人住三人间，有时可能遇到公寓房，如遇赛事、展会等特殊情况可能安排3-4星酒店，领队与客人拼住。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>用餐标准：午晚餐为中餐或自助：午晚餐为六菜一汤，10-12人一桌（自助餐除外）；用餐时间在飞机或船上以机船餐为准,不再另退餐费；澳大利亚和新西兰境内的早餐均为酒店内早餐。如遇到早航班，一般安排早餐盒或快餐，如果不用，费用不退。具体根据航班时间而定。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>景点标准：行程中“入内”及“停留”的游览时间仅供参考，我社可根据具体行程安排做适当调整；“外景”及“远观”的景点均不入内参观，停留时间根据具体游览时间而定；“途经”的景点均不下车参观。本社有权根据具体团队情况调整行程中景点的先后游览顺序，但游览内容不减少。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>用车标准（节日展会期间除外）：<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>司机和导游的标准：<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>参团人数超过或等于16人，为司机+中文导游服务；人数少于16人，为中文司机兼导游服务。</span><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\"></span></p><h2 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 15px 0px 0px 18px; font-size: 13px; font-weight: normal; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; widows: 1;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-family: 微软雅黑;\">二、不含项目</span></h2><p><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-size: 12px; widows: 1; font-family: 微软雅黑;\">护照及签证费用。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>出发地往返目的地及城市间的机票（我社可协助办理特价票），。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>酒店内个人消费：电话、传真、上网、洗熨、收费电视、房间付费食品、行李搬运等个人费用。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>单人房差。依照旅游业现行作业规定，本公司有权依据最终出团人数情况，调整房间分房情况<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>（包括夫妻分开住宿或加床，或家庭分开住宿等）。根据地接社规定12岁以上小孩必须占床，12岁以下小孩可选择是否占床，如不占床，请游客提前说明，具体费用根据所报团队情况而定；若一个大人带一个12岁以下儿童参团，建议住在一个标间，以免给其他游客休息造成不便。<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>旅游费用不包括旅游者因违约、自身过错、自由活动期间内行为或自身疾病引起的人身和财产损失。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">不含地接综合服务费1500/人，小费300元/人。</span></p><h3 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; font-size: 12px; font-weight: normal; text-align: center; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; widows: 1;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span><a href=\"http://u.52cold.com/index.php?m=content&c=index&a=show&catid=39&id=8#\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; -webkit-transition: background-color; transition: background-color; outline: none; font-size: 15px; color: rgb(59, 156, 255); display: inline-block; padding: 22px 5px 10px;\">注意事项</a><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span></h3><p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">1、本游邮册行程适用于70周岁以下年龄人群，70周岁以上需要家人陪同。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">2、其他年龄段游客需加收费用，具体拨打报名热线4000—168—268 电话咨询。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">3、请配合导游进店，不得擅自离店。全程不得离团，离团须交离团费1600元/天/人。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">4、本行程因天气，交通等不可抗力因素，接待社保留具体行程适当调整的权利，但不减少行程数量，不降低标准，不承担因此引起的其它额外费用。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">5、报名时请讲明身体状况：残疾人员（包括智障）、身体状况不好的、超过70岁年龄群体的、孕妇、外籍人等，以上客人我社恕不接待。若出现隐瞒参团的，一切后果均由游客自己承担。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">6、参团人员在出票后因个人原因不参加或擅自离团，如有以上情形，所产生的一切后果及费用自负，押金1000元不退。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">7、报名时需交我社资料有身份证复印件、半年有效期以上普通因私护照原件</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">一张二寸白底彩照（请至少提前5个工作日）</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">&nbsp;</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">8、由于报名人数较多，请提前15个工作日拨打报名热线4000—168—268 电话预约，预约后需缴纳1000元／人的押金才算报名成功。抵达旅游目的地后退还。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">押金打入以下账户，户名：北京游邮文化发展有限公司，账号：11050138550000000025 ，开户行：中国建设银行北京王府井支行。 &nbsp;&nbsp;</span></p><h3 style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; font-size: 12px; font-weight: normal; text-align: center; color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; widows: 1;\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span><a href=\"http://u.52cold.com/index.php?m=content&c=index&a=show&catid=39&id=8#\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; -webkit-transition: background-color; transition: background-color; outline: none; font-size: 15px; color: rgb(59, 156, 255); display: inline-block; padding: 22px 5px 10px;\">温馨提示</a><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 7px; height: 6px; display: inline-block; background-image: url(&quot;http://u.52cold.com/statics/images/xingxing.png&quot;); background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: 0px 0px; background-repeat: no-repeat;\"></span></h3><p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">1、本次行程线路安排以旅行社提供的细则为准，本公司只负责营销策划，旅游、报名等事项最终解释权为接待旅行社。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; widows: 1;\">2、本线路尽量避开节假日旅游高峰期，如遇特殊情况需要此时间段出发的，需补交地接上浮费用的差价，机票以当时的航空政策为准。</span><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: &quot;Hiragino Sans GB&quot;, 华文细黑, STHeiti, 微软雅黑, &quot;Microsoft YaHei&quot;, SimHei, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 12px; white-space: normal; widows: 1;\"/></p><p><img src=\"/ueditor/php/upload/image/20161116/1479281572895007.jpg\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px;\"/></p><p clear:=\"\" color:=\"\" helvetica=\"\" hiragino=\"\" line-height:=\"\" margin:=\"\" microsoft=\"\" padding-bottom:=\"\" padding-left:=\"\" padding-right:=\"\" padding-top:=\"\" sans=\"\" white-space:=\"\" style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-bottom: 0px; padding: 0px 0px 17px 18px; font-size: 16px; color: rgb(153, 153, 153);\"><strong style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 14px;\">长按“二维码”——“识别图中二维码”<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>或者搜“游邮文化”——即可进入游邮文化公众号<br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/>UU澳新——易企秀展示</span></strong><br style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"/><strong style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0);\"><span style=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 14px;\"><a href=\"http://c.eqxiu.com/s/T34JgHUL\" style=\"-webkit-tap-highlight-color: transparent; text-decoration: none; -webkit-appearance: none; -webkit-transition: background-color; transition: background-color; outline: none;\">http://c.eqxiu.com/s/T34JgHUL</a></span></strong></p><p>&nbsp;</p><p><br/></p>','0','0','00001，00002,00003,00004,00005,000006','1611160332581.jpg') [ RunTime:0.0401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2016-11-16T15:32:59+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2016-11-16T15:33:39+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=11 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: img /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2016-11-16T16:32:21+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-11-16T16:32:22+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2016-11-16T16:34:00+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-11-16T16:34:01+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-11-16T16:34:08+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-11-16T16:34:12+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=11 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: img /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-11-16T16:34:21+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2016-11-16T16:34:22+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2016-11-16T16:42:30+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2016-11-16T16:42:39+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0008s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 25 行.
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 29 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2016-11-16T16:42:43+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Travel/order_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0008s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id  WHERE ( order_sn=2016111697984948 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2016-11-16T16:43:07+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=order_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0024s ]
+SQL: UPDATE `think_travel_order` SET `total`='8888',`reback`='1',`time`='1480089600',`remark`='<p>北京哦啊就嗲死你是 &nbsp;&nbsp;</p>' WHERE ( order_sn=2016111697984948 ) [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2016-11-16T16:43:08+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0007s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 25 行.
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 29 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2016-11-16T16:50:18+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2016-11-16T16:50:21+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=11 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: img /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2016-11-16T17:02:36+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0009s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 25 行.
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 29 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2016-11-16T17:02:43+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-11-16T17:02:44+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2016-11-16T17:02:46+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-11-16T17:02:51+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0007s ]
+SQL: SELECT T.tr_name,T.thumb,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 25 行.
+NOTIC: [8] Undefined variable: title /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 29 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/3dc9a59d9faf0bcf7f5500e921c3fa2b.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-11-16T17:02:58+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-11-16T17:02:59+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2016-11-16T17:03:05+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-11-16T17:03:07+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id>0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-11-16T17:03:10+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Travel/travel_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2016-11-16T17:03:17+08:00 ] 124.202.207.110 /uufenxiao/index.php/Admin/Travel/upload/image/20161116/1479286997710733.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+
+[ 2016-11-16T17:03:23+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 1 for I(), called in /data/wwwroot/default/uufenxiao/Application/Admin/Controller/TravelController.class.php on line 45 and defined /data/wwwroot/default/uufenxiao/ThinkPHP/Common/functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name /data/wwwroot/default/uufenxiao/ThinkPHP/Common/functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name /data/wwwroot/default/uufenxiao/ThinkPHP/Common/functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name /data/wwwroot/default/uufenxiao/ThinkPHP/Common/functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0007s ]
+SQL: UPDATE `think_travel` SET `tr_id`='7',`tr_name`='杭州5日游',`sort`='0',`keywords`='杭州',`tr_description`='杭州5日游',`tr_content`='<p>杭州5日游</p><p><img src=\"upload/image/20161116/1479286997710733.jpg\" title=\"1479286997710733.jpg\" alt=\"未标题-5.jpg\"/></p>' WHERE ( tr_id=7 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-11-16T17:03:24+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id>0 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 32 行.
+NOTIC: [8] Undefined variable: D /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+NOTIC: [8] Undefined variable: dp /data/wwwroot/default/uufenxiao/Application/Runtime/Cache/Admin/37c0d9edfcb91ce626c9f0a7d90f8cef.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-11-16T17:03:36+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Travel&a=travel_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2016-11-16T17:19:17+08:00 ] 124.202.207.110 /uufenxiao/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+
+[ 2016-11-16T17:19:18+08:00 ] 124.202.207.110 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-11-16T17:20:54+08:00 ] 220.181.132.220 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2016-11-16T17:21:05+08:00 ] 101.199.112.53 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-11-16T17:22:54+08:00 ] 220.181.132.220 /uufenxiao/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-11-16T17:23:40+08:00 ] 101.199.112.54 /uufenxiao/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-11-16T17:23:41+08:00 ] 101.199.112.54 /uufenxiao/index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: lo_submit /data/wwwroot/default/uufenxiao/Application/Admin/Controller/IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+

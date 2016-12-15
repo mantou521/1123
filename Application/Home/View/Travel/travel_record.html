@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>业绩报单</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="游邮文化,UU"/>
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-comp">
+    <meta name="renderer" content="ie-stand">
+    <meta name="description" content="游邮文化,UU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/Home/js/my.js"></script>
+</head>
+<body>
+<include file="Common:header"/>
+<div class="container_w main_w">
+    <div class="container main">
+        <include file="Common:index_left"/>
+        <div class="r main_right">
+            <div class="main_right_title main_right_title_blue">
+                <em></em>
+                <span>报单<a href="lvyou_baodan.html" class="yeji_span"> &gt; 旅游报单</a></span>
+            </div>
+            <div class="product_right_con baodan_con">
+                <div class="kucun_head">
+                    <a href="{:U('Home/Travel/travel_list')}">旅游报单</a>
+                    <span>旅游订单</span>
+                </div>
+                <div class="result record">
+                    <table class="result_tab record_tab" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th>路线名称</th>
+                            <th>出发日期</th>
+                            <th>人数</th>
+                            <th>交通方式</th>
+                            <th>状态</th>
+                            <th>反馈</th>
+                            <th>操作</th>
+                        </tr>
+                        <foreach name="list" item="vo">
+                            <tr>
+                                <td>
+                                    <a href="">{$vo.tr_name}</a>
+                                </td>
+                                <td>
+                                    <span>{$vo.t}</span>
+                                </td>
+                                <td>
+                                    <span>{$vo.y_num}（成人）</span>
+                                    <span>{$vo.c_num}（儿童）</span>
+                                </td>
+                                <td>
+                                    <span> <if condition="($vo.type eq 1)">火车<else/>飞机 </if> </span>
+                                </td>
+                                <td>
+                                    <span><if condition="($vo.pay_status eq 1)">已支付<else/>未付款</if></span>
+                                </td>
+                                <td>
+                                    <span><if condition="($vo.reback eq 1)">已反馈<else/>未反馈</if></span>
+                                </td>
+                                <td>
+                                    <a href="{:U('Travel/travel_feedback',array('order_sn'=>$vo['order_sn']))}" class="result_a">查看</a>
+                                    <if condition="($vo.pay_status eq 0 && $vo.reback eq 1)">
+                                    <em>|</em>
+                                    <a href="{:U('Order/order_pay',array('order_sn'=>$vo['order_sn'],'total'=>$vo['total'],'type'=>'travel'))}" target="_blank" class="result_a">付款</a>
+                                    </if>
+                                    <!--<em>|</em>-->
+                                    <!--<a href="" class="result_a">删除</a>-->
+                                </td>
+                            </tr>
+                        </foreach>
+                    </table>
+                </div>
+                <div class="div_text_center yeji_page">
+                    {$page}
+                    <div class="ye_together">每页10条，共<em>{$yetotal}</em>页</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Common:footer"/>
+
+</body>
+</html>

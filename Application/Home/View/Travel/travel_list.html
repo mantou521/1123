@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旅游报单</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="keywords" content="游邮文化,UU"/>
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-comp">
+    <meta name="renderer" content="ie-stand">
+    <meta name="description" content="游邮文化,UU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
+    <script src="__PUBLIC__/Home/js/my.js"></script>
+    <style type="text/css">
+        .baodan_con{height:1280px;}
+    </style>
+</head>
+<body>
+<include file="Common:header"/>
+<div class="container_w main_w">
+    <div class="container main">
+        <include file="Common:index_left"/>
+        <div class="r main_right">
+            <div class="main_right_title main_right_title_blue">
+                <em></em>
+                <span>报单<a href="" class="yeji_span"> &gt; 旅游报单</a></span>
+            </div>
+            <div class="product_right_con baodan_con">
+                <div class="kucun_head">
+                    <span>旅游报单</span>
+                    <a href="{:U('Home/Travel/travel_record')}">旅游订单</a>
+                </div>
+                <div class="lvyou_dl">
+                    <foreach name="list" item="vo">
+                    <dl>
+                        <dt><a href="{:U('Travel/travel_info',array('id'=>$vo['tr_id']))}"><img src="__PUBLIC__/Uploads/travel/{$vo['thumb']}" alt=""></a></dt>
+                        <dd>
+                            <a href="{:U('Travel/travel_info',array('id'=>$vo['tr_id']))}">{$vo.tr_name}<br><span>{$vo.tr_description}</span></a>
+                            <em class='r'>¥{$vo.tr_price}</em>
+                        </dd>
+                    </dl>
+                    </foreach>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Common:footer"/>
+</body>
+</html>
