@@ -14,6 +14,61 @@ $(document).ready(function () {
 
         $(this).parent().find(".a2").remove();
 
+        //判断 开户银行信息
+        if ($(this).is("#hang")) {
+            if (this.value == "") {
+
+                var hdw1 = $("<span class='a2 error'></span>");
+                $(this).parent().append(hdw1);
+                $(this).val('');
+                $(this).attr('placeholder','银行不能为空');
+                $(this).css('border-color','#0066cc');
+
+            } else {
+
+                var hdw1 = $("<span class='a2 righta'></span>");
+                $(this).parent().append(hdw1);
+            }
+
+        }
+        //end
+
+        //判断 开户支行信息
+        if ($(this).is("#hang2")) {
+            if (this.value == "") {
+
+                var hdw1 = $("<span class='a2 error'></span>");
+                $(this).parent().append(hdw1);
+                $(this).val('');
+                $(this).attr('placeholder','支行不能为空');
+                $(this).css('border-color','#0066cc');
+
+            } else {
+
+                var hdw1 = $("<span class='a2 righta'></span>");
+                $(this).parent().append(hdw1);
+            }
+
+        }
+        //判断 合同编号信息
+        if ($(this).is("#contract_no")) {
+            if (this.value == "") {
+
+                var hdw1 = $("<span class='a2 error'></span>");
+                $(this).parent().append(hdw1);
+                $(this).val('');
+                $(this).attr('placeholder','合同编号不能为空');
+                $(this).css('border-color','#0066cc');
+
+            } else {
+
+                var hdw1 = $("<span class='a2 righta'></span>");
+                $(this).parent().append(hdw1);
+            }
+
+        }
+        //end
+
         //判断 银行卡帐号
         if ($(this).is("#hao")) {
             if (this.value == "") {

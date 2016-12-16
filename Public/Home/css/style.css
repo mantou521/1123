@@ -787,3 +787,8 @@ border-top-left-radius: 10px;border-top-right-radius: 10px;}
 }
 .bt_number{margin-left: 38px;width:210px;height:36px;line-height:34px;}
 .bt_box{height:290px;}
+
+/*12.15*/
+.hang_box{}
+.hang_box input{width:200px;}
+.hang_box em{margin: 0 20px 0 10px;}

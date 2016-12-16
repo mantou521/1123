@@ -240,17 +240,21 @@ class UuceController extends Controller{
                 $order['order_sn']=$data['order_sn'];
                 $order['total']=$total;
                 $order['add_time']=time();
+                $order['goods_id']=I('goods_id');
                 $order['user_id']=$_SESSION['id'];
                 $order['type']=6;
                 M('order')->add($order);
             }
-
-            $toid= I('user_num') ? M('member')->where('nickname='.I('user_num'))->getField('id'):null;
-//            $Uuce=new \Common\Lib\Uuce();
-//            $Uuce->uu_transfer(session('id'),$toid,I('goods_id'),$data['goods_sn'],I('type'));
-            $Pay=A('Order');
-            $Pay->order_pay($data['order_sn'],6);
-//            $this->success('转让成功');
+            if (I('type') == 2) {
+                $toid= I('user_num') ? M('member')->where('nickname='.I('user_num'))->getField('id'):null;
+                $Uuce=new \Common\Lib\Uuce();
+                $Uuce->uu_transfer(session('id'),$toid,I('goods_id'),$data['goods_sn'],I('type'));
+                $this->success('转让成功');
+            } else {
+//                inner_order($order['order_sn'],session('id'),I('goods_id'));
+                $Pay=A('Order');
+                $Pay->order_pay($data['order_sn'],6);
+            }
         }
     }
     
@@ -265,8 +269,16 @@ class UuceController extends Controller{
             ->limit($Page->firstRow.','.$Page->listRows)
             ->order('id desc')
             ->select();
+        foreach ($record as $value) {
+            if ($value['type'] == 1) {
+                $value['pay_status'] = M('order')->where('order_sn='.$value['order_sn'])->getField('pay_status');
+            }
+            if ($value['type'] == 2 || ($value['type'] == 1 && $value['pay_status'] == 1 )) {
+                $new[]=$value;
+            }
+        }
         $yetotal=ceil($count/10);
-        $this->assign('record',$record);
+        $this->assign('record',$new);
         $this->assign('page',$show);
         $this->assign('yetotal',$yetotal);
         $this->display();

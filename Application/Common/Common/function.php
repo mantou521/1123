@@ -376,24 +376,38 @@ function departnum($repath){
     return $res['departnum'];
 }
 
-function update_pay_status($order_sn,$order_type){
-    if ($order_type=='travel') {
-        $M=M('travel_order');
-    }else{
-        $M=M('order');
+function update_pay_status($order_sn, $order_type)
+{
+    if ($order_type == 'travel') {
+        $M = M('travel_order');
+    } else {
+        $M = M('order');
     }
-    $M->where('order_sn='.$order_sn)->setField('pay_status',1);
-    $result=$M->where('order_sn='.$order_sn)->find();
-    if ($result['type']==1 && !empty($result['act_id'])) {
-        $Mon=new \Common\Lib\Mon();
+    $M->where('order_sn=' . $order_sn)->setField('pay_status', 1);
+    $result = $M->where('order_sn=' . $order_sn)->find();
+    if ($result['type'] == 1 && !empty($result['act_id'])) {
+        $Mon = new \Common\Lib\Mon();
         $Mon->memact($result['act_id']);
-    }elseif($result['type']==2){
-        M('store')->where('user_id='.session('id'))->setField('pay_status',1);
-    }elseif($result['type']==4){
+    } elseif ($result['type'] == 2) {
+        M('store')->where('user_id=' . session('id'))->setField('pay_status', 1);
+    } elseif ($result['type'] == 4) {
         uu_trasfer($result['order_sn']);
-    }elseif($result['type']==5){
+    } elseif ($result['type'] == 5) {
         store_act($order_sn);
+    } elseif ($result['type'] == 6) {
+        inner_order($order_sn,$result['user_id'],$result['goods_id']);
     }
+}
+
+/*
+ * 内部转让付款
+ * */
+function inner_order($order_sn,$user_id,$goods_id){
+    $uurecord = M('uurecord')->where('order_sn='.$order_sn)->find();
+    $touser = getMemberbyNickName($uurecord['user_num']);
+    $toid = $touser['id'];
+    $Uuce = new \Common\Lib\Uuce();
+    $Uuce->uu_transfer($user_id, $toid, $goods_id, $uurecord['goods_sn'],1);
 }
 /*
  * 支付成功
@@ -486,10 +500,10 @@ function joinCoding($a,$b){
         $a=array_filter(explode(',',$a));
         $b=array_filter(explode(',',$b));
         foreach ($a as $key => $value){
-            foreach ($b as $bva){
-                $newa[]=$value;
-                $newa[]=$bva;
-            }
+            $newa[]=$value;
+        }
+        foreach ($b as $bva){
+            $newa[]=$bva;
         }
         $newa=array_filter($newa);
         $newa=implode(',',$newa);

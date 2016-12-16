@@ -209,6 +209,8 @@
         Copyright@2013Enterprise information All Rights Reserved 京ICP备 01245785号
     </div>
 </div>
+<script type="text/javascript" src="/Public/Admin/js/layui/layui.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 
 </body>
 </html>

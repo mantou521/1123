@@ -123,7 +123,7 @@ class MemberController extends Controller
             $usertel=$_POST['phone'];
             $useraddress=$_POST['addre1'].$_POST['addre2'];
             $useraddress=str_replace("/","",$useraddress);
-            $hang=$_POST['hang'];
+            $hang=$_POST['hang'].$_POST['hang2'];
             $hao=$_POST['hao'];
             $sex=$_POST['xingbie'];
             $birth=$_POST['cs_time'];
