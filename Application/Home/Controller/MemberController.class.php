@@ -128,7 +128,7 @@ class MemberController extends Controller
             $sex=$_POST['xingbie'];
             $birth=$_POST['cs_time'];
             $pdt=$_POST['rz_time'];
-            $jiaoyu=$_POST['jiaoyu'];
+//            $jiaoyu=$_POST['jiaoyu'];
             $youbian=$_POST['youbian'];
 
 
@@ -151,11 +151,12 @@ class MemberController extends Controller
             $data['bankname'] = $hang;
             $data['bankaddress'] = I('bankaddress');
             $data['bankcard'] = $hao;
+            $data['constract_no'] = I('post.constract_no');
             $data['sex'] = $sex;
             $data['birthday'] = $birth;
             $data['rdt'] = strtotime($pdt);
             $data['retime'] = time();
-            $data['xueli'] = $jiaoyu;
+//            $data['xueli'] = $jiaoyu;
             $data['postcode'] = $youbian;
             $data['img1'] = $img1;
             $data['img2'] = $img2;

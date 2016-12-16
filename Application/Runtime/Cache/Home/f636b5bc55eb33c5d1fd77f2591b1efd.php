@@ -131,10 +131,15 @@
                                 <div class="per_ll">银行名称：</div>
                                 <div class="per_lr"><?php echo ($user["bankname"]); ?></div>
                             </div>
-                            <div class="per_l per_l2">
-                                <div class="per_ll">教育程度：</div>
-                                <div class="per_lr"><?php echo ($user["xueli"]); ?></div>
+                            <div class="per_l">
+                                <div class="per_ll">合同编号：</div>
+                                <div class="per_lr"><?php echo ($user["constract_no"]); ?></div>
                             </div>
+
+                            <!--<div class="per_l per_l2">-->
+                                <!--<div class="per_ll">教育程度：</div>-->
+                                <!--<div class="per_lr"><?php echo ($user["xueli"]); ?></div>-->
+                            <!--</div>-->
                             <div class="per_l">
                                 <div class="per_ll">联系电话：</div>
                                 <div class="per_lr"><?php echo ($user["usertel"]); ?></div>

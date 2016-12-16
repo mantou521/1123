@@ -119,6 +119,7 @@
                             <th>姓名</th>
                             <th>职级</th>
                             <th>编码</th>
+                            <th>合同编号</th>
                             <th>部门</th>
                             <th>推荐人</th>
                             <th>推荐人代码</th>
@@ -132,6 +133,7 @@
                                 <td>{$vo.username}</td>
                                 <td>{$vo.lvname}</td>
                                 <td>{$vo.nickname}{$vo.postcode}{$vo.e_ulevel}</td>
+                                <td>{$vo.constract_no}</td>
                                 <td>{$vo.departnum}</td>
                                 <td>{$vo.rname}</td>
                                 <td><?php $par=getMemberbyID($vo['reid']); echo $par['nickname']; ?></td>

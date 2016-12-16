@@ -49,6 +49,7 @@
                 <th width="40">性别</th>
                 <th width="90">手机</th>
                 <th width="90">邮编</th>
+                <th width="90">合同编号</th>
                 <th width="90">编号</th>
                 <th width="90">部门代码</th>
                 <th width="90">推荐人工号</th>
@@ -68,12 +69,13 @@
                     <td><?php if(($vo["sex"] == 1)): ?>男<?php else: ?>女<?php endif; ?></td>
                     <td><?php echo ($vo['usertel']); ?></td>
                     <td><?php echo ($vo['postcode']); ?></td>
+                    <td><?php echo ($vo['constract_no']); ?></td>
                     <td><?php echo ($vo["nickname"]); echo ($vo["postcode"]); echo ($vo["e_ulevel"]); ?></td>
                     <td><?php echo ($vo['departnum']); ?></td>
                     <td><?php echo ($vo['regonghao']); ?></td>
                     <td><?php echo ($vo['rename']); ?></td>
                     <!--<td><a href="javaScript:;" class="per_lr2 per_a1">查看正面</a></td>-->
-                    <td><div class="picbox"><a href="/Public/Home/images/upload/<?php echo ($vo["img2"]); ?>" data-lightbox="gallery" data-title="<?php echo ($vo['username']); ?>"><img src="/Public/Home/images/upload/<?php echo ($vo["img2"]); ?>" width="60"></a></div></td>
+                    <td><div class="picbox"><a href="/Public/Home/images/upload/<?php echo ($vo["img2"]); ?>" data-lightbox="gallery" data-title="<?php echo ($vo['username']); ?>"><img src="/Public/Home/images/upload/<?php echo ($vo["img2"]); ?>" width="60" height="0" ></a></div></td>
                     <td class="text-l"><?php echo ($vo['useraddress']); ?></td>
                     <td><?php echo date("Y-m-d",$vo['rdt']); ?></td>
                     <?php if(($vo["islock"] == 0)): ?><td class="td-status"><span class="label label-success radius">已启用</span></td>

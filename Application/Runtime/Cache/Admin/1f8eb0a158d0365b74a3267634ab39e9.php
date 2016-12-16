@@ -43,6 +43,7 @@
             <th width="100">姓名</th>
             <th width="40">性别</th>
             <th width="90">手机</th>
+            <th width="90">合同编号</th>
             <th width="90">邮编</th>
             <th width="90">编号</th>
             <th width="90">部门代码</th>
@@ -60,6 +61,7 @@
                 <td><u style="cursor:pointer" class="text-primary" onclick="member_show('张三','member-show.html','10001','360','400')"><?php echo ($vo['username']); ?></u></td>
                 <td><?php if(($vo["sex"] == 1)): ?>男<?php else: ?>女<?php endif; ?></td>
                 <td><?php echo ($vo['usertel']); ?></td>
+                <td><?php echo ($vo['constract_no']); ?></td>
                 <td><?php echo ($vo['postcode']); ?></td>
                 <td><?php echo ($vo["nickname"]); echo ($vo["postcode"]); echo ($vo["e_ulevel"]); ?></td>
                 <td><?php echo ($vo['departnum']); ?></td>

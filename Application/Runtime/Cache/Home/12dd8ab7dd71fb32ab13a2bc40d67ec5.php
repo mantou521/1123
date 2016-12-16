@@ -175,6 +175,7 @@
                             <th>姓名</th>
                             <th>职级</th>
                             <th>编码</th>
+                            <th>合同编号</th>
                             <th>部门</th>
                             <th>推荐人</th>
                             <th>推荐人代码</th>
@@ -187,6 +188,7 @@
                                 <td><?php echo ($vo["username"]); ?></td>
                                 <td><?php echo ($vo["lvname"]); ?></td>
                                 <td><?php echo ($vo["nickname"]); echo ($vo["postcode"]); echo ($vo["e_ulevel"]); ?></td>
+                                <td><?php echo ($vo["constract_no"]); ?></td>
                                 <td><?php echo ($vo["departnum"]); ?></td>
                                 <td><?php echo ($vo["rname"]); ?></td>
                                 <td><?php $par=getMemberbyID($vo['reid']); echo $par['nickname']; ?></td>
