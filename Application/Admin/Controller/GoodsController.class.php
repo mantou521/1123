@@ -20,11 +20,6 @@ class GoodsController extends Controller {
     public function product_add_post()
     {
             $content=htmlspecialchars_decode(I('editorValue'));
-//            $goods_sn=explode('-',I('goods_sn'));
-//            $yn=$sn=$goods_sn['0'];
-//            for ($i=($goods_sn['0']+1); $i <= $goods_sn['1']; $i++) {
-//                    $yn=$yn.','.$i;
-//            }
 
             $num=count(array_filter(explode(',',I('goods_sn'))));
             $data['src']=json_encode($_SESSION['webupload']);
@@ -40,6 +35,10 @@ class GoodsController extends Controller {
             $data['thumb']=upload_uuce($_FILES["pic"]["tmp_name"],1);
             $Goods=M('goods');
             $Goods->add($data);
+            $sn = $Goods->where( array('goods_name' => I('goods_name')))->find();
+            foreach (explode(',',$sn['goods_sn']) as $value) {
+                M('out_uu')->add(array('goods_id' => $sn['goods_id'],'uuce' => $value));
+            }
             $this->success('添加成功',U('Admin/Goods/product_list'));
     }
 /*

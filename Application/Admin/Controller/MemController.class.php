@@ -26,26 +26,29 @@ class MemController extends BaseController {
         $this->assign('res',$res);
         $this->display();
     }
+
     /*
      * 会员信息修改
      * */
-    public function member_edit(){
+    public function member_edit()
+    {
         if ($_POST['member_edit']) {
-            $M= M('member');
-            $res=$M->where("id=".$_POST['userid']."")->join('think_ulevel ON think_ulevel.ulevel = think_member.ulevel')->order('id asc')->find();
-            $this->assign('res',$res);
+            $M = M('member');
+            $res = $M->where("id=" . $_POST['userid'] . "")->join('think_ulevel ON think_ulevel.ulevel = think_member.ulevel')->order('id asc')->find();
+            $this->assign('res', $res);
             $this->display();
-        }elseif ($_POST['submit_edit']){
-            $data['username']=$_POST['username'];
-            $data['usertel']=$_POST['mobile'];
-            $data['usercard']=$_POST['usercard'];
-            $data['bankcard']=$_POST['bankcard'];
-            $data['useraddress']=$_POST['useraddress'];
-            $data['postcode']=$_POST['postcode'];
-            $data['beizhu']=$_POST['beizhu'];
-            $data['bankname']=$_POST['bankname'];
-            $M= M('member');
-            $M->where("id=".$_POST['userid']."")->save($data);
+        } elseif ($_POST['submit_edit']) {
+            $data['username'] = $_POST['username'];
+            $data['usertel'] = $_POST['mobile'];
+            $data['usercard'] = $_POST['usercard'];
+            $data['bankcard'] = $_POST['bankcard'];
+            $data['useraddress'] = $_POST['useraddress'];
+            $data['postcode'] = $_POST['postcode'];
+            $data['beizhu'] = $_POST['beizhu'];
+            $data['bankname'] = $_POST['bankname'];
+            $data['contract_no'] = $_POST['contract_no'];
+            $M = M('member');
+            $M->where("id=" . $_POST['userid'] . "")->save($data);
             $this->success('修改成功', U('Admin/Mem/member_list'));
         }
 

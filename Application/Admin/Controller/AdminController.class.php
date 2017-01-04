@@ -26,4 +26,10 @@ class AdminController extends BaseController {
         $this->display();
 
     }
+    public function test(){
+
+        $this->display();
+
+    }
+
 }
