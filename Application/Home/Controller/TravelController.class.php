@@ -7,7 +7,6 @@
  */
 namespace Home\Controller;
 
-use Think\Controller;
 
 class TravelController extends BaseController
 {
@@ -57,6 +56,16 @@ class TravelController extends BaseController
         $cus['time'] = strtotime(I('date'));
         $cus['order_id'] = $data['order_sn'];
         for ($i = 0; $i < count(I('name')); $i++) {
+            //检测库存，是否被使用。
+            if (!empty($_POST['uu'][$i])) {
+                $cus['uu'] = $_POST['uu'][$i];
+                $ret = checkkucun($cus['uu']);
+                if ($ret == false) {
+                    $this->error('UU册编号库存不足');
+                } elseif ($ret == 0) {
+                    $this->error('UU册编号已被使用');
+                }
+            }
             $cus['user_name'] = $_POST['name'][$i];
             $cus['sex'] = $_POST['sex'][$i];
             $cus['mobile'] = $_POST['mobile'][$i];
@@ -68,6 +77,7 @@ class TravelController extends BaseController
                 $this->error($User->getError());
             } else {
                 $User->add($cus);
+                !empty($_POST['uu'][$i]) &&  M('out_uu')->where(array('uuce' => $cus['uu']))->setField(array('status' => 2,'user_id' => session('id')));  //更改为使用状态。
             }
         }
         $Travel = D("TravelOrder");
@@ -77,10 +87,8 @@ class TravelController extends BaseController
             $Travel->add($data);
             $this->assign("waitSecond", "5");
             $this->success('您已成功提交报团信息
-                工作人员将在48小时内联系您', 'travel_list');
+                工作人员将在48小时内联系您', U('Travel/travel_list'));
         }
-
-
     }
 
     public function travel_record()
