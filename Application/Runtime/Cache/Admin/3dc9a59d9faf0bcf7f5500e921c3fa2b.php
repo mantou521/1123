@@ -67,7 +67,7 @@
                         <td class="text-l"><?php if(($vo["reback"] == 1)): ?>已反馈<?php else: ?>未反馈<?php endif; ?></td>
                         <form name="form" method="post" action="/index.php/Admin/Travel/order_edit">
                             <input type="hidden" name="order_sn" value="<?php echo ($vo['order_sn']); ?>">
-                            <td class="td-manage"><i ><input class="Hui-iconfont" title="编辑" type="submit" name="member_edit" value="&#xe6df;"></i></td>
+                            <td class="td-manage"><i ><input class="Hui-iconfont" title="编辑" type="submit" name="member_edit" value="&#xe6df;"></i> <a style="text-decoration:none" class="ml-5" onClick="change_password('合作商业务提成','<?php echo U('Travel/commission',array('id'=>$vo['id']));?>','<?php echo ($vo['id']); ?>','600','270')" href="javascript:;" title="合作商业务提成"><i class="Hui-iconfont" style="font-size:16px;">&#xe6b7;</i></a><a style="text-decoration:none" class="ml-5" onClick="change_password('旅游销售提成','<?php echo U('Travel/sales_commissions',array('id'=>$vo['id']));?>','<?php echo ($vo['id']); ?>','600','270')" href="javascript:;" title="旅游销售提成"><i class="Hui-iconfont" style="font-size:16px;">&#xe6b7;</i></a></td>
                         </form>
                     </tr><?php endforeach; endif; ?>
                 </tbody>
@@ -231,6 +231,10 @@
             })
             layer.msg('已删除!',{icon:1,time:1000});
         });
+    }
+
+    function change_password(title,url,id,w,h){
+        layer_show(title,url,w,h);
     }
 </script>
 </body>

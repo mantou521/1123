@@ -37,6 +37,9 @@
         <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'datemin\')}',maxDate:'%y-%M-%d'})" id="datemax" class="input-text Wdate" style="width:120px;">
         <input type="text" class="input-text" style="width:250px" placeholder="输入会员名称、电话、邮箱" id="" name="">
         <button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+
+        <div  class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="{:U('Mem/export_excel')}"  class="btn btn-danger radius"><i class="Hui-iconfont">&#xe644;</i> 导出表格</a> </span>  </div>
+
     </div>
     <div style="display: none" class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r">共有数据：<strong>88</strong> 条</span> </div>
     <div class="mt-20">
@@ -183,6 +186,18 @@
         layer.confirm('确认要删除吗？',function(index){
             $(obj).parents("tr").remove();
             layer.msg('已删除!',{icon:1,time:1000});
+        });
+    }
+    /*导出表格*/
+    function export_excel(obj,id){
+        layer.confirm('确认要导出表格吗？',function(index){
+            $.ajax({
+                url:"{:U('Mem/export_excel')}",
+                type:'post',
+                data:{'islockid':id},
+                dataType:'json',
+            })
+            layer.msg('已导出表格!',{icon:1,time:1000});
         });
     }
 

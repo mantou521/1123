@@ -70,7 +70,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -104,20 +104,20 @@
         </li>
         <li onOff='0' class="cur main_left_li_dif main_left_li4">
             <span>报单</span>
-                <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
-                <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
-                <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
-                    <?php if(($us_menu["pay_type"] == 2 && $us_menu["pay_img"] == 0)): ?><li><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
-                        <?php elseif($us_menu["pay_status"] != 1): ?>
-                        <li><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li><?php endif; ?>
-                <?php if(($us_menu["pay_status"] == 1)): ?><li><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li><?php endif; ?>
-            </ol>
+                <ol>
+                    <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
+                    <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
+                    <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
+                    <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
+                </ol>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/edit.jpg) no-repeat 15px center;">
+        <li class="cur main_left_li5">
             <span><a href="<?php echo U('Home/Member/userset');?>">密码修改</a></span>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/personal_cur.png) no-repeat 15px center;">
-            <span><a href="<?php echo U('Home/Member/per_info');?>"  style="color:#006445;">个人信息</a></span>
+        <li class="cur main_left_li6">
+            <span><a href="<?php echo U('Home/Member/per_info');?>">个人信息</a></span>
         </li>
 
     </ul>
@@ -180,29 +180,9 @@
                     </div>
                     </form>
                 </div>
-                <div class="recommend">其它推荐</div>
+                <div class="recommend">uu册详情</div>
                 <div class="recommended">
-                    <dl>
-                        <dt><a href="uu_baodan_info.html"><img src="/Public/Home/images/1.jpg" alt=""></a></dt>
-                        <dd>
-                            <a href="uu_baodan_info.html"><上海迪士尼DISNEY-华东五市双飞6日游></a>
-                            <p class="uu_details"><a href="uu_baodan_info.html">禅意拈花湾，国际五星...</a><em class='price'>¥ 880</em></p>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt><a href="uu_baodan_info.html"><img src="/Public/Home/images/1.jpg" alt=""></a></dt>
-                        <dd>
-                            <a href="uu_baodan_info.html"><上海迪士尼DISNEY-华东五市双飞6日游></a>
-                            <p class="uu_details"><a href="uu_baodan_info.html">禅意拈花湾，国际五星...</a><em class='price'>¥ 880</em></p>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt><a href="uu_baodan_info.html"><img src="/Public/Home/images/1.jpg" alt=""></a></dt>
-                        <dd>
-                            <a href="uu_baodan_info.html"><上海迪士尼DISNEY-华东五市双飞6日游></a>
-                            <p class="uu_details"><a href="uu_baodan_info.html">禅意拈花湾，国际五星...</a><em class='price'>¥ 880</em></p>
-                        </dd>
-                    </dl>
+                    <?php echo ($good["goods_content"]); ?>
                 </div>
             </div>
         </div>

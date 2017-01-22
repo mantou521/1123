@@ -7,7 +7,7 @@
  */
 namespace Home\Controller;
 use Think\Controller;
-class PerformcController extends Controller {
+class PerformcController extends BaseController {
     public function uu_pc(){
         $index=R("Index","hello");
         $Data     = M('Data');// 实例化Data数据模型

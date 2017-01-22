@@ -512,7 +512,8 @@ border-top-left-radius: 10px;border-top-right-radius: 10px;}
     text-overflow:ellipsis;/*文字溢出的部分隐藏并用省略号代替*/
     white-space:nowrap;/*文本不自动换行*/}
 .recommend{width:94%;height:40px;line-height:38px;margin:30px auto 10px;font-size: 14px;color:#017350;background-color: #fff6f6;border:solid 1px #c1c1c1;padding-left: 15px;}
-.recommended{overflow: hidden;}
+.recommended{overflow: hidden;width:96%;margin:10px auto 30px;}
+.recommended img{display: block;width:100%;}
 .buy_right_con_top{overflow: hidden;}
 .buy_right_con_top_r p{width:370px;}
 .buy_right_con_top_r p.buy_right_price .uu_number{display: block;
@@ -786,9 +787,15 @@ border-top-left-radius: 10px;border-top-right-radius: 10px;}
     padding: 0 5px;
 }
 .bt_number{margin-left: 38px;width:210px;height:36px;line-height:34px;}
-.bt_box{height:290px;}
+.bt_box{height:320px;}
 
 /*12.15*/
 .hang_box{}
 .hang_box input{width:200px;}
 .hang_box em{margin: 0 20px 0 10px;}
+
+/*1.12*/
+.r_cont_cont{overflow:hidden;}
+.r_cont_cont span{float:left;}
+.r_span{display:inline-block;width:150px;}
+.r_span i{margin-left:10px;}

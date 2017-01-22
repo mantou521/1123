@@ -25,7 +25,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -126,6 +126,7 @@
     </div>
 </div>
 <!-- up_alert-->
+
 <div class="dialog wechat-share-dialog">
     <div class="dialog-overlay"></div>
     <div class="dialog-content kucun-content"  style="opacity: 1;">
@@ -133,7 +134,7 @@
             <span>转出类型</span>
             <img src="/Public/Home/images/dia_close.png" alt="" class="dialog-close"/>
         </div>
-        <form class="dia_cont" action="/index.php/Home/Uuce/uu_sell" method="post">
+        <form class="dia_cont" action="<?php echo U('Uuce/uu_sell');?>" method="post">
             <div class="dia_cont1 kc_cont">
                 <ul class="kc_radio">
                     <li>
@@ -149,7 +150,7 @@
                 </ul>
             </div>
             <input type="hidden" name="goods_id" value="<?php echo ($uuce["goods_id"]); ?>">
-            <input type="hidden" name="goods_sn" value="<?php echo ($uuce["goods_sn"]); ?>">
+            <input type="hidden" name="goods_sn" value="<?php echo ($uuce["usable_uuce"]); ?>">
             <div class="kc_type">
                 <input  type="submit" value="确认">
             </div>

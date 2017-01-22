@@ -1,5 +1,7 @@
 <?php
 return array(
+    'LOAD_EXT_FILE' =>'common',
+
     'LOAD_EXT_CONFIG'=>'db', // 加载数据库配置文件
 
     '__CSSS_PATH__'                     =>   __WEB_PATH__.'Statics/Home/Css/', // 增加新的css类库路径替换规则

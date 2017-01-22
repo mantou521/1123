@@ -27,7 +27,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -110,6 +110,8 @@
         Copyright@2013Enterprise information All Rights Reserved 京ICP备 01245785号
     </div>
 </div>
+<script type="text/javascript" src="/Public/Admin/js/layui/layui.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 
 </body>
 </html>

@@ -8,7 +8,7 @@
 
 namespace Home\Controller;
 use Think\Controller;
-class StoreController extends Controller{
+class StoreController extends BaseController{
 
     public function store_info(){
         $User=M('member');

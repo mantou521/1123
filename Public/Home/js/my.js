@@ -321,13 +321,18 @@ $(function(){
         $('.btz1').html(_z_num);
         $('.btz2').html(z_child);
     }
+    //上传复印件
+    $('.file_upload input').change(function(){
+        var src=$(this).val();
+        $(this).parents('p').find('.bt_span_r').val(src);
+    });
     z_ipt();
     //up_add();
     bt_remove();
     var x=1;
     $('.bt_add').click(function(){
         x++;
-        var html='<div class="bt_box"><img class="bt_remove" src="/Public/Home/images/bt_remove.png" alt=""/><p><span class="bt_span_l">姓名</span><input type="text" name="name[]" placeholder="" class="bt_span_r"/></p><p><span class="bt_span_l">性别</span><select class="bt_select" name="sex[]"><option value="">男</option><option value="">女</option><select></p><p><span class="bt_span_l">电话（选填）</span><input type="text" name="mobile[]" placeholder="" class="bt_span_r"/></p><p><span class="bt_span_l">身份证号</span><input type="text" name="usercard[]"  placeholder="" class="bt_span_r"/></p><p><span class="bt_span_l">身份证复印件</span><input type="text"  placeholder="" class="bt_span_r"/><span class="file_upload"><input name="pic[]" type="file" id="importFile" /><a href="javaScript:;">点击上传</a></span></p><p><input type="radio" value="" class="child"/>携带儿童<input type="number" name="c_num[]" value="0" class="bt_number" min="0"/><span class="biaozhun"><a href="javaScript:;">儿童标准</a><span class="bz"><span class="bz_div">儿童标准</span><span class="bz_p">身高0.8~1.2米（含），不占床，仅含当地旅游车位，半价套餐，导服，其他不含，儿童1.2~1.5米的，请自行选择儿童票高铁票升级方案。</span> </span></span></p></div>';
+        var html='<div class="bt_box"><img class="bt_remove" src="/Public/Home/images/bt_remove.png" alt=""/><p> <span class="bt_span_l">UU册编号</span> <input type="text" name="uu[]" placeholder="D0563" class="bt_span_r"/> </p><p><span class="bt_span_l">姓名</span><input type="text" name="name[]" placeholder="" class="bt_span_r"/></p><p><span class="bt_span_l">性别</span><select class="bt_select" name="sex[]"><option value="1">男</option><option value="0">女</option><select></p><p><span class="bt_span_l">电话（选填）</span><input type="text" name="mobile[]" placeholder="" class="bt_span_r"/></p><p><span class="bt_span_l">身份证号</span><input type="text" name="usercard[]"  placeholder="" class="bt_span_r"/></p><p><span class="bt_span_l">身份证复印件</span><input type="text"  placeholder="" class="bt_span_r"/><span class="file_upload"><input name="pic[]" type="file" id="importFile" /><a href="javaScript:;">点击上传</a></span></p><p><input type="radio" value="" class="child"/>携带儿童<input type="number" name="c_num[]" value="0" class="bt_number" min="0"/><span class="biaozhun"><a href="javaScript:;">儿童标准</a><span class="bz"><span class="bz_div">儿童标准</span><span class="bz_p">身高0.8~1.2米（含），不占床，仅含当地旅游车位，半价套餐，导服，其他不含，儿童1.2~1.5米的，请自行选择儿童票高铁票升级方案。</span> </span></span></p></div>';
         $('.bts').append(html);
         z_ipt();
         // up_add();

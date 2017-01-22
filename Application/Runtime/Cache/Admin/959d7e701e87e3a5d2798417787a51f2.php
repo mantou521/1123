@@ -7,22 +7,22 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <!--[if lt IE 9]>
-    <script type="text/javascript" src="/uufenxiao/Public/lib/html5.js"></script>
-    <script type="text/javascript" src="/uufenxiao/Public/lib/respond.min.js"></script>
-    <script type="text/javascript" src="/uufenxiao/Public/lib/PIE_IE678.js"></script>
+    <script type="text/javascript" src="/Public/lib/html5.js"></script>
+    <script type="text/javascript" src="/Public/lib/respond.min.js"></script>
+    <script type="text/javascript" src="/Public/lib/PIE_IE678.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="/uufenxiao/Public/static/h-ui/css/H-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="/uufenxiao/Public/static/h-ui.admin/css/H-ui.admin.css" />
-    <link rel="stylesheet" type="text/css" href="/uufenxiao/Public/lib/Hui-iconfont/1.0.7/iconfont.css" />
-    <link rel="stylesheet" type="text/css" href="/uufenxiao/Public/lib/icheck/icheck.css" />
-    <link rel="stylesheet" type="text/css" href="/uufenxiao/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
-    <link rel="stylesheet" type="text/css" href="/uufenxiao/Public/static/h-ui.admin/css/style.css" />
-    <link rel="stylesheet" href="/uufenxiao/Public/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/lib/Hui-iconfont/1.0.7/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/lib/icheck/icheck.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" href="/Public/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
     <!--[if IE 6]>
     <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
-    <link rel="stylesheet" href="/uufenxiao/Public/Home/css/style.css">
+    <link rel="stylesheet" href="/Public/Home/css/style.css">
 
     <title><?php echo ($title); ?></title>
 </head>
@@ -57,7 +57,7 @@
                         <td><input name="" type="checkbox" value=""></td>
                         <td><?php echo ($vo['id']); ?></td>
                         <td><?php echo ($vo['user_name']); ?></td>
-                        <td><a href="javaScript:;" class="per_lr2 per_a1"><img width="60" class="product-thumb" src="/uufenxiao/Public/Uploads/travel/<?php echo ($vo['card_thumb']); ?>"></a></td>
+                        <td><a href="javaScript:;" class="per_lr2 per_a1"><img width="60" class="product-thumb" src="/Public/Uploads/travel/<?php echo ($vo['card_thumb']); ?>"></a></td>
                         <td><?php if(($vo["sex"] == 1)): ?>男<?php else: ?>女<?php endif; ?></td>
                         <td><?php echo ($vo['mobile']); ?></td>
                         <td><?php echo ($vo['usercard']); ?></td>
@@ -71,17 +71,17 @@
 <div class="bg" style="display: none"></div>
 <div class="bg_img">
     <div class="bg_imgs">
-        <?php if(is_array($users)): foreach($users as $key=>$vo): ?><img src="/uufenxiao/Public/Uploads/travel/<?php echo ($vo["card_thumb"]); ?>" alt="" class="bg_img2"/><?php endforeach; endif; ?>
+        <?php if(is_array($users)): foreach($users as $key=>$vo): ?><img src="/Public/Uploads/travel/<?php echo ($vo["card_thumb"]); ?>" alt="" class="bg_img2"/><?php endforeach; endif; ?>
     </div>
-    <img src="/uufenxiao/Public/Home/images/list_a.png" alt="" class="bg_img_close"/>
+    <img src="/Public/Home/images/list_a.png" alt="" class="bg_img_close"/>
 </div>
-<script type="text/javascript" src="/uufenxiao/Public/lib/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="/uufenxiao/Public/lib/layer/2.1/layer.js"></script>
-<script type="text/javascript" src="/uufenxiao/Public/lib/My97DatePicker/WdatePicker.js"></script>
-<script type="text/javascript" src="/uufenxiao/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="/uufenxiao/Public/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
-<script type="text/javascript" src="/uufenxiao/Public/static/h-ui/js/H-ui.js"></script>
-<script type="text/javascript" src="/uufenxiao/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/Public/lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/Public/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script type="text/javascript">
     $('.bg').height($('body,html').height());
     var bg_img=($('body,html').width()-$('.bg_img .bg_img2').width())/2;
@@ -241,7 +241,7 @@
         layer.confirm('确认要删除吗？',function(index){
             $(obj).parents("tr").remove();
             $.ajax({
-                url:"/uufenxiao/index.php/Admin/Travel/product_delete",
+                url:"/index.php/Admin/Travel/product_delete",
                 type:'post',
                 data:{'id':id},
                 dataType:'json',

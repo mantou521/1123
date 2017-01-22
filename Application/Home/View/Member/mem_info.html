@@ -43,7 +43,7 @@
                             <div class="per_l">
                                 <div class="per_ll">一寸照片：</div>
                                 <div class="per_lr">
-                                    <img src="__PUBLIC__/Home/images/upload/{$user.img1}" alt=""/>
+                                    <img src="__PUBLIC__/Home/images/upload/{$user.img1}" width="120" alt=""/>
 
                                     <!--<img src="{$user.img1}" alt=""/>-->
                                 </div>
@@ -136,16 +136,27 @@
                                 </div>
                                 </if>-->
                                 <if condition="($uppor neq 0)">
-                                    <foreach name="uppor" item="vo" key="k" >
-                                    <div class="r_cont_p">
-                                        <div class="r_cont_img">
-                                            <img src="__PUBLIC__/Home/images/last.png" alt=""/>
+                                    <foreach name="uppor" item="vo" key="k">
+                                        <if condition="$vo.status eq 1">
+                                            <div class="r_cont_p">
+                                                <div class="r_cont_img">
+                                                    <img src="__PUBLIC__/Home/images/last.png" alt=""/>
+                                                </div>
+                                                <div class="r_cont_cont">
+                                                    <span>{$vo.datetime}</span>
+                                                    <span class="r_span">晋升为{$vo.lvname}</span>
+                                                </div>
+                                            </div>
+                                        </if>
+                                        <div class="r_cont_p">
+                                            <div class="r_cont_img">
+                                                <img src="__PUBLIC__/Home/images/last.png" alt=""/>
+                                            </div>
+                                            <div class="r_cont_cont">
+                                                <span>{$vo.wait_time}</span>
+                                                <span class="r_span">符合成为{$vo.lvname}的标准</span>
+                                            </div>
                                         </div>
-                                        <div class="r_cont_cont">
-                                            <span>{$vo.datetime}</span>
-                                            <span class="r_span">晋升为{$vo.lvname}</span>
-                                        </div>
-                                    </div>
                                     </foreach>
                                 </if>
                                 <div class="r_cont_p">

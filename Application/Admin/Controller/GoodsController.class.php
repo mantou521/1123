@@ -67,6 +67,7 @@ class GoodsController extends Controller {
         $data['sort']=I('sort');
         $data['goods_sn'] = implode(',',array_filter(explode(',',I('goods_sn'))));
         $_FILES["pic"]["tmp_name"] && $data['thumb']=upload_uuce($_FILES["pic"]["tmp_name"],1);
+        $data['thumb'];
         $Goods=M('goods');
         $Goods->where('goods_id='.I('goods_id'))->save($data);
         $this->success('修改成功',U('Admin/Goods/product_list'));

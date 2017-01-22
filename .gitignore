@@ -1,0 +1,7 @@
+/Application/Runtime
+/Public
+/Upload
+Homestead.yaml
+Homestead.json
+.env
+.idea

@@ -7,16 +7,16 @@
  */
 namespace Home\Controller;
 use Think\Controller;
-class UuceController extends Controller{
+class UuceController extends BaseController{
 
 
 /*列表*/
     public function uu_re(){
         $G=M('goods');
-        $count        = $G->where('goods_id>0 and goods_num>0')->count();
+        $count        = $G->where('goods_id>0 and goods_num>0 and goods_sn <> \'\' ')->count();
         $Page         =new \Think\Page($count,9);
         $show         =$Page->show();
-        $goods=$G->where('goods_id>0 and goods_num>0 and goods_sn>0')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $goods=$G->where('goods_id>0 and goods_num>0 and goods_sn  IS NOT NULL  ')->limit($Page->firstRow.','.$Page->listRows)->select();
         $yetotal=ceil($count/9);
         $this->assign('page',$show);
         $this->assign('yetotal',$yetotal);
@@ -124,7 +124,7 @@ class UuceController extends Controller{
         $Pay=A('Order');
         $Pay->order_pay($data['order_sn']);
     }
-/*uu库存*/
+    /*uu库存*/
     public function uu_kucun(){
         $Uukucun=    M('uukucun');
         $count        = $Uukucun->table('think_uukucun K')
@@ -150,7 +150,7 @@ class UuceController extends Controller{
         $this->assign('yetotal',$yetotal);
         $this->display();
     }
-/*uu册转让产品页*/
+    /*uu册转让产品页*/
     public function kucun_info(){
         $Uukucun=    M('uukucun');
         $list=$Uukucun->table('think_uukucun K')
@@ -158,7 +158,8 @@ class UuceController extends Controller{
             ->field('K.*,G.thumb,goods_name,goods_price')
             ->where('user_id='.session('id').' and K.goods_id='.I('goods_id'))
             ->find();
-        $list['num']=count(array_filter(explode(',',$list['goods_sn'])));
+        $list['num'] = count(array_filter(explode(',',$list['goods_sn'])));
+        $list['usable_uuce'] = usableUuce($list['goods_sn']);//筛选未使用uu册编号
         $this->assign('uuce',$list);
         //商品列表
         $goods=$Uukucun->table('think_uukucun K')
@@ -209,13 +210,18 @@ class UuceController extends Controller{
         $this->display();
 
     }
-/*转让提交*/
+
+    /*转让提交*/
     public function sell_post(){
         $data=null;
         $data=I();
         $data['user_id']=session('id');
         $sn=str_replace(';',',',$data['goods_sn']);
         $data['goods_sn'] = uuSntoSt($sn);
+        //判断uu册编号有无被使用
+        if (!(bool) usableUuce($sn)) {
+        	$this->error('uu册编号被使用');
+        };
         $data['goods_num'] = count(uuSntoArr($data['goods_sn']));
         $data['goods_price'] = I('goods_price') ? I('goods_price'):M('goods')->where('goods_id='.I('goods_id'))->getField('goods_price');
         $total = $data['goods_price'] * count(uuSntoArr($data['goods_sn']));

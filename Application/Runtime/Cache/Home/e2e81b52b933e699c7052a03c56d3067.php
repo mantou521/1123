@@ -26,7 +26,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -97,7 +97,7 @@
                                     <div class="per_l">
                                         <div class="per_ll">一寸照片：</div>
                                         <div class="per_lr">
-                                            <img src="/Public/Home/images/upload/<?php echo ($user["img1"]); ?>" alt=""/>
+                                            <img src="/Public/Home/images/upload/<?php echo ($user["img1"]); ?>" width="120" alt=""/>
                                         </div>
                                     </div>
                                     <div class="per_l">
@@ -123,9 +123,13 @@
                                         <div class="per_lr"><?php echo ($user["bankcard"]); ?></div>
                                         <a href="javaScript:;" class="per_lr2 per_a3">查看附件</a>
                                     </div>
-                                    <div class="per_l per_l2">
-                                        <div class="per_ll">教育程度：</div>
-                                        <div class="per_lr"><?php echo ($user["xueli"]); ?></div>
+                                    <div class="per_l">
+                                        <div class="per_ll">银行名称：</div>
+                                        <div class="per_lr"><?php echo ($user["bankname"]); ?></div>
+                                    </div>
+                                    <div class="per_l">
+                                        <div class="per_ll">合同编号：</div>
+                                        <div class="per_lr"><?php echo ($user["constract_no"]); ?></div>
                                     </div>
                                     <div class="per_l">
                                         <div class="per_ll">联系电话：</div>
@@ -167,13 +171,22 @@
                                 <div class="personal_r">
                                     <div class="r_top">晋升过程：</div>
                                     <div class="r_cont">
-                                        <?php if(($uppor != 0)): if(is_array($uppor)): foreach($uppor as $k=>$vo): ?><div class="r_cont_p">
+                                        <?php if(($uppor != 0)): if(is_array($uppor)): foreach($uppor as $k=>$vo): if($vo["status"] == 1): ?><div class="r_cont_p">
+                                                        <div class="r_cont_img">
+                                                            <img src="/Public/Home/images/last.png" alt=""/>
+                                                        </div>
+                                                        <div class="r_cont_cont">
+                                                            <span><?php echo ($vo["datetime"]); ?></span>
+                                                            <span class="r_span">晋升为<?php echo ($vo["lvname"]); ?></span>
+                                                        </div>
+                                                    </div><?php endif; ?>
+                                                <div class="r_cont_p">
                                                     <div class="r_cont_img">
                                                         <img src="/Public/Home/images/last.png" alt=""/>
                                                     </div>
                                                     <div class="r_cont_cont">
-                                                        <span><?php echo ($vo["datetime"]); ?></span>
-                                                        <span class="r_span">晋升为<?php echo ($vo["lvname"]); ?></span>
+                                                        <span><?php echo ($vo["wait_time"]); ?></span>
+                                                        <span class="r_span">符合成为<?php echo ($vo["lvname"]); ?>的标准</span>
                                                     </div>
                                                 </div><?php endforeach; endif; endif; ?>
                                         <div class="r_cont_p">
@@ -230,8 +243,7 @@
                                             </div>
                                             <div class="r_cont_cont">
                                                 <span><?php echo ($store["t"]); ?></span>
-                                                <span class="r_span">升级店铺</span>
-                                                <span class="r_span"><?php echo ($store["sname"]); ?></span>
+                                                <span class="r_span">升级店铺<i><?php echo ($store["sname"]); ?></i></span>
                                             </div>
                                         </div>
                                         <?php if(is_array($record)): foreach($record as $key=>$re): ?><div class="r_cont_p">
@@ -240,8 +252,7 @@
                                             </div>
                                             <div class="r_cont_cont">
                                                 <span><?php echo ($re["t"]); ?></span>
-                                                <span class="r_span">升级店铺</span>
-                                                <span class="r_span"><?php echo ($re["sname"]); ?></span>
+                                                <span class="r_span">升级店铺<i><?php echo ($re["sname"]); ?></i></span>
                                             </div>
                                         </div><?php endforeach; endif; ?>
 
@@ -289,6 +300,9 @@
     $('.r_cont:eq(0)').height(r_h*(r_n-1)+21+'px').css('overflow','hidden');
     var r_n_1=$('.r_cont:eq(1) .r_cont_p').length;
     $('.r_cont:eq(1)').height(r_h*(r_n_1-1)+21+'px').css('overflow','hidden');
+//    console.log(r_n);
+//    console.log(r_n_1);
+//    console.log(r_h*(r_n_1-1)+21);
     $('.bg').height($('body,html').height());
     var bg_img=($('body,html').width()-$('.bg_img .bg_img2').width())/2;
     $('.bg_img .bg_img2').css('left',bg_img+'px');

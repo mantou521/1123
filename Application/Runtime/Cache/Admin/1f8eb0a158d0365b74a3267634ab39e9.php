@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 <html>
 <head>
 <meta charset="utf-8">
@@ -61,18 +61,18 @@
                 <td><u style="cursor:pointer" class="text-primary" onclick="member_show('张三','member-show.html','10001','360','400')"><?php echo ($vo['username']); ?></u></td>
                 <td><?php if(($vo["sex"] == 1)): ?>男<?php else: ?>女<?php endif; ?></td>
                 <td><?php echo ($vo['usertel']); ?></td>
-                <td><?php echo ($vo['constract_no']); ?></td>
+                <td><?php echo ($vo['contract_no']); ?></td>
                 <td><?php echo ($vo['postcode']); ?></td>
                 <td><?php echo ($vo["nickname"]); echo ($vo["postcode"]); echo ($vo["e_ulevel"]); ?></td>
                 <td><?php echo ($vo['departnum']); ?></td>
-                <td><?php echo ($vo['reid']); ?></td>
+                <td><?php echo ($vo['regonghao']); ?></td>
                 <td><?php echo ($vo['rname']); ?></td>
                 <td class="text-l"><?php echo ($vo['useraddress']); ?></td>
                 <td><?php echo date("Y-m-d",$vo['rdt']); ?></td>
 <!--
                 <td class="td-status"><span class="label label-success radius">已启用</span></td>
 -->
-                <td class="td-manage"><a style="text-decoration:none" href="javascript:;" onClick="member_huanyuan(this,<?php echo ($vo['id']); ?>)" title="" class="label label-success radius">激活</a> <a title="删除" href="javascript:;" onclick="member_del(this,<?php echo ($vo['id']); ?>)" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                <td class="td-manage"><a   href="javascript:;" onClick="member_huanyuan(this,<?php echo ($vo['id']); ?>)" title="激活" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont"><font size="3">&#xe615;</font></i></a> <a title="删除" href="javascript:;" onclick="member_del(this,<?php echo ($vo['id']); ?>)" class="ml-5" style="text-decoration:none"><font size="3"><i class="Hui-iconfont" >&#xe6e2;</i></font> </a></a></td>
             </tr><?php endforeach; endif; ?>
 
 
@@ -80,13 +80,13 @@
 	</table>
 	</div>
 </div>
-<script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="/Public/lib/layer/2.1/layer.js"></script>
-<script type="text/javascript" src="/Public/lib/laypage/1.2/laypage.js"></script> 
-<script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script> 
-<script type="text/javascript" src="/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
-<script type="text/javascript" src="/Public/static/h-ui/js/H-ui.js"></script> 
-<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script> 
+<script type="text/javascript" src="/Public/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script type="text/javascript">
 $(function(){
 	$('.table-sort').dataTable({

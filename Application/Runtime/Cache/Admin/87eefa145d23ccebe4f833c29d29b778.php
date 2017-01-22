@@ -37,6 +37,9 @@
         <input type="text" onfocus="WdatePicker({minDate:'#F<?php echo ($dp["$D('datemin')"]); ?>',maxDate:'%y-%M-%d'})" id="datemax" class="input-text Wdate" style="width:120px;">
         <input type="text" class="input-text" style="width:250px" placeholder="输入会员名称、电话、邮箱" id="" name="">
         <button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+
+        <div  class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="<?php echo U('Mem/export_excel');?>"  class="btn btn-danger radius"><i class="Hui-iconfont">&#xe644;</i> 导出表格</a> </span>  </div>
+
     </div>
     <div style="display: none" class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加用户</a></span> <span class="r">共有数据：<strong>88</strong> 条</span> </div>
     <div class="mt-20">
@@ -69,13 +72,13 @@
                     <td><?php if(($vo["sex"] == 1)): ?>男<?php else: ?>女<?php endif; ?></td>
                     <td><?php echo ($vo['usertel']); ?></td>
                     <td><?php echo ($vo['postcode']); ?></td>
-                    <td><?php echo ($vo['constract_no']); ?></td>
+                    <td><?php echo ($vo['contract_no']); ?></td>
                     <td><?php echo ($vo["nickname"]); echo ($vo["postcode"]); echo ($vo["e_ulevel"]); ?></td>
                     <td><?php echo ($vo['departnum']); ?></td>
                     <td><?php echo ($vo['regonghao']); ?></td>
                     <td><?php echo ($vo['rename']); ?></td>
                     <!--<td><a href="javaScript:;" class="per_lr2 per_a1">查看正面</a></td>-->
-                    <td><div class="picbox"><a href="/Public/Home/images/upload/<?php echo ($vo["img2"]); ?>" data-lightbox="gallery" data-title="<?php echo ($vo['username']); ?>"><img src="/Public/Home/images/upload/<?php echo ($vo["img2"]); ?>" width="60" height="0" ></a></div></td>
+                    <td><div class="picbox"><a href="/Public/Home/images/upload/<?php echo ($vo["img1"]); ?>" data-lightbox="gallery" data-title="<?php echo ($vo['username']); ?>"><img src="/Public/Home/images/upload/<?php echo ($vo["img1"]); ?>" width="60"  ></a></div></td>
                     <td class="text-l"><?php echo ($vo['useraddress']); ?></td>
                     <td><?php echo date("Y-m-d",$vo['rdt']); ?></td>
                     <?php if(($vo["islock"] == 0)): ?><td class="td-status"><span class="label label-success radius">已启用</span></td>
@@ -92,12 +95,14 @@
     </div>
 </div>
 
+
+
+<script type="text/javascript" src="/Public/lib/lightbox2/2.8.1/js/lightbox-plus-jquery.min.js"></script>
 <script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="/Public/lib/layer/2.1/layer.js"></script>
 <script type="text/javascript" src="/Public/lib/laypage/1.2/laypage.js"></script>
 <script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script>
 <script type="text/javascript" src="/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="/Public/lib/lightbox2/2.8.1/js/lightbox-plus-jquery.min.js"></script>
 <script type="text/javascript" src="/Public/static/h-ui/js/H-ui.js"></script>
 <script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script type="text/javascript">
@@ -128,7 +133,7 @@
     /*用户-查看*/
     function member_show(title,url,id,w,h){
 
-        layer_show(title,url,w,h);
+//        layer_show(title,url,w,h);
     }
     /*用户-停用*/
     function member_stop(obj,id){
@@ -175,6 +180,18 @@
         layer.confirm('确认要删除吗？',function(index){
             $(obj).parents("tr").remove();
             layer.msg('已删除!',{icon:1,time:1000});
+        });
+    }
+    /*导出表格*/
+    function export_excel(obj,id){
+        layer.confirm('确认要导出表格吗？',function(index){
+            $.ajax({
+                url:"<?php echo U('Mem/export_excel');?>",
+                type:'post',
+                data:{'islockid':id},
+                dataType:'json',
+            })
+            layer.msg('已导出表格!',{icon:1,time:1000});
         });
     }
 

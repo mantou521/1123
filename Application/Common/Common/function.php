@@ -5,9 +5,21 @@
  * Date: 2016/8/26
  * Time: 10:32
  */
-//function test01(){
-//    return 123;
-//}
+
+/**
+ * 导出excel
+ * @param $strTable	表格内容
+ * @param $filename 文件名
+ */
+function downloadExcel($strTable,$filename)
+{
+    header("Content-type: application/vnd.ms-excel");
+    header("Content-Type: application/force-download");
+    header("Content-Disposition: attachment; filename=".$filename."_".date('Y-m-d').".xls");
+    header('Expires:0');
+    header('Pragma:public');
+    echo '<html><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'.$strTable.'</html>';
+}
 
 /*uuce编号更新*/
 function uuce_replace($sn,$tosn){
@@ -23,9 +35,60 @@ function checkgonghao($user_num){
         return false;
     }
 }
-/*检查uu册库存*/
-function checkkucun(){
+/**
+ * 检查用户uu册库存
+ * @param $uu
+ * @return bool
+ */
+function checkkucun($uu){
+    $goods_id = M('out_uu')->where( array( 'uuce' => $uu ))->getField('goods_id');
+    $Ku = M('uukucun');
+    $uuce = $Ku->where(array('user_id' => session('id'), 'goods_id' => $goods_id))->find();
 
+    $goods_sn = explode(',', $uuce['goods_sn']);
+    if (in_array($uu, $goods_sn)) :  return checkIfUser($uu);
+    else : return false;
+    endif;
+}
+
+function checkUuceUse($string_sn){
+    $arr = uuSntoArr($string_sn);
+    foreach ($arr as $value){
+        if (checkIfUser($value)) {
+            return false;
+        }
+    }
+}
+
+/**
+ * 检查uu册是否被使用
+ * @param $uu  单个uuce编号
+ * @return bool
+ */
+function checkIfUser($uu){
+    $Uu = M('out_uu');
+    $ex = $Uu->where(array( 'uuce' => $uu ))->getField('status');
+    if ($ex == 2) {
+    	return 0;
+    } else {
+        return true;
+    }
+}
+
+/**
+ * 返回未使用uu册编号
+ * @param $uu
+ * @return array
+ */
+function usableUuce($uu){
+    $uu = uuSntoArr($uu);
+    foreach ($uu as $value){
+       if (checkIfUser($value)) {
+       	    $arr[] = $value;
+       }
+    }
+    $str = implode(',',$arr);
+    return $str;
 }
 /*
  * 订单编号生成
@@ -86,7 +149,7 @@ function ajax_upload($path='file',$format='empty',$maxSize='52428800'){
 }
 function get_mid($NickName,$username){
     $Mem=M('member');
-    $user = $Mem->where(" username= '$username' or nickname= '$NickName' and ispay=1 ")->find();
+    $user = $Mem->where(" (username= '$username' or nickname= '$NickName') and ispay=1 ")->find();
     return $user['id'];
 }
 function get_mid_arr($NickName,$username){
@@ -108,23 +171,26 @@ function getUplevelbyId($id){
 
 }
 
-function getUplevelprobyId($id){
-    $Up=M('ulevelup');
+function getUplevelprobyId($id)
+{
+    $Up = M('ulevelup');
     $num = $Up->where(" userid= '$id'  ")->count();
-    $num-=1;
+    $num -= 1;
     $user = $Up->where(" userid= '$id'  ")->join('think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel')->order('think_ulevelup.uid desc')->select();
     if ($user) {
         foreach ($user as $key => $item) {
-                $arr['lvname']=$item['lvname'];
-                $arr['datetime'] = date("Y年m月d日",$item['datetime']);
-                $baar[]=$arr;
+            $item['lvname'] = $item['lvname'];
+            $item['datetime'] = date("Y年m月d日", $item['datetime']);
+            $item['wait_time'] = date("Y年m月d日", $item['wait_time']);
+            $baar[] = $item;
         }
         return $baar;
-    }else{
+    } else {
         return 0;
     }
 
 }
+
 //会员登录验证
 function checkLogin($NickName,$PassWord){
     $PassWord = md5($PassWord);
@@ -297,7 +363,7 @@ function reclevel($id,$ulevel){
     return $res;
 }
 /*
- *升级级别
+ *升级级别达标记录，不升级
  * */
 
 function updatelevel(){
@@ -327,11 +393,12 @@ function updatelevel(){
             $update['userid'] = $re['id'];
             $update['ulevel'] = $re['ulevel'];
             $update['tolevel'] = $touplevel;
-            $update['datetime'] = time();
+            $update['wait_time'] = time();
+            $update['status'] = 0;
             $Up = M('ulevelup');
             $Up->data($update)->add();
             $data = array('ulevel' => $touplevel, 'e_ulevel' => $upele);
-            $Mem->where('id=' . $re['id'] . '')->setField($data);
+//            $Mem->where('id=' . $re['id'] . '')->setField($data);
         }
     }
 }
@@ -372,7 +439,7 @@ function depart_down(){
  * */
 function departnum($repath){
     $Mem=M('member');
-    $res = $Mem->where('id in(0'.$repath.'0)  and ulevel>=3 and departnum>0 and ispay=1')->order('id desc')->limit(1)->find();
+    $res = $Mem->where('id in (0'.$repath.'0)  and ulevel>=3 and departnum>0 and ispay=1')->order('id desc')->limit(1)->find();
     return $res['departnum'];
 }
 
@@ -383,7 +450,7 @@ function update_pay_status($order_sn, $order_type)
     } else {
         $M = M('order');
     }
-    $M->where('order_sn=' . $order_sn)->setField('pay_status', 1);
+//    $M->where('order_sn=' . $order_sn)->setField('pay_status', 1);
     $result = $M->where('order_sn=' . $order_sn)->find();
     if ($result['type'] == 1 && !empty($result['act_id'])) {
         $Mon = new \Common\Lib\Mon();
@@ -391,7 +458,7 @@ function update_pay_status($order_sn, $order_type)
     } elseif ($result['type'] == 2) {
         M('store')->where('user_id=' . session('id'))->setField('pay_status', 1);
     } elseif ($result['type'] == 4) {
-        uu_trasfer($result['order_sn']);
+        uu_trasfer($result['order_sn'], $result['total']);
     } elseif ($result['type'] == 5) {
         store_act($order_sn);
     } elseif ($result['type'] == 6) {
@@ -409,14 +476,18 @@ function inner_order($order_sn,$user_id,$goods_id){
     $Uuce = new \Common\Lib\Uuce();
     $Uuce->uu_transfer($user_id, $toid, $goods_id, $uurecord['goods_sn'],1);
 }
-/*
- * 支付成功
- * 添加库存
-*/
-function uu_trasfer($order_sn){
+
+/**
+ * 支付成功,添加库存,销售提成
+ * @param $order_sn
+ * @param $total
+ */
+function uu_trasfer($order_sn, $total){
+    $Mon = new \Common\Lib\Mon();
+    $Mon->uuSaleBonus(session('id'), $total);
+    
     $Order=M('order');
     $Ku=M('uukucun');
-
     $goods=$Order->where('order_sn='.$order_sn)->find();
     $kucun['user_id']=session('id');
     $kucun['goods_id']=$goods['goods_id'];
@@ -480,14 +551,22 @@ function existUusn($a,$b){
     return $flag;
 }
 
-/*
+
+/**
  * 将数据库中uu册编号处理返回
- * */
+ * @param $sn
+ * @return array|ø
+ */
 function uuSntoArr($sn){
-    $a=array_filter(explode(',',$sn));
+    $a = array_filter(explode(',', $sn));
     return $a;
 }
 
+/**
+ * 处理uu册编号
+ * @param $sn   uu册编号
+ * @return string
+ */
 function uuSntoSt($sn){
     $a=array_filter(explode(',',$sn));
     $newa=implode(',',$a);

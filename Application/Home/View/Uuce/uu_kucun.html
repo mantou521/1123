@@ -36,8 +36,7 @@
                     <foreach name="list" item="item">
                     <div class="kucun_con_hx">
                         <div class="l kucun_con_l">
-                            <a href="{:U('Home/Uuce/kucun_info',array('goods_id'=>$item['goods_id']))}"><img src="__PUBLIC__/Uploads/uuce/{$item.thumb}" alt=""></a>
-                            <span class="kucun_span1">{$item.goods_name}</span>
+                            <a href="{:U('Home/Uuce/kucun_info',array('goods_id'=>$item['goods_id']))}"><img src="__PUBLIC__/Uploads/uuce/{$item.thumb}" alt=""><span class="kucun_span1">{$item.goods_name}</span></a>
                         </div>
                         <div class="r kucun_con_r">
                             <span  class="kucun_span2">库存：<em>{$item.num}</em></span>

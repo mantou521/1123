@@ -1,30 +1,37 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="renderer" content="webkit|ie-comp|ie-stand">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-<!--[if lt IE 9]>
-<script type="text/javascript" src="/Public/lib/html5.js"></script>
-<script type="text/javascript" src="/Public/lib/respond.min.js"></script>
-<script type="text/javascript" src="/Public/lib/PIE_IE678.js"></script>
-<![endif]-->
-<link rel="stylesheet" type="text/css" href="/Public/static/h-ui/css/H-ui.min.css" />
-<link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/H-ui.admin.css" />
-<link rel="stylesheet" type="text/css" href="/Public/lib/Hui-iconfont/1.0.7/iconfont.css" />
-<link rel="stylesheet" type="text/css" href="/Public/lib/icheck/icheck.css" />
-<link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
-<link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/style.css" />
-<link rel="stylesheet" href="/Public/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
-<!--[if IE 6]>
-<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
-<script>DD_belatedPNG.fix('*');</script>
-<![endif]-->
-<script src="/Public/js/wind.js"></script>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <LINK rel="Bookmark" href="/favicon.ico" >
+    <LINK rel="Shortcut Icon" href="/favicon.ico" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/Public/lib/html5.js"></script>
+    <script type="text/javascript" src="/Public/lib/respond.min.js"></script>
+    <script type="text/javascript" src="/Public/lib/PIE_IE678.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/lib/Hui-iconfont/1.0.7/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/lib/icheck/icheck.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/Public/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
 
-    <title>uu册列表</title>
+
+
+
+
+
+<link href="/Public/lib/lightbox2/2.8.1/css/lightbox.css" rel="stylesheet" type="text/css" >
+
+<title>uu册列表</title>
 </head>
 <body class="pos-r">
 <div style="margin-left:0px;">
@@ -57,8 +64,8 @@
                 <?php if(is_array($goods)): foreach($goods as $key=>$vo): ?><tr class="text-c va-m">
 						<td><input name="" type="checkbox" value=""></td>
 						<td><?php echo ($vo['goods_id']); ?></td>
-						<td><a onClick="product_show('<?php echo ($vo['goods_name']); ?>','product-show.html','<?php echo ($vo['goods_id']); ?>')" href="javascript:;"><img width="60" class="product-thumb" src="/Public/Uploads/uuce/<?php echo ($vo['thumb']); ?>"></a></td>
-						<td class="text-l"><a style="text-decoration:none" onClick="product_show('<?php echo ($vo['goods_name']); ?>','product-show.html','10001')" href="javascript:;"> <b class="text-success"></b> <?php echo ($vo['goods_name']); ?></a></td>
+                        <td><div class="picbox"><a href="/Public/Uploads/uuce/<?php echo ($vo['thumb']); ?>" data-lightbox="gallery" data-title="<?php echo ($vo['goods_name']); ?>"><img src="/Public/Uploads/uuce/<?php echo ($vo['thumb']); ?>" width="60"  ></a></div></td>
+                        <td class="text-l"><a style="text-decoration:none" onClick="product_show('<?php echo ($vo['goods_name']); ?>','product-show.html','10001')" href="javascript:;"> <b class="text-success"></b> <?php echo ($vo['goods_name']); ?></a></td>
 						<td class="text-l"><?php echo ($vo['goods_description']); ?></td>
 						<td><span class="price"><?php echo ($vo['goods_price']); ?></span></td>
 						<td><span class="price"><?php echo ($vo['goods_num']); ?></span></td>
@@ -73,15 +80,17 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script> 
-<script type="text/javascript" src="/Public/lib/layer/2.1/layer.js"></script>
-<script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script> 
-<script type="text/javascript" src="/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
-<script type="text/javascript" src="/Public/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script> 
-<script type="text/javascript" src="/Public/static/h-ui/js/H-ui.js"></script> 
-<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 
+<script type="text/javascript" src="/Public/lib/lightbox2/2.8.1/js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/Public/lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/Public/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script type="text/javascript">
+    layer_close();
 var setting = {
 	view: {
 		dblClickExpand: false,

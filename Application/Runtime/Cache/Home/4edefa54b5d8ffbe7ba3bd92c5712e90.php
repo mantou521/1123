@@ -56,7 +56,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -90,20 +90,20 @@
         </li>
         <li onOff='0' class="cur main_left_li_dif main_left_li4">
             <span>报单</span>
-                <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
-                <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
-                <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
-                    <?php if(($us_menu["pay_type"] == 2 && $us_menu["pay_img"] == 0)): ?><li><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
-                        <?php elseif($us_menu["pay_status"] != 1): ?>
-                        <li><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li><?php endif; ?>
-                <?php if(($us_menu["pay_status"] == 1)): ?><li><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li><?php endif; ?>
-            </ol>
+                <ol>
+                    <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
+                    <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
+                    <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
+                    <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
+                </ol>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/edit.jpg) no-repeat 15px center;">
+        <li class="cur main_left_li5">
             <span><a href="<?php echo U('Home/Member/userset');?>">密码修改</a></span>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/personal_cur.png) no-repeat 15px center;">
-            <span><a href="<?php echo U('Home/Member/per_info');?>"  style="color:#006445;">个人信息</a></span>
+        <li class="cur main_left_li6">
+            <span><a href="<?php echo U('Home/Member/per_info');?>">个人信息</a></span>
         </li>
 
     </ul>
@@ -114,7 +114,7 @@
                 <em></em>
                 <span>报单<a href="" class="yeji_span"> &gt; 旅游报单</a><a href="lvyou_baodan_info.html" class="yeji_span"> &gt; 详情</a><a href="lvyou_baodan_info2.html" class="yeji_span"> &gt; 报团</a></span>
             </div>
-            <form method="post" action="/index.php/Home/Travel/apply_post" class="product_right_con baodan_con" enctype="multipart/form-data">
+            <form method="post" action="<?php echo U('Travel/apply_post');?>" class="product_right_con baodan_con" enctype="multipart/form-data">
 
                 <h3 class="ruzhi_con_h3">&nbsp</h3>
                 <div class="main_right_con1">
@@ -151,11 +151,12 @@
                         <div class="bt_box">
                             <img class="bt_remove" src="/Public/Home/images/bt_remove.png" alt=""/>
                             <p>
+                                <span class="bt_span_l">UU册编号</span>
+                                <input type="text" name="uu[]" placeholder="D0563" class="bt_span_r"/>
+                            </p>
+                            <p>
                                 <span class="bt_span_l">姓名</span>
                                 <input type="text" name="name[]" placeholder="张卅" class="bt_span_r"/>
-                                <!--<span class="bt_span_l2">性别</span>-->
-                                <!--<input type="radio" name="xb0" value="1" class="xb"/>男-->
-                                <!--<input type="radio" name="xb0" value="2" class="xb"/>女-->
                             </p>
                             <p>
                                 <span class="bt_span_l">性别</span>
@@ -174,7 +175,7 @@
                             </p>
                             <p>
                                 <span class="bt_span_l">身份证复印件</span>
-                                <input type="text" placeholder="身份证复印件.jpg" class="bt_span_r"/>
+                                <input type="text" value="" class="bt_span_r"/>
                                 <span class="file_upload">
 										<input name="pic[]" type="file"/>
 										<a href="javaScript:;">点击上传</a>
@@ -183,11 +184,6 @@
                             <p>
                                 <input type="radio" value="" class="child" checked/>携带儿童
                                 <input type="number" name="c_num[]" value="1" class="bt_number" min="0" placeholder="0"/>
-                                <!--<span class="li_16 count">-->
-										<!--<span class="reduce">-</span>-->
-										<!--<input name="c_num[]" class="count-input" type="text" value="1"/>-->
-										<!--<span class="add">+</span>-->
-									<!--</span>-->
                                 <span class="biaozhun">
 										<a href="javaScript:;">儿童标准</a>
 										<span class="bz">
@@ -195,47 +191,6 @@
 											<span class="bz_p">身高0.8~1.2米（含），不占床，仅含当地旅游车位，半价套餐，导服，其他不含，儿童1.2~1.5米的，请自行选择儿童票高铁票升级方案。</span>
 										</span>
 									</span>
-                            </p>
-                        </div>
-                        <div class="bt_box">
-                            <img class="bt_remove" src="/Public/Home/images/bt_remove.png" alt=""/>
-                            <p>
-                                <span class="bt_span_l">姓名</span>
-                                <input type="text" name="name[]" placeholder="" class="bt_span_r"/>
-                            </p>
-                            <p>
-                                <span class="bt_span_l">性别</span>
-                                <select name="sex[]" class="bt_select">
-                                    <option value="1">男</option>
-                                    <option value="0">女</option>
-                                 </select>
-                            </p>
-                            <p>
-                                <span class="bt_span_l">电话（选填）</span>
-                                <input type="text" name="mobile[]" placeholder="" class="bt_span_r"/>
-                            </p>
-                            <p>
-                                <span class="bt_span_l">身份证号</span>
-                                <input type="text" name="usercard[]"  placeholder="" class="bt_span_r"/>
-                            </p>
-                            <p>
-                                <span class="bt_span_l">身份证复印件</span>
-                                <input type="text" placeholder="" class="bt_span_r"/>
-                                <span class="file_upload">
-										<input name="pic[]" id="img" type="file"/>
-										<a href="javaScript:;">点击上传</a>
-									</span>
-                            </p>
-                            <p>
-                                <input type="radio" value="" class="child"/>携带儿童
-                                <input type="number" name="c_num[]" value="0" class="bt_number" min="0" placeholder="0"/>
-                                <span class="biaozhun">
-										<a href="javaScript:;">儿童标准</a>
-										<span class="bz">
-											<span class="bz_div">儿童标准</span>
-											<span class="bz_p">身高0.8~1.2米（含），不占床，仅含当地旅游车位，半价套餐，导服，其他不含，儿童1.2~1.5米的，请自行选择儿童票高铁票升级方案。</span>
-										</span>
-                                </span>
                             </p>
                         </div>
                     </div>
@@ -260,25 +215,6 @@
 </div>
 <script type="text/javascript" src="/Public/Admin/js/layui/layui.js"></script>
 <script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
-<!-- up_alert-->
-<!--<div class="dialog wechat-share-dialog">
-    <div class="dialog-overlay"></div>
-    <div class="dialog-content tishi-content"  style="opacity: 1;">
-        <div class="dia_header">
-            <span>提示</span>
-            <img src="/Public/Home/images/dia_close.png" alt="" class="dialog-close"/>
-        </div>
-        <div class="dia_cont tishi_cont tishi_cont_pad">
-            <img src="/Public/Home/images/gouxuan.jpg" alt=""/>
-            <p>您已成功提交报团信息</p>
-            <p>工作人员将在48小时内联系您</p>
-            <div class="up_zhifu">
-                <a href="javaScript:;">确认</a>
-                <p>（到旅游业绩中查看报团进度）</p>
-            </div>
-        </div>
-    </div>
-</div>-->
 </body>
 </html>
 <script>

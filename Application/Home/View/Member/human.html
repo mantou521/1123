@@ -76,33 +76,33 @@
                 <div class="yeji_con_search sys_con_search">
                     <form  method="post" action="__URL__/human_serch">
 
-                    <div class="l yeji_con_search_l">
-                        <div class="yeji_con_search_time">
-                            <span>类型：</span>
-                            <!-- <span class="yeji_con_lx_span"><input class='yeji_input_radio' type="radio" name="team" id="">团队</span>
-                            <span><input class='yeji_input_radio' checked type="radio" name="team" id="">个人</span> -->
-                            <div class="button-holder">
-                                <input type="radio" value="0" id="radio-1-1" name="radio" class="regular-radio yeji_input_radio" checked="checked" /><label for="radio-1-1"></label>&nbsp 团队
-                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" id="radio-1-2" name="radio" value="1" class="regular-radio yeji_input_radio" /><label for="radio-1-2"></label>&nbsp 个人
+                        <div class="l yeji_con_search_l">
+                            <div class="yeji_con_search_time">
+                                <span>类型：</span>
+                                <!-- <span class="yeji_con_lx_span"><input class='yeji_input_radio' type="radio" name="team" id="">团队</span>
+                                <span><input class='yeji_input_radio' checked type="radio" name="team" id="">个人</span> -->
+                                <div class="button-holder">
+                                    <input type="radio" value="0" id="radio-1-1" name="radio" class="regular-radio yeji_input_radio" checked="checked" /><label for="radio-1-1"></label>&nbsp 团队
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" id="radio-1-2" name="radio" value="1" class="regular-radio yeji_input_radio" /><label for="radio-1-2"></label>&nbsp 个人
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="yeji2_form">
-                        <div>
-                            <label for="">姓名：</label>
-                            <input type="text" name="username"/>
+                        <div class="yeji2_form">
+                            <div>
+                                <label for="">姓名：</label>
+                                <input type="text" name="username"/>
+                            </div>
+                            <div>
+                                <label for="">人员代码：</label>
+                                <input type="text" name="nickname"/>
+                            </div>
+                            <div >
+                                <input class="r cur yeji_con_search_r" name="submit" type="submit" value="查询">
+                            </div>
                         </div>
-                        <div>
-                            <label for="">人员代码：</label>
-                            <input type="text" name="nickname"/>
-                        </div>
-                        <div >
-                            <input class="r cur yeji_con_search_r" name="submit" type="submit" value="查询">
-                        </div>
-                    </div>
                     </form>
 
-            </div>
+                </div>
 
             </div>
             <div class="c yeji_con_tiaojian">
@@ -133,7 +133,7 @@
                                 <td>{$vo.username}</td>
                                 <td>{$vo.lvname}</td>
                                 <td>{$vo.nickname}{$vo.postcode}{$vo.e_ulevel}</td>
-                                <td>{$vo.constract_no}</td>
+                                <td>{$vo.contract_no}</td>
                                 <td>{$vo.departnum}</td>
                                 <td>{$vo.rname}</td>
                                 <td><?php $par=getMemberbyID($vo['reid']); echo $par['nickname']; ?></td>
@@ -144,7 +144,7 @@
 
                     <div class="div_text_center yeji_page">
                         {$page}
-                        <div class="ye_together">每页10条，共<em>{$yetotal}</em>页</div>
+                        <div class="ye_together">每页10条，共<em>{$yetotal}</em>条</div>
                     </div>
                 </div>
             </div>

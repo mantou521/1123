@@ -1,20 +1,14 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
+
 class MemController extends BaseController {
     /*
      * 会员列表
     */
     public function member_list(){
-        $M= M('member');
-        $res=$M->where("id>0 and ispay=1")->join('think_ulevel ON think_ulevel.ulevel = think_member.ulevel')->order('id asc')->select();
-        foreach ($res as $key => $vo) {
-            $reid=$M->where('id='.$vo['reid'])->find();
-            $vo['regonghao']=$reid['nickname'];
-            $vo['rename']=$reid['username'];
-            $da[]=$vo;
-        }
-        $this->assign('res',$da);
+        $member_list = D('Member')->member_list();
+        $this->assign('res',$member_list);
         $this->display();
     }
     /*
@@ -23,7 +17,13 @@ class MemController extends BaseController {
     public function member_del(){
         $M=M('member');
         $res=$M->where("id>0 and ispay=0")->join('think_ulevel ON think_ulevel.ulevel = think_member.ulevel')->order('id asc')->select();
-        $this->assign('res',$res);
+        foreach ($res as $key => $vo) {
+            $reid=$M->where('id='.$vo['reid'])->find();
+            $vo['regonghao']=$reid['nickname'];
+            $vo['rename']=$reid['username'];
+            $da[]=$vo;
+        }
+        $this->assign('res',$da);
         $this->display();
     }
 
@@ -38,6 +38,7 @@ class MemController extends BaseController {
             $this->assign('res', $res);
             $this->display();
         } elseif ($_POST['submit_edit']) {
+            $data['sex'] = $_POST['sex'];
             $data['username'] = $_POST['username'];
             $data['usertel'] = $_POST['mobile'];
             $data['usercard'] = $_POST['usercard'];
@@ -62,6 +63,13 @@ class MemController extends BaseController {
         $id=$_POST['id'];
         $Mon=new \Common\Lib\Mon();
         $Mon->memact($id);
+    }
+
+    public function export_excel()
+    {
+        $member_list = D('Member')->member_list();
+        $Excel=new \Common\Lib\Excel();
+        $Excel->export_member($member_list);
     }
     /*
      * 锁定解锁会员

@@ -1,0 +1,2042 @@
+[ 2017-01-03T09:22:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined variable: tra D:\htdocs\uufx\Application\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `think_member` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: module D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-01-03T09:22:35+08:00 ] 127.0.0.1 /index.php?m=&&m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufx\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000862s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000904s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-01-03T09:27:42+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 and islock=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='000' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-01-03T09:27:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0079s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-01-03T09:27:48+08:00 ] 127.0.0.1 /index.php?m=Home&c=Uuce&a=uu_re
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` WHERE ( goods_id>0 and goods_num>0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 and goods_num>0  ) LIMIT 0,9   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0051s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-01-03T09:27:52+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0049s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-01-03T09:27:53+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0043s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-01-03T09:27:55+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0042s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-01-03T09:51:10+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0043s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-01-03T09:51:11+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0048s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-01-03T09:51:13+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0042s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-01-03T09:53:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `think_travel_user` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_travel_user` (`time`,`order_id`,`user_name`,`sex`,`mobile`,`usercard`,`c_num`,`card_thumb`) VALUES ('1483372800','2017010399975256','1','0','','321313','1','1701030953160.jpg') [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-01-03T09:54:03+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `think_travel_user` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_travel_user` (`time`,`order_id`,`user_name`,`sex`,`mobile`,`usercard`,`c_num`,`card_thumb`) VALUES ('1483372800','2017010398994856','1','0','','321313','1','1701030954030.jpg') [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_travel_user` (`time`,`order_id`,`user_name`,`sex`,`mobile`,`usercard`,`c_num`,`card_thumb`) VALUES ('1483372800','2017010398994856','2','0','4652132','123','0','1701030954031.jpg') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('7','1','2017010398994856','1483372800','1','0','0','2','2','1,2') [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-01-03T09:54:08+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0043s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-01-03T09:54:10+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_record
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_travel_order` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT T.tr_name,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id  WHERE ( user_id=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0059s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-01-03T09:54:15+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_feedback&order_sn=2016120110298571
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0042s ]
+SQL: SELECT T.tr_name,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id  WHERE ( user_id=1  and order_sn=2016120110298571 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_travel_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_travel_user` WHERE ( order_id=2016120110298571 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0048s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-01-03T09:54:35+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_feedback&order_sn=2017010398994856
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0042s ]
+SQL: SELECT T.tr_name,think_travel_order.*,FROM_UNIXTIME( `time`,'%Y-%m-%d ' ) AS t FROM `think_travel_order` INNER JOIN think_travel T on T.tr_id=think_travel_order.tr_id  WHERE ( user_id=1  and order_sn=2017010398994856 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_travel_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_travel_user` WHERE ( order_id=2017010398994856 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0044s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-03T09:56:42+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0042s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-01-03T09:56:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0056s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-01-03T09:56:56+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0041s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-01-03T09:58:14+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\htdocs\uufx\Application\Home\Controller\TravelController.class.php on line 60 and defined D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\htdocs\uufx\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2017-01-03T09:59:41+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0061s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-01-03T10:25:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0031s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-01-03T10:25:35+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-01-03T10:25:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0084s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-01-03T10:25:45+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-01-03T10:36:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-01-03T10:41:15+08:00 ] 127.0.0.1 /index.php?m=Home&c=Uuce&a=uu_kucun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM think_uukucun K INNER JOIN think_goods G on G.goods_id=K.goods_id  WHERE ( K.user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0027s ]
+SQL: SELECT K.*,G.thumb,`goods_name` FROM think_uukucun K INNER JOIN think_goods G on G.goods_id=K.goods_id  WHERE ( K.user_id=1 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-01-03T10:41:17+08:00 ] 127.0.0.1 /index.php?m=Home&c=Uuce&a=kucun_info&goods_id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0027s ]
+SQL: SELECT K.*,G.thumb,`goods_name`,`goods_price` FROM think_uukucun K INNER JOIN think_goods G on G.goods_id=K.goods_id  WHERE ( user_id=1 and K.goods_id=20 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0027s ]
+SQL: SELECT K.*,G.thumb,`goods_name` FROM think_uukucun K INNER JOIN think_goods G on G.goods_id=K.goods_id  WHERE ( K.user_id =1 and K.goods_id!=20 ) LIMIT 2   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data D:\htdocs\uufx\Application\Home\Controller\UuceController.class.php 第 174 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-01-03T10:59:34+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0041s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-01-03T10:59:40+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0041s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-01-03T11:00:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0044s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-01-03T11:00:49+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0049s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-01-03T11:00:51+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0046s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-01-03T11:00:52+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0042s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-01-03T11:01:03+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-01-03T11:01:59+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-01-03T11:04:38+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-01-03T11:35:49+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-01-03T11:35:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0030s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-01-03T11:35:51+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0033s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-01-03T11:36:13+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `think_travel_user` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_travel_user` (`time`,`order_id`,`uu`,`user_name`,`sex`,`mobile`,`usercard`,`c_num`,`card_thumb`) VALUES ('1484064000','2017010310099971','','123','1','4652132','222','0','1701031136130.jpg') [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: validate D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\htdocs\uufx\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_travel_order` (`tr_id`,`user_id`,`order_sn`,`time`,`type`,`pay_status`,`status`,`y_num`,`c_num`,`user`) VALUES ('7','1','2017010310099971','1484064000','1','0','0','1','1','123') [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-01-03T11:36:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-01-03T11:36:17+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-01-03T11:36:19+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0045s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-01-03T11:36:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-03T11:44:25+08:00 ] 127.0.0.1 /index.php?m=Home&c=Uuce&a=uu_kucun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM think_uukucun K INNER JOIN think_goods G on G.goods_id=K.goods_id  WHERE ( K.user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0030s ]
+SQL: SELECT K.*,G.thumb,`goods_name` FROM think_uukucun K INNER JOIN think_goods G on G.goods_id=K.goods_id  WHERE ( K.user_id=1 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2017-01-03T11:44:28+08:00 ] 127.0.0.1 /index.php?m=Home&c=Uuce&a=uu_re
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` WHERE ( goods_id>0 and goods_num>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 and goods_num>0  ) LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-01-03T14:46:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0058s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-01-03T14:46:43+08:00 ] 127.0.0.1 /index.php?m=Home&c=Uuce&a=uu_re
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_goods` WHERE ( goods_id>0 and goods_num>0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 and goods_num>0  ) LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0044s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-01-03T14:50:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0043s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-01-03T14:50:32+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0051s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-01-03T14:50:34+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0042s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-01-03T14:55:44+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0045s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-01-03T16:59:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: id D:\htdocs\uufx\Application\Runtime\Cache\Home\5cbebe63547dd503b96c8041775d8220.php 第 40 行.
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0045s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id= ) LIMIT 1  
+
+[ 2017-01-03T16:59:57+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufx\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-01-03T17:00:01+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '48423bc87389799ac425be92530cfb5b' and ispay=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-01-03T17:00:11+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '48423bc87389799ac425be92530cfb5b' and ispay=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-01-03T17:00:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: submit D:\htdocs\uufx\Application\Home\Controller\IndexController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-01-03T17:00:22+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_member` WHERE ( nickname= '000' AND password1= '96e79218965eb72c92a549dd5a330112' and ispay=1 and islock=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( nickname='000' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-01-03T17:00:23+08:00 ] 127.0.0.1 /index.php?m=Home&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `think_travel_order` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_travel_order` WHERE ( user_id=1 and reback=1 and pay_status=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_ulevelup` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_ulevelup` WHERE (  userid= '1'   ) ORDER BY uid desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_member` WHERE ( id='0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_ulevelup` WHERE (  userid= '1'   ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_ulevelup` INNER JOIN think_ulevel ON think_ulevelup.tolevel = think_ulevel.ulevel  WHERE (  userid= '1'   ) ORDER BY think_ulevelup.uid desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `think_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: lvname D:\htdocs\uufx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-01-03T17:00:27+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0031s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-01-03T17:00:28+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-01-03T17:00:30+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0028s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-01-03T17:09:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0027s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-01-03T17:09:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-01-03T17:09:51+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-01-03T17:09:52+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0034s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-01-03T17:10:39+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-01-03T17:33:31+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_travel`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0033s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-01-03T17:33:34+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_info&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0032s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-01-03T17:33:36+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0029s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-01-03T17:33:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0041s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-01-03T17:55:38+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0065s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-01-03T17:55:52+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0054s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-01-03T17:56:27+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0073s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'D451211' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001714s ]
+
+[ 2017-01-03T17:57:50+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0056s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-01-03T17:58:20+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0038s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-01-03T17:58:37+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0031s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-01-03T17:58:43+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=travel_apply&tr_id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `think_travel` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_travel` WHERE ( tr_id=7 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0036s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( M.id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-01-03T17:59:05+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0029s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `status` FROM `think_out_uu` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-01-03T17:59:33+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0033s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'JJ899' in 'where clause'
+ [ SQL语句 ] : SELECT `status` FROM `think_out_uu` WHERE ( uuce=JJ899 ) LIMIT 1  
+ERR: 1054:Unknown column 'JJ899' in 'where clause'
+ [ SQL语句 ] : SELECT `status` FROM `think_out_uu` WHERE ( uuce=JJ899 ) LIMIT 1  
+
+[ 2017-01-03T18:00:03+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0032s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `status` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-01-03T18:00:09+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0039s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-03T18:01:16+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0042s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `status` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-01-03T18:02:09+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0038s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-01-03T18:03:24+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0030s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-01-03T18:04:14+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0056s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-01-03T18:04:39+08:00 ] 127.0.0.1 /index.php?m=Home&c=Travel&a=apply_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `think_out_uu` [ RunTime:0.0030s ]
+SQL: SELECT `goods_id` FROM `think_out_uu` WHERE `uuce` = 'JJ899' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_uukucun` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_uukucun` WHERE `user_id` = 1 AND `goods_id` = 31 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+

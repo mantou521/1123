@@ -8,7 +8,13 @@ class BaseController extends Controller {
      * 初始化操作
      */
     public function _initialize() {
-
+        if (session('id')) {
+            $Mem = M('member');
+            $re = $Mem->find(session('id'));
+            $this->assign('re',$re);
+        } else{
+            $this->error("您还没有登录！",U("Home/Public/login"));
+        }
     }
 
     protected function ajaxError($msg='', $fields=array())

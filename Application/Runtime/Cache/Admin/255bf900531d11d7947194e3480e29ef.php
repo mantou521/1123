@@ -27,12 +27,10 @@
 <!--/meta 作为公共模版分离出去-->
 
 <title>修改信息</title>
-<meta name="keywords" content="H-ui.admin v2.3,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
-<meta name="description" content="H-ui.admin v2.3，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
 </head>
 <body>
 <article class="page-container">
-	<form action="/index.php/Admin/Mem/member_edit" method="post" class="form form-horizontal" id="form-member-add">
+	<form action="<?php echo U('Mem/member_edit');?>" method="post" class="form form-horizontal" id="form-member-add">
         <input type="hidden" name="userid" value="<?php echo ($res['id']); ?>">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>姓名：</label>
@@ -41,20 +39,16 @@
 			</div>
 		</div>
 
-		<div style="display: none"  class="row cl">
+		<div   class="row cl">
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>性别：</label>
 			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
 				<div class="radio-box">
-					<input name="sex" type="radio" id="sex-1" checked>
+					<input name="sex" value="1" type="radio" id="sex-1" <?php if($res["sex"] == 1): ?>checked<?php endif; ?> >
 					<label for="sex-1">男</label>
 				</div>
 				<div class="radio-box">
-					<input type="radio" id="sex-2" name="sex">
+					<input type="radio" id="sex-2" name="sex" value="0" <?php if($res["sex"] == 0): ?>checked<?php endif; ?>>
 					<label for="sex-2">女</label>
-				</div>
-				<div class="radio-box">
-					<input type="radio" id="sex-3" name="sex">
-					<label for="sex-3">保密</label>
 				</div>
 			</div>
 		</div>
@@ -82,6 +76,12 @@
             <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>银行卡号：</label>
             <div class="formControls col-xs-8 col-sm-9">
                 <input type="text" class="input-text" value="<?php echo ($res['bankcard']); ?>" placeholder="" id="bankcard" name="bankcard">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>合同编号：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="<?php echo ($res['contract_no']); ?>" placeholder="" id="contract_no" name="contract_no">
             </div>
         </div>
         <div class="row cl">

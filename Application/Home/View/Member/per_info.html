@@ -41,7 +41,7 @@
                                     <div class="per_l">
                                         <div class="per_ll">一寸照片：</div>
                                         <div class="per_lr">
-                                            <img src="__PUBLIC__/Home/images/upload/{$user.img1}" alt=""/>
+                                            <img src="__PUBLIC__/Home/images/upload/{$user.img1}" width="120" alt=""/>
                                         </div>
                                     </div>
                                     <div class="per_l">
@@ -116,14 +116,25 @@
                                     <div class="r_top">晋升过程：</div>
                                     <div class="r_cont">
                                         <if condition="($uppor neq 0)">
-                                            <foreach name="uppor" item="vo" key="k" >
+                                            <foreach name="uppor" item="vo" key="k">
+                                                <if condition="$vo.status eq 1">
+                                                    <div class="r_cont_p">
+                                                        <div class="r_cont_img">
+                                                            <img src="__PUBLIC__/Home/images/last.png" alt=""/>
+                                                        </div>
+                                                        <div class="r_cont_cont">
+                                                            <span>{$vo.datetime}</span>
+                                                            <span class="r_span">晋升为{$vo.lvname}</span>
+                                                        </div>
+                                                    </div>
+                                                </if>
                                                 <div class="r_cont_p">
                                                     <div class="r_cont_img">
                                                         <img src="__PUBLIC__/Home/images/last.png" alt=""/>
                                                     </div>
                                                     <div class="r_cont_cont">
-                                                        <span>{$vo.datetime}</span>
-                                                        <span class="r_span">晋升为{$vo.lvname}</span>
+                                                        <span>{$vo.wait_time}</span>
+                                                        <span class="r_span">符合成为{$vo.lvname}的标准</span>
                                                     </div>
                                                 </div>
                                             </foreach>
@@ -183,8 +194,7 @@
                                             </div>
                                             <div class="r_cont_cont">
                                                 <span>{$store.t}</span>
-                                                <span class="r_span">升级店铺</span>
-                                                <span class="r_span">{$store.sname}</span>
+                                                <span class="r_span">升级店铺<i>{$store.sname}</i></span>
                                             </div>
                                         </div>
                                         <foreach name="record" item="re">
@@ -194,8 +204,7 @@
                                             </div>
                                             <div class="r_cont_cont">
                                                 <span>{$re.t}</span>
-                                                <span class="r_span">升级店铺</span>
-                                                <span class="r_span">{$re.sname}</span>
+                                                <span class="r_span">升级店铺<i>{$re.sname}</i></span>
                                             </div>
                                         </div>
                                         </foreach>
@@ -245,6 +254,9 @@
     $('.r_cont:eq(0)').height(r_h*(r_n-1)+21+'px').css('overflow','hidden');
     var r_n_1=$('.r_cont:eq(1) .r_cont_p').length;
     $('.r_cont:eq(1)').height(r_h*(r_n_1-1)+21+'px').css('overflow','hidden');
+//    console.log(r_n);
+//    console.log(r_n_1);
+//    console.log(r_h*(r_n_1-1)+21);
     $('.bg').height($('body,html').height());
     var bg_img=($('body,html').width()-$('.bg_img .bg_img2').width())/2;
     $('.bg_img .bg_img2').css('left',bg_img+'px');

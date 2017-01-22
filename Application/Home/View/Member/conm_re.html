@@ -20,6 +20,7 @@
     <!--<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" type="text/css" />-->
     <link href="__PUBLIC__/Home/css/city-picker.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/list.css">
     <script src="__PUBLIC__/Home/js/jquery-1.8.1.min.js"></script>
     <script src="__PUBLIC__/Home/js/my.js"></script>
     <script src="__PUBLIC__/Home/js/login.js"></script>
@@ -30,9 +31,9 @@
             background: white;
         }
 
-        .reg_con_input {
-            margin-left: 10px;
-        }
+        /*.reg_con_input {*/
+            /*margin-left: 10px;*/
+        /*}*/
 
         .reg_con_input_all {
             padding-top: 10px;
@@ -82,8 +83,9 @@
             <div class="main_right_title main_right_title_blue">
                 <em></em>
                 <span>报单<a href="rztj_baodan.html" class="yeji_span"> &gt; 入职推荐报单</a></span>
+                <span class="phone_btn nav">导航</span>
             </div>
-            <form name="form1" method="post" action="__URL__/conm_re" enctype="multipart/form-data" class="main_right_con ruzhi_right_con rztj_baodan_con biaodan_hh uu_tijiao" style="min-height:2100px;">
+            <form name="form1" method="post" action="__URL__/conm_re" enctype="multipart/form-data" class="main_right_con ruzhi_right_con rztj_baodan_con biaodan_hh uu_tijiao">
                 <h3 class="ruzhi_con_h3">&nbsp</h3>
 
                 <div class="main_right_con1">
@@ -136,10 +138,14 @@
                     <div class="reg_con_input_all  reg_con_input_all one">
                         <div class="reg_con_input hang_box">
                             <label>开户行信息：</label>
-                            <input name="hang" placeholder="" id="hang" class="a1">
-                            <em>银行</em>
-                            <input name="hang2" placeholder="" id="hang2" class="a1">
-                            <em>支行</em>
+                            <i class="phone_hang phone_hang2">
+                                <input name="hang" placeholder="" id="hang" class="a1">
+                                <em>银行</em>
+                            </i>
+                            <i class="phone_hang">
+                                <input name="hang2" placeholder="" id="hang2" class="a1">
+                                <em>支行</em>
+                            </i>
                         </div>
                         <div class="reg_con_input one">
                             <label>银行卡帐号：</label>
@@ -148,6 +154,13 @@
                         <div class="reg_con_input one">
                             <label>合同编号：</label>
                             <input tip="合同编号" yz2='zhanghao' id="contract_no" type="text" name="contract_no" class="data_list a1" value="">
+                        </div>
+                        <div class="reg_con_input one">
+                            <label>申　　请：</label>
+                            <select name="user_level" id="user_level">
+                                <option value="1">代理人 ￥ 800</option>
+                                <option value="2">VIP代理人 ￥ 8800</option>
+                            </select>
                         </div>
                     </div>
                 </div>
@@ -182,7 +195,7 @@
                             <label>联系方式：</label>
                             <input tip="联系方式" yz2='phone2' type="text" name="phone" id="card" class="data_list a1" value="">
                         </div>
-                        <div class="reg_con_input one">
+                        <div class="reg_con_input one phone_addr2">
                             <div>
                                 <label class="dizhi">家庭住址：</label>
                                 <div class="form-group">
@@ -200,12 +213,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="cur">
+                <div class="cur zf_cur">
                     <!--<input type="button" value="" class="ruzhi_zhifu"/>-->
                     <input class="ruzhi_zhifu" type="submit" name="re_submit" id="send"  value="提交信息" >
                     <!--<a href="javaScript:;" class="ruzhi_zhifu" id="send">提交信息</a>-->
                 </div>
-                <div class="tishi">提示：支付功能稍后开通，暂请线下缴纳相关费用</div>
             </form>
         </div>
     </div>
@@ -247,7 +259,8 @@
                 img.width  =  rect.width;
                 img.height =  rect.height;
                 //                 img.style.marginLeft = rect.left+'px';
-                img.style.marginTop = rect.top+'px';
+//                img.style.marginTop = rect.top+'px';
+                img.style.marginTop = 0+'px';
             }
             var reader = new FileReader();
             reader.onload = function(evt){img.src = evt.target.result;}
@@ -263,7 +276,7 @@
             img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
             var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
             status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
-            div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+rect.top+"px;"+sFilter+src+"\"'></div>";
+            div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+0+"px;"+sFilter+src+"\"'></div>";
         }
     }
     function clacImgZoomParam( maxWidth, maxHeight, width, height ){
@@ -296,4 +309,7 @@
         laydate({elem: '#demo1'});//绑定元素
         laydate({elem: '#demo2'});//绑定元素
     }();
+</script>
+<script type="text/javascript">
+    $('.main_left ul li:eq(12) a').addClass('a_cur');
 </script>

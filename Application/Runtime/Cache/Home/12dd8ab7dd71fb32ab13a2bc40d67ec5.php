@@ -64,7 +64,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -99,20 +99,20 @@
         </li>
         <li onOff='0' class="cur main_left_li_dif main_left_li4">
             <span>报单</span>
-                <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
-                <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
-                <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
-                    <?php if(($us_menu["pay_type"] == 2 && $us_menu["pay_img"] == 0)): ?><li><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
-                        <?php elseif($us_menu["pay_status"] != 1): ?>
-                        <li><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li><?php endif; ?>
-                <?php if(($us_menu["pay_status"] == 1)): ?><li><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li><?php endif; ?>
-            </ol>
+                <ol>
+                    <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
+                    <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
+                    <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
+                    <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
+                </ol>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/edit.jpg) no-repeat 15px center;">
+        <li class="cur main_left_li5">
             <span><a href="<?php echo U('Home/Member/userset');?>">密码修改</a></span>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/personal_cur.png) no-repeat 15px center;">
-            <span><a href="<?php echo U('Home/Member/per_info');?>"  style="color:#006445;">个人信息</a></span>
+        <li class="cur main_left_li6">
+            <span><a href="<?php echo U('Home/Member/per_info');?>">个人信息</a></span>
         </li>
 
     </ul>
@@ -132,33 +132,33 @@
                 <div class="yeji_con_search sys_con_search">
                     <form  method="post" action="/index.php/Home/Member/human_serch">
 
-                    <div class="l yeji_con_search_l">
-                        <div class="yeji_con_search_time">
-                            <span>类型：</span>
-                            <!-- <span class="yeji_con_lx_span"><input class='yeji_input_radio' type="radio" name="team" id="">团队</span>
-                            <span><input class='yeji_input_radio' checked type="radio" name="team" id="">个人</span> -->
-                            <div class="button-holder">
-                                <input type="radio" value="0" id="radio-1-1" name="radio" class="regular-radio yeji_input_radio" checked="checked" /><label for="radio-1-1"></label>&nbsp 团队
-                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" id="radio-1-2" name="radio" value="1" class="regular-radio yeji_input_radio" /><label for="radio-1-2"></label>&nbsp 个人
+                        <div class="l yeji_con_search_l">
+                            <div class="yeji_con_search_time">
+                                <span>类型：</span>
+                                <!-- <span class="yeji_con_lx_span"><input class='yeji_input_radio' type="radio" name="team" id="">团队</span>
+                                <span><input class='yeji_input_radio' checked type="radio" name="team" id="">个人</span> -->
+                                <div class="button-holder">
+                                    <input type="radio" value="0" id="radio-1-1" name="radio" class="regular-radio yeji_input_radio" checked="checked" /><label for="radio-1-1"></label>&nbsp 团队
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" id="radio-1-2" name="radio" value="1" class="regular-radio yeji_input_radio" /><label for="radio-1-2"></label>&nbsp 个人
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="yeji2_form">
-                        <div>
-                            <label for="">姓名：</label>
-                            <input type="text" name="username"/>
+                        <div class="yeji2_form">
+                            <div>
+                                <label for="">姓名：</label>
+                                <input type="text" name="username"/>
+                            </div>
+                            <div>
+                                <label for="">人员代码：</label>
+                                <input type="text" name="nickname"/>
+                            </div>
+                            <div >
+                                <input class="r cur yeji_con_search_r" name="submit" type="submit" value="查询">
+                            </div>
                         </div>
-                        <div>
-                            <label for="">人员代码：</label>
-                            <input type="text" name="nickname"/>
-                        </div>
-                        <div >
-                            <input class="r cur yeji_con_search_r" name="submit" type="submit" value="查询">
-                        </div>
-                    </div>
                     </form>
 
-            </div>
+                </div>
 
             </div>
             <div class="c yeji_con_tiaojian">
@@ -198,7 +198,7 @@
 
                     <div class="div_text_center yeji_page">
                         <?php echo ($page); ?>
-                        <div class="ye_together">每页10条，共<em><?php echo ($yetotal); ?></em>页</div>
+                        <div class="ye_together">每页10条，共<em><?php echo ($yetotal); ?></em>条</div>
                     </div>
                 </div>
             </div>

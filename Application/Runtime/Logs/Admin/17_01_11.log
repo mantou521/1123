@@ -1,0 +1,133 @@
+[ 2017-01-11T10:58:02+08:00 ] 127.0.0.1 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-11T10:58:03+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: lo_submit D:\htdocs\uufx\Application\Admin\Controller\IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-01-11T10:58:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-01-11T10:58:05+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-01-11T10:58:05+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-01-11T10:58:07+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=member_del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( id>0 and ispay=0 ) ORDER BY id asc  [ RunTime:0.0109s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\1f8eb0a158d0365b74a3267634ab39e9.php 第 30 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\1f8eb0a158d0365b74a3267634ab39e9.php 第 30 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\1f8eb0a158d0365b74a3267634ab39e9.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\1f8eb0a158d0365b74a3267634ab39e9.php 第 32 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\htdocs\uufx\Application\Runtime\Cache\Admin\1f8eb0a158d0365b74a3267634ab39e9.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+

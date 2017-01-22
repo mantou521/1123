@@ -11,7 +11,7 @@
 namespace Think\Model;
 use Think\Model;
 /**
- * 高级模型扩展 
+ * 高级模型扩展
  */
 class AdvModel extends Model {
     protected $optimLock        =   'lock_version';
@@ -105,7 +105,7 @@ class AdvModel extends Model {
         // 检查乐观锁
         $pk     =   $this->getPK();
         if(isset($options['where'][$pk])){
-            $id     =   $options['where'][$pk];   
+            $id     =   $options['where'][$pk];
             if(!$this->checkLockVersion($id,$data)) {
                 return false;
             }
@@ -162,7 +162,7 @@ class AdvModel extends Model {
     /**
      * 检查乐观锁
      * @access protected
-     * @param inteter $id  当前主键     
+     * @param inteter $id  当前主键
      * @param array $data  当前数据
      * @return mixed
      */

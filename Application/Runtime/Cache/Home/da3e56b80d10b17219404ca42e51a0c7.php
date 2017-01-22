@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/Public/Home/css/style.css">
     <script src="/Public/Home/js/jquery-1.8.1.min.js"></script>
     <script src="/Public/Home/js/my.js"></script>
-    <script src="/Public/Home/js/login.js"></script>
+    <!--<script src="/Public/Home/js/login.js"></script>-->
     <script src="/Public/Home/js/validation.js"></script>
     <script src="/Public/Home/js/laydate/laydate.js"></script>
     <style>
@@ -81,7 +81,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -115,20 +115,20 @@
         </li>
         <li onOff='0' class="cur main_left_li_dif main_left_li4">
             <span>报单</span>
-                <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
-                <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
-                <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
-                    <?php if(($us_menu["pay_type"] == 2 && $us_menu["pay_img"] == 0)): ?><li><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
-                        <?php elseif($us_menu["pay_status"] != 1): ?>
-                        <li><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li><?php endif; ?>
-                <?php if(($us_menu["pay_status"] == 1)): ?><li><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li><?php endif; ?>
-            </ol>
+                <ol>
+                    <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
+                    <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
+                    <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
+                    <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
+                </ol>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/edit.jpg) no-repeat 15px center;">
+        <li class="cur main_left_li5">
             <span><a href="<?php echo U('Home/Member/userset');?>">密码修改</a></span>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/personal_cur.png) no-repeat 15px center;">
-            <span><a href="<?php echo U('Home/Member/per_info');?>"  style="color:#006445;">个人信息</a></span>
+        <li class="cur main_left_li6">
+            <span><a href="<?php echo U('Home/Member/per_info');?>">个人信息</a></span>
         </li>
 
     </ul>
@@ -205,6 +205,13 @@
                             <label>合同编号：</label>
                             <input tip="合同编号" yz2='zhanghao' id="contract_no" type="text" name="contract_no" class="data_list a1" value="">
                         </div>
+                        <div class="reg_con_input one">
+                            <label>申　　请：</label>
+                            <select name="user_level" id="user_level">
+                                <option value="1">代理人 ￥ 800</option>
+                                <option value="2">VIP代理人 ￥ 8800</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="c main_right_con1">
@@ -261,7 +268,6 @@
                     <input class="ruzhi_zhifu" type="submit" name="re_submit" id="send"  value="提交信息" >
                     <!--<a href="javaScript:;" class="ruzhi_zhifu" id="send">提交信息</a>-->
                 </div>
-                <div class="tishi">提示：支付功能稍后开通，暂请线下缴纳相关费用</div>
             </form>
         </div>
     </div>

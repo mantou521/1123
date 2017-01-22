@@ -26,7 +26,7 @@
         </div>
         <div class="r head_right">
             <span class="head_right_back"><em></em> <a href="<?php echo U('Home/Index/index');?>">返回首页</a></span>
-            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Index/login');?>">退出系统</a></span>
+            <span class="head_right_back head_right_out"><em></em> <a href="<?php echo U('Home/Public/login');?>">退出系统</a></span>
         </div>
     </div>
 </div>
@@ -60,20 +60,20 @@
         </li>
         <li onOff='0' class="cur main_left_li_dif main_left_li4">
             <span>报单</span>
-                <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
-                <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
-                <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
-                    <?php if(($us_menu["pay_type"] == 2 && $us_menu["pay_img"] == 0)): ?><li><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
-                        <?php elseif($us_menu["pay_status"] != 1): ?>
-                        <li><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li><?php endif; ?>
-                <?php if(($us_menu["pay_status"] == 1)): ?><li><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li><?php endif; ?>
-            </ol>
+                <ol>
+                    <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
+                    <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
+                    <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
+                    <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
+                </ol>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/edit.jpg) no-repeat 15px center;">
+        <li class="cur main_left_li5">
             <span><a href="<?php echo U('Home/Member/userset');?>">密码修改</a></span>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/personal_cur.png) no-repeat 15px center;">
-            <span><a href="<?php echo U('Home/Member/per_info');?>"  style="color:#006445;">个人信息</a></span>
+        <li class="cur main_left_li6">
+            <span><a href="<?php echo U('Home/Member/per_info');?>">个人信息</a></span>
         </li>
 
     </ul>
@@ -99,7 +99,7 @@
                             <div class="per_l">
                                 <div class="per_ll">一寸照片：</div>
                                 <div class="per_lr">
-                                    <img src="/Public/Home/images/upload/<?php echo ($user["img1"]); ?>" alt=""/>
+                                    <img src="/Public/Home/images/upload/<?php echo ($user["img1"]); ?>" width="120" alt=""/>
 
                                     <!--<img src="<?php echo ($user["img1"]); ?>" alt=""/>-->
                                 </div>
@@ -189,15 +189,24 @@
                                         <span class="r_span">晋升为<?php echo ($user["lvname"]); ?></span>
                                     </div>
                                 </div><?php endif; ?>-->
-                                <?php if(($uppor != 0)): if(is_array($uppor)): foreach($uppor as $k=>$vo): ?><div class="r_cont_p">
-                                        <div class="r_cont_img">
-                                            <img src="/Public/Home/images/last.png" alt=""/>
-                                        </div>
-                                        <div class="r_cont_cont">
-                                            <span><?php echo ($vo["datetime"]); ?></span>
-                                            <span class="r_span">晋升为<?php echo ($vo["lvname"]); ?></span>
-                                        </div>
-                                    </div><?php endforeach; endif; endif; ?>
+                                <?php if(($uppor != 0)): if(is_array($uppor)): foreach($uppor as $k=>$vo): if($vo["status"] == 1): ?><div class="r_cont_p">
+                                                <div class="r_cont_img">
+                                                    <img src="/Public/Home/images/last.png" alt=""/>
+                                                </div>
+                                                <div class="r_cont_cont">
+                                                    <span><?php echo ($vo["datetime"]); ?></span>
+                                                    <span class="r_span">晋升为<?php echo ($vo["lvname"]); ?></span>
+                                                </div>
+                                            </div><?php endif; ?>
+                                        <div class="r_cont_p">
+                                            <div class="r_cont_img">
+                                                <img src="/Public/Home/images/last.png" alt=""/>
+                                            </div>
+                                            <div class="r_cont_cont">
+                                                <span><?php echo ($vo["wait_time"]); ?></span>
+                                                <span class="r_span">符合成为<?php echo ($vo["lvname"]); ?>的标准</span>
+                                            </div>
+                                        </div><?php endforeach; endif; endif; ?>
                                 <div class="r_cont_p">
                                     <div class="r_cont_img">
                                         <img src="/Public/Home/images/last.png" alt=""/>

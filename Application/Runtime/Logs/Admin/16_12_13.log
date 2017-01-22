@@ -1,0 +1,514 @@
+[ 2016-12-13T17:22:28+08:00 ] 127.0.0.1 /index.php?m=admin&c=Travel&a=travel_feedback&order_sn=2016120198505399
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+ERR: 非法操作:travel_feedback
+
+[ 2016-12-13T17:22:42+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-12-13T17:22:43+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+NOTIC: [8] Undefined index: lo_submit D:\htdocs\uufx\Application\Admin\Controller\IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-12-13T17:22:46+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_admin_user` WHERE ( user_name= 'admin' AND password= '48423bc87389799ac425be92530cfb5b' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_admin_role ON think_admin_user.role_id=think_admin_role.role_id  WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-12-13T17:22:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-12-13T17:22:48+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Index&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2016-12-13T17:27:32+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=member_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `think_member` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `think_member` INNER JOIN think_ulevel ON think_ulevel.ulevel = think_member.ulevel  WHERE ( id>0 and ispay=1 ) ORDER BY id asc  [ RunTime:0.0083s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=33 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=38 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=47 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_member` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 35 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 35 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 37 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\87eefa145d23ccebe4f833c29d29b778.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-12-13T17:27:45+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-12-13T17:27:50+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 32 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-12-13T17:27:53+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=store
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0040s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( S.pay_status=0 ) ORDER BY S.id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-12-13T17:27:56+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Store&a=store_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `think_storeup_record` [ RunTime:0.0067s ]
+SQL: SELECT S.*,L.*,U.*,M.username,M.nickname FROM think_storeup_record U INNER JOIN think_member M on U.user_id=M.id INNER JOIN think_store S on M.id=S.user_id INNER JOIN think_store_level L on S.st_level=L.slevel  WHERE ( U.pay_status=0 )  [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: data D:\htdocs\uufx\Application\Admin\Controller\StoreController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 35 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 35 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 37 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-12-13T17:27:58+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=store
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0056s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( S.pay_status=0 ) ORDER BY S.id desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-12-13T17:27:59+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Store&a=store_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `think_storeup_record` [ RunTime:0.0057s ]
+SQL: SELECT S.*,L.*,U.*,M.username,M.nickname FROM think_storeup_record U INNER JOIN think_member M on U.user_id=M.id INNER JOIN think_store S on M.id=S.user_id INNER JOIN think_store_level L on S.st_level=L.slevel  WHERE ( U.pay_status=0 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\htdocs\uufx\Application\Admin\Controller\StoreController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 35 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 35 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 37 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-12-13T17:36:39+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=store_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0060s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( S.pay_status=1 ) ORDER BY S.id desc LIMIT 8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 30 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 30 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-12-13T17:41:15+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=store_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0042s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( S.pay_status=1 ) ORDER BY S.id desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 30 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 30 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-12-13T17:41:16+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=store
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0045s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( S.pay_status=0 ) ORDER BY S.id desc LIMIT 8   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-12-13T17:41:18+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Store&a=store_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `think_storeup_record` [ RunTime:0.0045s ]
+SQL: SELECT S.*,L.*,U.*,M.username,M.nickname FROM think_storeup_record U INNER JOIN think_member M on U.user_id=M.id INNER JOIN think_store S on M.id=S.user_id INNER JOIN think_store_level L on S.st_level=L.slevel  WHERE ( U.pay_status=0 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: data D:\htdocs\uufx\Application\Admin\Controller\StoreController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 35 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 35 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 37 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\5a36d5bfd8d3d5576e845a1f199dff49.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-12-13T17:41:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=store_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0086s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( S.pay_status=1 ) ORDER BY S.id desc LIMIT 8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 30 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 30 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 32 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\67bf20f53eca3924c86bba28a627cce7.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-12-13T17:41:19+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Mem&a=store
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `think_store` [ RunTime:0.0041s ]
+SQL: SELECT S.*,M.username,M.nickname FROM think_store S INNER JOIN think_member M on S.user_id=M.id  WHERE ( S.pay_status=0 ) ORDER BY S.id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 38 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\f1abe9c4698774117590cab6041a3456.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
