@@ -6,8 +6,8 @@ class OrderController extends BaseController {
     public function order_pay($order_sn,$type) {
 
         //测试
-        update_pay_status($order_sn,$type);
-        exit();
+//        update_pay_status($order_sn,$type);
+//        exit();
 
         if ($type=='travel' || I('type')=='travel') {
             $M=M('travel_order');
@@ -26,8 +26,5 @@ class OrderController extends BaseController {
         $this->assign('type',$type);
         $this->display('Order/order_pay');
     }
-
-
-
 
 }

@@ -1,13 +1,13 @@
 <include file="Common:nav"/>
 <link href="__PUBLIC__/lib/lightbox2/2.8.1/css/lightbox.css" rel="stylesheet" type="text/css" >
 
-<title>uu册列表</title>
+<title>平级育成和超越奖</title>
 </head>
 <body class="pos-r">
 <div style="margin-left:0px;">
-    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 奖金管理 <span class="c-gray en">&gt;</span> 会员升级 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 奖金管理 <span class="c-gray en">&gt;</span> 平级育成和超越奖 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
     <div class="page-container">
-        <div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="product_del('update')" class="btn btn-danger radius"><i class="Hui-iconfont"></i> 会员升级</a></span> </div>
+        <div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="product_del('update')" class="btn btn-danger radius"><i class="Hui-iconfont"></i> 发放</a></span> </div>
     </div>
 </div>
 
@@ -19,19 +19,15 @@
     layer_close();
     /*图片-删除*/
     function product_del(id){
-        layer.confirm('确认要升级吗？',function(index){
+        layer.confirm('确认要发放吗？',function(index){
 //            $(obj).parents("tr").remove();
             $.ajax({
-                url:"__URL__/mem_update",
+                url:"__URL__/pingjiChaoyue",
                 type:'post',
                 data:{'id':id},
                 dataType:'json',
                 success:function(data){
-//                    if (data.status == 'success') {
                         layer.msg('操作成功!',{icon:1,time:1000});
-//                    } else {
-//                        layer.msg('操作失败!',{icon:1,time:1000});
-//                    }
                 }
             })
         });

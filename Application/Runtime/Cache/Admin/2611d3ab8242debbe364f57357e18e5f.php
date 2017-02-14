@@ -24,6 +24,11 @@
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
 
+
+
+
+
+
 <link href="/Public/lib/lightbox2/2.8.1/css/lightbox.css" rel="stylesheet" type="text/css" >
 
 <title>uu册列表</title>
@@ -52,11 +57,11 @@
                 data:{'id':id},
                 dataType:'json',
                 success:function(data){
-                    if (data.status == 'success') {
+//                    if (data.status == 'success') {
                         layer.msg('操作成功!',{icon:1,time:1000});
-                    } else {
-                        layer.msg('操作失败!',{icon:1,time:1000});
-                    }
+//                    } else {
+//                        layer.msg('操作失败!',{icon:1,time:1000});
+//                    }
                 }
             })
         });

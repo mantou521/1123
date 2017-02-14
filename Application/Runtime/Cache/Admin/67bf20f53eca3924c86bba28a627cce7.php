@@ -24,7 +24,7 @@
 <title>开店报单</title>
 </head>
 <body>
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 用户中心 <span class="c-gray en">&gt;</span> 删除的用户<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 店铺 <span class="c-gray en">&gt;</span> 开店报单<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	<div class="text-c"> 日期范围：
 		<input type="text" onfocus="WdatePicker({maxDate:'#F<?php echo ($dp["$D('datemax')"]); ?>'})" id="datemin" class="input-text Wdate" style="width:120px;">
@@ -63,7 +63,7 @@
                 <td> <?php if(($vo["pay_type"] == 1)): ?>在线支付<?php else: ?> 线下支付<?php endif; ?></td>
                 <td> <?php if(($vo["pay_status"] == 1)): ?>已支付<?php else: ?> 未支付<?php endif; ?></td>
                 <td><?php echo date("Y-m-d",$vo['date']); ?></td>
-                <td class="td-manage"><i ><input class="Hui-iconfont" title="编辑" type="submit" name="member_edit" value="&#xe6df;"></i>   </td>
+                <td class="td-manage"><a style="text-decoration:none" class="Hui-iconfont"  href="<?php echo U('Admin/Store/store_edit', array('store_id' => $vo['id'], 'user_id' => $vo['user_id']));?>" title="修改"><i class="Hui-iconfont" style="font-size:16px;">&#xe6df;</i></a>
             </tr><?php endforeach; endif; ?>
 
 

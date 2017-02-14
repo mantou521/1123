@@ -6,6 +6,7 @@ class IndexController extends BaseController {
 
     public function index(){
 
+
         session('id') && $tra=M('travel_order')->where('user_id='.session('id').' and reback=1 and pay_status=0')->find();
         $this->assign('tra',$tra);
         //        $index=R("Index","hello");

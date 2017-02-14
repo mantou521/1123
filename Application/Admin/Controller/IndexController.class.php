@@ -6,8 +6,7 @@ class IndexController extends BaseController {
 
     public function index(){
 
-        $login=A("Index");
-        $login->pri_login();
+        $this->pri_login();
     }
     public function pri_login(){
         if (session('admin_id')) {

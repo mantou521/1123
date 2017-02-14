@@ -12,6 +12,7 @@ class UuceController extends BaseController{
 
 /*列表*/
     public function uu_re(){
+
         $G=M('goods');
         $count        = $G->where('goods_id>0 and goods_num>0 and goods_sn <> \'\' ')->count();
         $Page         =new \Think\Page($count,9);
@@ -108,6 +109,14 @@ class UuceController extends BaseController{
         $data=I();
         $data['address']=I('address').'/'.I('address1');
         //生成订单
+        if (I('gd')) {
+            $good = M('goods')->field('goods_num, goods_sn')->where('goods_id =' . I('gd'))->getField('goods_num');
+            $data['goods_num']=count(array_filter(explode(',', I('goods_sn'))));
+            if (($data['goods_num'] > $good['goods_num']) || existUusn($good['goods_sn'], I('goods_sn'))) {
+                $this->error('库存不足');
+            }
+        }
+
         $data['goods_id']=I('gd');
         $data['order_sn']=build_order_no();
         $data['goods_sn']=I('goods_sn');
@@ -116,8 +125,9 @@ class UuceController extends BaseController{
         $data['type']=4;
         M('order')->add($data);
         //减去相应数量uu册编号
-        $goods_sn=M('goods')->where('goods_id='.I('gd'))->getField('goods_sn');
-        $save['goods_sn']=orderdel($goods_sn,$data['goods_sn']);
+        $goods =M('goods')->where('goods_id='.I('gd'))->find();
+        $save['goods_sn']=orderdel($goods['goods_sn'],$data['goods_sn']);
+        $save['goods_num'] = count(array_filter(explode(',',$save['goods_sn'])));
         M('goods')->where('goods_id='.I('gd'))->save($save);
         //添加到库存,支付成功后
         $this->assign('total_amount',$data['total']);

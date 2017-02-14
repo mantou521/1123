@@ -94,9 +94,7 @@
         <li onOff='0' class="cur main_left_li_dif main_left_li2">
             <span>业绩</span>
             <ol>
-                <li><a href="<?php echo U('Home/Performc/uu_pc');?>">UU册业绩</a></li>
-                <li><a href="<?php echo U('Home/Performc/travel_pc');?>">旅游业绩</a></li>
-                <li><a href="<?php echo U('Home/Performc/recommend_pc');?>">入职推荐业绩</a></li>
+                <li><a href="<?php echo U('Home/Bonus/bill');?>">账单</a></li>
             </ol>
         </li>
         <li class="cur main_left_li3">
@@ -104,20 +102,22 @@
         </li>
         <li onOff='0' class="cur main_left_li_dif main_left_li4">
             <span>报单</span>
-                <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
-                <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
-                <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
-                    <?php if(($us_menu["pay_type"] == 2 && $us_menu["pay_img"] == 0)): ?><li><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
-                        <?php elseif($us_menu["pay_status"] != 1): ?>
-                        <li><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li><?php endif; ?>
-                <?php if(($us_menu["pay_status"] == 1)): ?><li><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li><?php endif; ?>
-            </ol>
+                <ol>
+                    <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
+                    <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
+                    <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <?php  if(isset($us_menu)) { ?>
+                    <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <?php } ?>
+                    <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
+                    <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
+                </ol>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/edit.jpg) no-repeat 15px center;">
+        <li class="cur main_left_li5">
             <span><a href="<?php echo U('Home/Member/userset');?>">密码修改</a></span>
         </li>
-        <li class="cur main_left_li5"  style="background: url(/Public/Home/images/personal_cur.png) no-repeat 15px center;">
-            <span><a href="<?php echo U('Home/Member/per_info');?>"  style="color:#006445;">个人信息</a></span>
+        <li class="cur main_left_li6">
+            <span><a href="<?php echo U('Home/Member/per_info');?>">个人信息</a></span>
         </li>
 
     </ul>
@@ -157,7 +157,7 @@
 								<span>货铺类型：</span>
 								<ul class="dia_puhuo">
 									<li>
-										<input type="radio" name="st_type" value="1"/>
+										<input type="radio" name="st_type" value="1" checked/>
 										<span><i></i></span>
 										100%铺货
 									</li>
@@ -185,7 +185,7 @@
 								<span>支付方式：</span>
 								<ul class="dia_radio">
 									<li>
-										<input type="radio" name="zhifu" value="1"/>
+										<input type="radio" name="zhifu" value="1" checked/>
 										<span><i></i></span>
 										在线支付
 									</li>

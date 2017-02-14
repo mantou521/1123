@@ -415,3 +415,329 @@ SQL: UPDATE `think_member` SET `b9`=b9+23 WHERE ( id =1 ) [ RunTime:0.0002s ]
 SQL: INSERT INTO `think_bonus_log` (`uid`,`nickname`,`source_id`,`source_nickname`,`lx`,`jine`,`date`,`notes`) VALUES ('1','000','119','118','9','23','1485052100','销售旅游管理奖') [ RunTime:0.0018s ]
 SQL: SELECT * FROM `think_member` WHERE ( b1>0 or b2>0 or b3>0 or b4>0 or b5>0 or b6>0 )  [ RunTime:0.0004s ]
 
+[ 2017-01-22T15:50:29+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-01-22T15:50:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=32 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: img D:\htdocs\uufx\Application\Runtime\Cache\Admin\2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-01-22T15:50:33+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Ueditor&a=index&action=config&&noCache=1485071433244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-01-22T15:50:41+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+NOTIC: [8] Undefined index: thumb D:\htdocs\uufx\Application\Admin\Controller\GoodsController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0069s ]
+SQL: UPDATE `think_goods` SET `goods_name`='代发三个地方大幅度123，。、',`goods_description`='asdf',`goods_keywords`='123',`goods_price`='1.00',`goods_content`='',`goods_num`='1',`is_on_sale`='0',`sort`='0',`goods_sn`='D532' WHERE ( goods_id=32 ) [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-01-22T15:50:42+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-01-22T15:51:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=32 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: img D:\htdocs\uufx\Application\Runtime\Cache\Admin\2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-01-22T15:51:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Ueditor&a=index&action=config&&noCache=1485071463959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-01-22T15:51:25+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-01-22T15:51:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=31 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: img D:\htdocs\uufx\Application\Runtime\Cache\Admin\2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-01-22T15:51:30+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Ueditor&a=index&action=config&&noCache=1485071490455
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-01-22T15:51:33+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: thumb D:\htdocs\uufx\Application\Admin\Controller\GoodsController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0086s ]
+SQL: UPDATE `think_goods` SET `goods_name`='代发三个地方大幅度123，。、',`goods_description`='',`goods_keywords`='1',`goods_price`='111.00',`goods_content`='',`goods_num`='0',`is_on_sale`='0',`sort`='0',`goods_sn`='' WHERE ( goods_id=31 ) [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-01-22T15:51:34+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2017-01-22T15:51:34+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-01-22T15:51:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/product_edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: img D:\htdocs\uufx\Application\Runtime\Cache\Admin\2244a57a4c30ff628d3b1a81dc0a3aff.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-01-22T15:51:42+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Ueditor&a=index&action=config&&noCache=1485071502745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-01-22T15:51:46+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Goods&a=product_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `think_goods` WHERE ( goods_id>0 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 41 行.
+NOTIC: [8] Undefined variable: D D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+NOTIC: [8] Undefined variable: dp D:\htdocs\uufx\Application\Runtime\Cache\Admin\b46525eb4e38372ca1f74409f5bd52aa.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+

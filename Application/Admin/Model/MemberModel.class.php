@@ -21,6 +21,7 @@ class MemberModel extends Model
         $res = $this->where("id>0 and ispay=1")->join('think_ulevel ON think_ulevel.ulevel = think_member.ulevel')->order('id asc')->select();
         foreach ($res as $key => $vo) {
             $vo['pdt'] = date('Y-m-d',$vo['rdt']);
+            $vo['rdt'] = date('Y-m-d',$vo['rdt']);
             $reid = $this->where('id=' . $vo['reid'])->find();
             $vo['regonghao'] = $reid['nickname'];
             $vo['rename'] = $reid['username'];

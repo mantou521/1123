@@ -89,7 +89,7 @@
         <li onOff='0' class="cur main_left_li_dif main_left_li2">
             <span>业绩</span>
             <ol>
-                <li><a href="<?php echo U('Home/Performc/uu_pc');?>">UU册业绩</a></li>
+                <li><a href="<?php echo U('Home/Bonus/bill');?>">UU册业绩</a></li>
                 <li><a href="<?php echo U('Home/Performc/travel_pc');?>">旅游业绩</a></li>
                 <li><a href="<?php echo U('Home/Performc/recommend_pc');?>">入职推荐业绩</a></li>
             </ol>

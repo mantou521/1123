@@ -78,7 +78,17 @@
             <dt><i class="Hui-iconfont">&#xe627;</i> 奖金管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li><a _href="<?php echo U('Admin/Bonus/mem_update');?>" data-title="会员列表" href="javascript:;">手动升级</a></li>
+                    <li><a _href="<?php echo U('Admin/Bonus/dacheng');?>" data-title="达成奖" href="javascript:;">达成奖和超额奖</a></li>
+                    <li><a _href="<?php echo U('Admin/Bonus/pingjiChaoyue');?>" data-title="平级育成和超越奖" href="javascript:;">平级育成和超越奖</a></li>
+                    <li><a _href="<?php echo U('Admin/Bonus/mem_update');?>" data-title="手动升级" href="javascript:;">手动升级和降级</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-finance">
+            <dt><i class="Hui-iconfont">&#xe627;</i> 财务<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a _href="<?php echo U('Admin/Bonus/bill');?>" data-title="奖金明细" href="javascript:;">奖金明细</a></li>
                 </ul>
             </dd>
         </dl>
@@ -98,11 +108,6 @@
                     <li><a _href="<?php echo U('Admin/Mem/store');?>" data-title="开店报单" href="javascript:;">开店报单</a></li>
                     <li><a _href="<?php echo U('Admin/Mem/store_list');?>" data-title="店铺" href="javascript:;">店铺</a></li>
                     <li><a _href="<?php echo U('Admin/Store/store_update');?>" data-title="店铺升级" href="javascript:;">店铺升级</a></li>
-                   <!-- <li><a _href="member-level.html" data-title="等级管理" href="javascript:;">等级管理</a></li>
-                    <li><a _href="member-scoreoperation.html" data-title="积分管理" href="javascript:;">积分管理</a></li>
-                    <li><a _href="member-record-browse.html" data-title="浏览记录" href="javascript:void(0)">浏览记录</a></li>
-                    <li><a _href="member-record-download.html" data-title="下载记录" href="javascript:void(0)">下载记录</a></li>
-                    <li><a _href="member-record-share.html" data-title="分享记录" href="javascript:void(0)">分享记录</a></li>-->
                 </ul>
             </dd>
         </dl>

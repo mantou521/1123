@@ -20,6 +20,7 @@
     <!--<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" type="text/css" />-->
     <link href="/Public/Home/css/city-picker.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/Public/Home/css/style.css">
+    <link rel="stylesheet" href="/Public/Home/css/list.css">
     <script src="/Public/Home/js/jquery-1.8.1.min.js"></script>
     <script src="/Public/Home/js/my.js"></script>
     <!--<script src="/Public/Home/js/login.js"></script>-->
@@ -30,9 +31,9 @@
             background: white;
         }
 
-        .reg_con_input {
-            margin-left: 10px;
-        }
+        /*.reg_con_input {*/
+            /*margin-left: 10px;*/
+        /*}*/
 
         .reg_con_input_all {
             padding-top: 10px;
@@ -105,9 +106,7 @@
         <li onOff='0' class="cur main_left_li_dif main_left_li2">
             <span>业绩</span>
             <ol>
-                <li><a href="<?php echo U('Home/Performc/uu_pc');?>">UU册业绩</a></li>
-                <li><a href="<?php echo U('Home/Performc/travel_pc');?>">旅游业绩</a></li>
-                <li><a href="<?php echo U('Home/Performc/recommend_pc');?>">入职推荐业绩</a></li>
+                <li><a href="<?php echo U('Home/Bonus/bill');?>">账单</a></li>
             </ol>
         </li>
         <li class="cur main_left_li3">
@@ -119,7 +118,9 @@
                     <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
                     <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
                     <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <?php  if(isset($us_menu)) { ?>
                     <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <?php } ?>
                     <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
                     <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
                 </ol>
@@ -138,8 +139,9 @@
             <div class="main_right_title main_right_title_blue">
                 <em></em>
                 <span>报单<a href="rztj_baodan.html" class="yeji_span"> &gt; 入职推荐报单</a></span>
+                <span class="phone_btn nav">导航</span>
             </div>
-            <form name="form1" method="post" action="/index.php/Home/Member/conm_re" enctype="multipart/form-data" class="main_right_con ruzhi_right_con rztj_baodan_con biaodan_hh uu_tijiao" style="min-height:2100px;">
+            <form name="form1" method="post" action="/index.php/Home/Member/conm_re" enctype="multipart/form-data" class="main_right_con ruzhi_right_con rztj_baodan_con biaodan_hh uu_tijiao">
                 <h3 class="ruzhi_con_h3">&nbsp</h3>
 
                 <div class="main_right_con1">
@@ -192,10 +194,14 @@
                     <div class="reg_con_input_all  reg_con_input_all one">
                         <div class="reg_con_input hang_box">
                             <label>开户行信息：</label>
-                            <input name="hang" placeholder="" id="hang" class="a1">
-                            <em>银行</em>
-                            <input name="hang2" placeholder="" id="hang2" class="a1">
-                            <em>支行</em>
+                            <i class="phone_hang phone_hang2">
+                                <input name="hang" placeholder="" id="hang" class="a1">
+                                <em>银行</em>
+                            </i>
+                            <i class="phone_hang">
+                                <input name="hang2" placeholder="" id="hang2" class="a1">
+                                <em>支行</em>
+                            </i>
                         </div>
                         <div class="reg_con_input one">
                             <label>银行卡帐号：</label>
@@ -245,7 +251,7 @@
                             <label>联系方式：</label>
                             <input tip="联系方式" yz2='phone2' type="text" name="phone" id="card" class="data_list a1" value="">
                         </div>
-                        <div class="reg_con_input one">
+                        <div class="reg_con_input one phone_addr2">
                             <div>
                                 <label class="dizhi">家庭住址：</label>
                                 <div class="form-group">
@@ -263,7 +269,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cur">
+                <div class="cur zf_cur">
                     <!--<input type="button" value="" class="ruzhi_zhifu"/>-->
                     <input class="ruzhi_zhifu" type="submit" name="re_submit" id="send"  value="提交信息" >
                     <!--<a href="javaScript:;" class="ruzhi_zhifu" id="send">提交信息</a>-->
@@ -309,7 +315,8 @@
                 img.width  =  rect.width;
                 img.height =  rect.height;
                 //                 img.style.marginLeft = rect.left+'px';
-                img.style.marginTop = rect.top+'px';
+//                img.style.marginTop = rect.top+'px';
+                img.style.marginTop = 0+'px';
             }
             var reader = new FileReader();
             reader.onload = function(evt){img.src = evt.target.result;}
@@ -325,7 +332,7 @@
             img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
             var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
             status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
-            div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+rect.top+"px;"+sFilter+src+"\"'></div>";
+            div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+0+"px;"+sFilter+src+"\"'></div>";
         }
     }
     function clacImgZoomParam( maxWidth, maxHeight, width, height ){
@@ -358,4 +365,7 @@
         laydate({elem: '#demo1'});//绑定元素
         laydate({elem: '#demo2'});//绑定元素
     }();
+</script>
+<script type="text/javascript">
+    $('.main_left ul li:eq(12) a').addClass('a_cur');
 </script>

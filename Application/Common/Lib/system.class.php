@@ -111,7 +111,7 @@ class System
         $user = M('member')->field('nickname,reid')->where('id =' . $id)->find();
         $reus_nickname = M('member')->where('id =' . $user['reid'])->getField('nickname');
         $b4 = $amount * 10 / 100;
-        if ($b4 > 0) {
+        if ($b4 > 0 && $reus_nickname) {
             $this->Member->where('id =' . $user['reid'])->setInc('b4', $b4);
             $beizhu = "游邮册推荐销售提成";
             $this->bonus_laiyuan($user['reid'], $reus_nickname, $id, $user['nickname'], 4, $b4, $beizhu);
@@ -130,8 +130,8 @@ class System
      */
     public function bonus5($repath, $rel, $ulvel, $source_id, $source_nickname, $reid, $amount)
     {
-        $list = $this->Member->where('id in (0' . $repath . '0) and ' . $rel . '-relevel<=' . $rel . ' and ulevel > ' . $ulvel . ' and ispay = 1')->order('id desc')->select();
-        $pas = $ulvel;
+        $list = $this->Member->where('(id in (0' . $repath . '0) or id = ' . $source_id . ') and ' . $rel . '-relevel<=' . $rel . ' and ulevel >=2 and ispay = 1')->order('id desc')->select();
+        $pas = 1;
         $sum = 0;
         foreach ($list as $value) {
             if ($value['ulevel'] > $pas) {
@@ -179,8 +179,8 @@ class System
      */
     public function bonus7($repath, $rel, $ulvel, $source_id, $source_nickname, $reid, $amount, $num)
     {
-        $list = $this->Member->where('id in (0' . $repath . '0) and ' . $rel . '-relevel<=' . $rel . ' and ulevel > ' . $ulvel . ' and ispay = 1')->order('id desc')->select();
-        $pas = $ulvel;
+        $list = $this->Member->where('(id in (0' . $repath . '0) or id = ' . $source_id . ') and ' . $rel . '-relevel<=' . $rel . ' and ulevel >=2 and ispay = 1')->order('id desc')->select();
+        $pas = 1;
         $sum = 0;
         foreach ($list as $value) {
             if ($value['ulevel'] > $pas) {
@@ -228,8 +228,8 @@ class System
      */
     public function bonus9($repath, $rel, $ulvel, $source_id, $source_nickname, $reid, $profit, $num)
     {
-        $list = $this->Member->where('id in (0' . $repath . '0) and ' . $rel . '-relevel<=' . $rel . ' and ulevel > ' . $ulvel . ' and ispay = 1')->order('id desc')->select();
-        $pas = $ulvel;
+        $list = $this->Member->where('(id in (0' . $repath . '0) or id = ' . $source_id . ') and ' . $rel . '-relevel<=' . $rel . ' and ulevel >=2 and ispay = 1')->order('id desc')->select();
+        $pas = 1;
         $sum = 0;
         foreach ($list as $value) {
             if ($value['ulevel'] > $pas) {
@@ -243,6 +243,201 @@ class System
                 }
                 $pas = $value['ulevel'];
                 $sum = $rate;
+            }
+        }
+    }
+
+    /**
+     * 个人达成奖
+     *
+     * 个人超额奖
+     */
+    public function bonus10()
+    {
+        $list = $this->Member->field('id, nickname, uu_num, travel_num, last_recount')->where('ispay = 1')->select();
+        if ($list) {
+            foreach ($list as $item) {
+                $total = $item['uu_num'] + $item['travel_num'] + $item['last_recount'];
+                if ($total >= 40) {
+                    $bonus = 1000;
+                    if ($bonus > 0) {
+                        $this->Member->where('id =' . $item['id'])->setInc('b12', $bonus);
+                        $note = "个人超额奖";
+                        $this->bonus_laiyuan($item['id'], $item['nickname'], $item['id'], $item['nickname'], 12, $bonus, $note);
+                    }
+                }
+                if ($total >= 20) {
+                    $bonus = 500;
+                    if ($bonus > 0) {
+                        $this->Member->where('id =' . $item['id'])->setInc('b10', $bonus);
+                        $note = "个人达成奖";
+                        $this->bonus_laiyuan($item['id'], $item['nickname'], $item['id'], $item['nickname'], 10, $bonus, $note);
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * 系统达成奖
+     *
+     * 系统超额奖
+     */
+    public function bonus11()
+    {
+        $list = $this->Member->field('id, ulevel, nickname, sys_uu, sys_travel, sys_recount')->where(' ulevel > 1 and ispay = 1')->order('id')->select();
+        if ($list) {
+            foreach ($list as $item) {
+                $num = $item['sys_uu'] + $item['sys_travel'] + $item['sys_recount'];
+
+                if ($num >= 200) {
+                    $ulevelList = M('ulevel')->field('ulevel, yl9, yl10, yl11')->where('ulevel > 1')->order('ulevel')->select();
+                    foreach ($ulevelList as $value) {
+                        if ($num >= $value['yl9'] && $item['ulevel'] >= $value['ulevel']) {
+                            $bonus = $value['yl10'];
+                            if ($bonus > 0) {
+                                $this->Member->where('id =' . $item['id'])->setInc('b13', $bonus);
+                                $note = "系统超额奖";
+                                $this->bonus_laiyuan($item['id'], $item['nickname'], $item['id'], $item['nickname'], 13, $bonus, $note);
+                            }
+                        }
+                    }
+                }
+
+                if ($num >= 100) {
+                    $ulevelList = M('ulevel')->field('ulevel, yl6, yl7, yl8')->where('ulevel > 1')->order('ulevel')->select();
+                    foreach ($ulevelList as $value) {
+                        if ($num >= $value['yl6'] && $item['ulevel'] >= $value['ulevel']) {
+                            $bonus = $value['yl7'];
+                            if ($bonus > 0) {
+                                $this->Member->where('id =' . $item['id'])->setInc('b11', $bonus);
+                                $note = "系统达成奖";
+                                $this->bonus_laiyuan($item['id'], $item['nickname'], $item['id'], $item['nickname'], 11, $bonus, $note);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //平级育成绩效奖(uu)
+    public function bonus14()
+    {
+        $uuList = M('order')->where('type = 4 and pay_status = 1 and is_use = 0  and  period_diff(date_format(now() , \'%Y%m\') , date_format(from_UNIXTIME(`pay_time`), \'%Y%m\')) =1')->order('pay_time')->select();
+        foreach ($uuList as $item) {
+            $user = $this->Member->field('repath, relevel, ulevel, id, nickname, reid')->where('ulevel >1 and id =' . $item['user_id'])->find();
+            if ($user) {
+                $userFather = $this->Member->field('ulevel, id, nickname')->where('id =' . $user['reid'])->find();
+                if ($userFather && $userFather['ulevel'] == $user['ulevel']) {
+                    $userList = $this->Member->where('id in (0' . $user['repath'] . '0) and ' . $user['relevel'] . '-relevel<= 3 and ulevel = ' . $user['ulevel'] . ' and ispay = 1')->order('id desc')->select();
+                    if ($userList) {
+                        $nowLevel = $user['ulevel'];
+                        foreach ($userList as $value) {
+                            if ($value['ulevel'] == $nowLevel) {
+                                $cha = $user['relevel'] - $value['relevel'];
+                                if ($cha == 3) {
+                                    $bonus = 5;
+                                } elseif ($cha == 2) {
+                                    $bonus = 10;
+                                } elseif ($cha == 1) {
+                                    $bonus = 15;
+                                }
+                                $bonus = $bonus * $item['goods_num'];
+                                if ($bonus > 0) {
+                                    $this->Member->where('id =' . $value['id'])->setInc('b14', $bonus);
+                                    $note = "A平级育成绩效奖";
+                                    $this->bonus_laiyuan($value['id'], $value['nickname'], $user['id'], $user['nickname'], 14, $bonus, $note);
+
+                                    M('order')->where('order_id =' . $item['order_id'])->setField('is_use', 1);
+                                }
+                                $nowLevel = $value['ulevel'];
+                            }
+                        }
+                    }
+                } elseif ($userFather && $userFather['ulevel'] < $user['ulevel']) {
+                    $bonus = 10 * $item['goods_num'];
+                    if ($bonus > 0) {
+                        $this->Member->where('id =' . $userFather['id'])->setInc('b16', $bonus);
+                        $note = "A超越育成绩效奖";
+                        $this->bonus_laiyuan($userFather['id'], $userFather['nickname'], $user['id'], $user['nickname'], 16, $bonus, $note);
+
+                        M('order')->where('order_id =' . $item['order_id'])->setField('is_use', 1);
+                    }
+                }
+            }
+        }
+    }
+
+    //平级B育成发展奖(uu)
+    public function bonus15()
+    {
+        $memberUp = M('ulevelup')->where('status = 1 and is_use = 0 and  period_diff(date_format(now() , \'%Y%m\') , date_format(from_UNIXTIME(`datetime`), \'%Y%m\')) =1')->select();
+        foreach ($memberUp as $item) {
+            $user = $this->Member->field('repath, relevel, ulevel, id, nickname, reid')->where('ulevel > 1 and id =' . $item['userid'])->find();
+            if ($user) {
+                $userFather = $this->Member->field('ulevel, id, nickname')->where('id =' . $user['reid'])->find();
+                if ($userFather && $userFather['ulevel'] == $user['ulevel']) {
+                    $userList = $this->Member->field('ulevel, relevel, id, nickname')->where('id in (0' . $user['repath'] . '0) and ' . $user['relevel'] . '-relevel<= 3 and ispay = 1')->order('id desc')->select();
+                    if ($userList) {
+                        $nowLevel = $user['ulevel'];
+
+                        foreach ($userList as $value) {
+                            if ($value['ulevel'] == $nowLevel) {
+
+                                $cha = $user['relevel'] - $value['relevel'];
+                                if ($cha == 3) {
+                                    $bonus = 5;
+                                } elseif ($cha == 2) {
+                                    $bonus = 10;
+                                } elseif ($cha == 1) {
+                                    $bonus = 15;
+                                }
+                                if ($bonus > 0) {
+                                    $this->Member->where('id =' . $value['id'])->setInc('b15', $bonus);
+                                    $note = "B平级育成发展奖";
+                                    $this->bonus_laiyuan($value['id'], $value['nickname'], $user['id'], $user['nickname'], 15, $bonus, $note);
+
+                                    M('ulevelup')->where('uid =' . $item['uid'])->setField('is_use', 1);
+                                }
+                                $nowLevel = $value['ulevel'];
+
+                            }
+                        }
+                    }
+                } elseif ($userFather && $userFather['ulevel'] < $user['ulevel']) {
+                    $bonus = 10;
+                    if ($bonus > 0) {
+                        $this->Member->where('id =' . $userFather['id'])->setInc('b17', $bonus);
+                        $note = "B超越育成发展奖";
+                        $this->bonus_laiyuan($userFather['id'], $userFather['nickname'], $user['id'], $user['nickname'], 17, $bonus, $note);
+
+                        M('ulevelup')->where('uid =' . $item['uid'])->setField('is_use', 1);
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * 封顶
+     * @param $id
+     * @param $num
+     * @param $overflow
+     * @param $bonus
+     * @return mixed
+     */
+    public function overflow($id, $num, $overflow, $bonus)
+    {
+        $sumBonus = M('bonus')->where('user_id =' . $id)->sum($num);
+        $mey = $overflow - $sumBonus;
+        if ($bonus <= $mey) {
+            if ($bonus > 0) {
+                return $bonus;
+            }
+        } elseif ($bonus > $mey) {
+            if ($mey >= 0) {
+                return $mey;
             }
         }
     }
@@ -287,7 +482,7 @@ class System
      */
     function b0bonus()
     {
-        $bonus = $this->Member->where('b1>0 or b2>0 or b3>0 or b4>0 or b5>0 or b6>0')->select();
+        $bonus = $this->Member->where('b1>0 or b2>0 or b3>0 or b4>0 or b5>0 or b6>0 or b7>0 or b8>0 or b9>0 or b10>0 or b11>0 or b12>0 or b13>0 or b14>0 or b15>0 or b16>0 or b17>0')->select();
         foreach ($bonus as $row) {
             $b1 = $row['b1'];
             $b2 = $row['b2'];
@@ -297,7 +492,17 @@ class System
             $b6 = $row['b6'];
             $b7 = $row['b7'];
             $b8 = $row['b8'];
-            $b0 = $b1 + $b2 + $b3 + $b4 + $b5 + $b6 + $b7 + $b8;
+            $b9 = $row['b9'];
+            $b10 = $row['b10'];
+            $b11 = $row['b11'];
+            $b12 = $row['b12'];
+            $b13 = $row['b13'];
+            $b14 = $row['b14'];
+            $b15 = $row['b15'];
+            $b16 = $row['b16'];
+            $b17 = $row['b17'];
+
+            $b0 = $b1 + $b2 + $b3 + $b4 + $b5 + $b6 + $b7 + $b8 + $b9 + $b10 + $b11 + $b12 + $b13 + $b14 + $b15 + $b16 + $b17;
 
             $member_update['b0'] = 0;
             $member_update['b1'] = 0;
@@ -308,6 +513,15 @@ class System
             $member_update['b6'] = 0;
             $member_update['b7'] = 0;
             $member_update['b8'] = 0;
+            $member_update['b9'] = 0;
+            $member_update['b10'] = 0;
+            $member_update['b11'] = 0;
+            $member_update['b12'] = 0;
+            $member_update['b13'] = 0;
+            $member_update['b14'] = 0;
+            $member_update['b15'] = 0;
+            $member_update['b16'] = 0;
+            $member_update['b17'] = 0;
             $member_update['mey'] = $row['mey'] + $b0;
             $member_update['maxmey'] = $row['maxmey'] + $b0;
             $this->Member->where('id =' . $row['id'])->save($member_update);
@@ -322,6 +536,15 @@ class System
             $bonus_update['b6'] = $b6;
             $bonus_update['b7'] = $b7;
             $bonus_update['b8'] = $b8;
+            $bonus_update['b9'] = $b9;
+            $bonus_update['b10'] = $b10;
+            $bonus_update['b11'] = $b11;
+            $bonus_update['b12'] = $b12;
+            $bonus_update['b13'] = $b13;
+            $bonus_update['b14'] = $b14;
+            $bonus_update['b15'] = $b15;
+            $bonus_update['b16'] = $b16;
+            $bonus_update['b17'] = $b17;
             $this->bonus_insert($bonus_update);
         }
 //        $_systemyeji->yejitongji(0, 0, 0, $lj, 0, 0, 0);

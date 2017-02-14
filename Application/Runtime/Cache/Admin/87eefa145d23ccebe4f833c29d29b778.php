@@ -59,7 +59,7 @@
                 <th width="100">推荐人姓名</th>
                 <th width="100">身份证</th>
                 <th width="150">地址</th>
-                <th width="130">加入时间</th>
+                <th width="130">激活时间</th>
                 <th width="70">状态</th>
                 <th width="100">操作</th>
             </tr>
@@ -80,7 +80,7 @@
                     <!--<td><a href="javaScript:;" class="per_lr2 per_a1">查看正面</a></td>-->
                     <td><div class="picbox"><a href="/Public/Home/images/upload/<?php echo ($vo["img1"]); ?>" data-lightbox="gallery" data-title="<?php echo ($vo['username']); ?>"><img src="/Public/Home/images/upload/<?php echo ($vo["img1"]); ?>" width="60"  ></a></div></td>
                     <td class="text-l"><?php echo ($vo['useraddress']); ?></td>
-                    <td><?php echo date("Y-m-d",$vo['rdt']); ?></td>
+                    <td><?php echo ($vo['pdt']); ?></td>
                     <?php if(($vo["islock"] == 0)): ?><td class="td-status"><span class="label label-success radius">已启用</span></td>
                         <?php else: ?>
                         <td class="td-status"><span class="label label-defaunt radius">已停用</span></td><?php endif; ?>

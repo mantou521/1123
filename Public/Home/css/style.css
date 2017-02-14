@@ -799,3 +799,16 @@ border-top-left-radius: 10px;border-top-right-radius: 10px;}
 .r_cont_cont span{float:left;}
 .r_span{display:inline-block;width:150px;}
 .r_span i{margin-left:10px;}
+
+/*1.25*/
+.yeji_con_tiaojian_query.prize{margin-top:30px;padding-left: 50px;}
+.yeji_con_tiaojian_query.prize span{font-size:16px;}
+.yeji_con_tiaojian_query.prize i{color:#C91521;;font-size:20px;}
+
+
+/*2.14*/
+.dia_radio li,.dia_puhuo li,.kc_radio li,.bt_ul li,.bm_radio li,.bm_all li{position:relative;}
+.dia_radio li input,.dia_puhuo li input,.kc_radio li input,.bt_ul li input,.bm_radio li input,.bm_all li input{cursor:pointer;z-index:1;position:absolute;top:0;left:0;width:100%;height:100%;display: block;opacity: 0;}
+
+
+

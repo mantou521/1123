@@ -89,9 +89,7 @@
         <li onOff='0' class="cur main_left_li_dif main_left_li2">
             <span>业绩</span>
             <ol>
-                <li><a href="<?php echo U('Home/Performc/uu_pc');?>">UU册业绩</a></li>
-                <li><a href="<?php echo U('Home/Performc/travel_pc');?>">旅游业绩</a></li>
-                <li><a href="<?php echo U('Home/Performc/recommend_pc');?>">入职推荐业绩</a></li>
+                <li><a href="<?php echo U('Home/Bonus/bill');?>">账单</a></li>
             </ol>
         </li>
         <li class="cur main_left_li3">
@@ -103,7 +101,9 @@
                     <li><a href="<?php echo U('Home/Uuce/uu_re');?>">UU册报单</a></li>
                     <li><a href="<?php echo U('Home/Travel/travel_list');?>">旅游报单</a></li>
                     <li><a href="<?php echo U('Home/Member/conm_re');?>">入职推荐报单</a></li>
+                    <?php  if(isset($us_menu)) { ?>
                     <li <?php if(($us_menu["pay_type"] == 1 || $us_menu["pay_img"] != 0)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/open_offline');?>">开店报单</a></li>
+                    <?php } ?>
                     <li <?php if($us_menu["pay_status"] == 1): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Member/store');?>">开店报单</a></li>
                     <li <?php if(($us_menu["pay_status"] != 1)): ?>style="display: none"<?php endif; ?> ><a href="<?php echo U('Home/Store/store_info');?>">店铺信息</a></li>
                 </ol>
@@ -188,7 +188,7 @@
                                 <td><?php echo ($vo["username"]); ?></td>
                                 <td><?php echo ($vo["lvname"]); ?></td>
                                 <td><?php echo ($vo["nickname"]); echo ($vo["postcode"]); echo ($vo["e_ulevel"]); ?></td>
-                                <td><?php echo ($vo["constract_no"]); ?></td>
+                                <td><?php echo ($vo["contract_no"]); ?></td>
                                 <td><?php echo ($vo["departnum"]); ?></td>
                                 <td><?php echo ($vo["rname"]); ?></td>
                                 <td><?php $par=getMemberbyID($vo['reid']); echo $par['nickname']; ?></td>

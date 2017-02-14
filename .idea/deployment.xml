@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="线上_分销">
+  <component name="PublishConfigData" serverName="线上_分销—test">
     <serverData>
-      <paths name="线上_分销">
+      <paths name="线上_分销—test">
         <serverdata>
           <mappings>
-            <mapping deploy="" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

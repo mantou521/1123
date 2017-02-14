@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e095f304-40f3-4676-acd2-df6819a7c66a" name="线上_分销" url="http://121.40.157.111">
-        <fileTransfer host="121.40.157.111" port="22" rootFolder="/data/wwwroot/uufx.yoyoce.com" accessType="SFTP" password="dfe2dfc8df9bdf98df99df9edf9fdf9c" username="root">
+      <webServer id="e095f304-40f3-4676-acd2-df6819a7c66a" name="线上_分销—test" url="http://121.40.157.111">
+        <fileTransfer host="121.40.157.111" port="22" rootFolder="/data/wwwroot/fenxiao.yoyoce.com" accessType="SFTP" password="dfe2dfe5dfe4dfeddfe8dfe5df9cdf9fdf98df98df92df93df9cdf9cdfc1dfcfdfc0dfc3" username="root">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

@@ -7,6 +7,73 @@
  */
 
 /**
+ * 更改会员级别
+ *
+ * @param $id
+ * @param $tolevel
+ */
+function exUserLevel($id,$tolevel)
+{
+    $data['ulevel'] = $tolevel;
+    $data['e_ulevel'] = M('ulevel')->where('ulevel =' . $tolevel)->getField('dan');
+    $result = M('member')->where('id=' . $id)->setField($data);
+}
+
+/**
+ * 遍历文件夹
+ * @param $dir
+ * @return array
+ */
+function my_scandir($dir){
+
+    // Open a known directory, and proceed to read its contents
+
+    $files=array();
+    if(is_dir($dir)){
+        if($handle=opendir($dir)){
+//            while (($file = $dir->read())!==false) {
+            while(($file=readdir($handle))!==false){
+                if($file!='.' && $file!=".."){
+                    if(is_dir($dir."/".$file)){
+                        $files[$file]=my_scandir($dir."/".$file);
+                    }else{
+                        $files[]=$dir."/".$file;
+                    }
+                }
+            }
+        }
+    }
+    foreach ($files as $va) {
+        if (strstr($va,'.')) {
+            $image = new \Think\Image();
+            $image->open($va);
+            $va = str_replace($dir.'/', '', $va);
+            $va = str_replace('.jpg', '', $va);
+//            echo $va;
+//            if (!file_exists($dir.'\thumb\\')) {
+//                mkdir($dir.'\thumb\\');
+//            }
+            // 按照原图的比例生成一个最大为150*150的缩略图并保存为thumb.jpg
+            $image->thumb(150, 150)->save($dir.'\thumb\\'.$va.'.jpg');
+        }
+    }
+    closedir($handle);
+
+    return $files;
+}
+
+function listDir($dir)
+{
+    $dir .= substr($dir, -1) == '/' ? '' : '/';
+    $dirInfo = array();
+    foreach (glob($dir . '*') as $v) {
+        $dirInfo[] = $v;
+        if (is_dir($v)) {
+            $dirInfo = array_merge($dirInfo, listDir($v));
+        }
+    }
+    return $dirInfo;
+}/**
  * 导出excel
  * @param $strTable	表格内容
  * @param $filename 文件名
@@ -289,6 +356,13 @@ function upload_pic($pic,$num){
     move_uploaded_file($pic,
         "Public/Home/images/upload/" . $filename);
     $data=$filename;
+//    if ($num == 1) {
+//        $image = new \Think\Image();
+//        $image->open('D:\htdocs\uufx\Public\Home\images\upload\\' . $filename);
+//        // 按照原图的比例生成一个最大为150*150的缩略图并保存为thumb.jpg
+//        $image->thumb(150, 150)->save('D:\htdocs\uufx\Public\Home\images\upload\thumb\\' . $filename);
+//    }
+
     return $data;
 }
 /*
@@ -354,6 +428,9 @@ function downcount($id){
     $res = $Mem->where("repath like '%\\,{$id}\\,%' and ispay=1 ")->count();
     return $res;
 }
+
+
+
 /*
  * 推荐同级别人数
  * */
@@ -450,17 +527,19 @@ function update_pay_status($order_sn, $order_type)
     } else {
         $M = M('order');
     }
-//    $M->where('order_sn=' . $order_sn)->setField('pay_status', 1);
+    $save['pay_time'] = time();
+    $save['pay_status'] = 1;
+    $M->where('order_sn=' . $order_sn)->save($save);
     $result = $M->where('order_sn=' . $order_sn)->find();
     if ($result['type'] == 1 && !empty($result['act_id'])) {
         $Mon = new \Common\Lib\Mon();
         $Mon->memact($result['act_id']);
     } elseif ($result['type'] == 2) {
-        M('store')->where('user_id=' . session('id'))->setField('pay_status', 1);
-    } elseif ($result['type'] == 4) {
+        store_act(session('id'));
+    }  elseif ($result['type'] == 4) {
         uu_trasfer($result['order_sn'], $result['total']);
     } elseif ($result['type'] == 5) {
-        store_act($order_sn);
+        store_up($order_sn);
     } elseif ($result['type'] == 6) {
         inner_order($order_sn,$result['user_id'],$result['goods_id']);
     }
@@ -478,29 +557,34 @@ function inner_order($order_sn,$user_id,$goods_id){
 }
 
 /**
+ * uu册报单
  * 支付成功,添加库存,销售提成
+ * 向上添加uu册个数
  * @param $order_sn
  * @param $total
  */
-function uu_trasfer($order_sn, $total){
+function uu_trasfer($order_sn, $total)
+{
+    $Order = M('order');
+    $Ku = M('uukucun');
+    $goods = $Order->where('order_sn=' . $order_sn)->find();
+
     $Mon = new \Common\Lib\Mon();
-    $Mon->uuSaleBonus(session('id'), $total);
-    
-    $Order=M('order');
-    $Ku=M('uukucun');
-    $goods=$Order->where('order_sn='.$order_sn)->find();
-    $kucun['user_id']=session('id');
-    $kucun['goods_id']=$goods['goods_id'];
-    $kucun['goods_sn']=$goods['goods_sn'];
-    $kucun['goods_num']=count(array_filter(explode(',',$goods['goods_sn'])));
-    $kucun['time']=time();
-    $kucun['type']=4;
-    $exit=$Ku->where(array('user_id'=>$kucun['user_id'],'goods_id'=>$kucun['goods_id']))->find();
+    $Mon->uuSaleBonus(session('id'), $total);   //销售提成
+
+//    $Mon->addArea(session('id'), $goods['goods_num'] , 0);   //向上添加uu册个数
+    $kucun['user_id'] = session('id');
+    $kucun['goods_id'] = $goods['goods_id'];
+    $kucun['goods_sn'] = $goods['goods_sn'];
+    $kucun['goods_num'] = count(array_filter(explode(',', $goods['goods_sn'])));
+    $kucun['time'] = time();
+//    $kucun['type']=4;
+    $exit = $Ku->where(array('user_id' => $kucun['user_id'], 'goods_id' => $kucun['goods_id']))->find();
     if ($exit) {
-        $kucun['goods_sn']=joinCoding($exit['goods_sn'],$kucun['goods_sn']);
-        $kucun['goods_num']+=$exit['goods_num'];
-        $Ku->where('id='.$exit['id'])->save($kucun);
-    }else{
+        $kucun['goods_sn'] = joinCoding($exit['goods_sn'], $kucun['goods_sn']);
+        $kucun['goods_num'] += $exit['goods_num'];
+        $Ku->where('id=' . $exit['id'])->save($kucun);
+    } else {
         $Ku->add($kucun);
     }
 }
@@ -596,12 +680,25 @@ function joinCoding($a,$b){
  * 店铺升级
  * order_sn
 */
-function store_act($order_sn)
+function store_up($order_sn)
 {
     $Re=M('storeup_record');
     $record=$Re->where('order_sn='.$order_sn)->find();
     $Re->where('order_sn='.$order_sn)->setField('pay_status','1');
     M('store')->where('user_id='.$record['user_id'])->setField('st_level',$record['tolevel']);
+}
+
+function store_act($user_id)
+{
+    $userStore = M('store')->where('user_id=' . $user_id)->find();
+    $save = [
+        'isbd' => 1,
+        'bdlevel' => $userStore['st_level']
+    ];
+
+    M('member')->where('id =' . $user_id)->save($save);
+    M('store')->where('user_id=' . $user_id)->setField('pay_status', 1);
+
 }
 
 

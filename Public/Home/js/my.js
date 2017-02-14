@@ -171,15 +171,15 @@ $(function(){
         $(this).find('span').addClass('cur');
         $('.dia_radio li').find('i').hide();
         $(this).find('i').show();
-        $('.dia_radio li').find('input').attr('checked','false');
-        $(this).find('input').attr('checked','true');
+        // $('.dia_radio li').find('input').attr('checked','false');
+        // $(this).find('input').attr('checked','true');
         //biaoji
         $(this).addClass('zhifu_cur').siblings().removeClass('zhifu_cur');
     });
     //支付默认选择
-    $('.dia_radio li').eq(1).find('span').addClass('cur');
-    $('.dia_radio li').eq(1).find('i').show();
-    $('.dia_radio li').eq(1).find('input').attr('checked','true');
+    $('.dia_radio li').eq(0).find('span').addClass('cur');
+    $('.dia_radio li').eq(0).find('i').show();
+    // $('.dia_radio li').eq(1).find('input').attr('checked','true');
     // //确认升级
     // $('.up_zhifu a').click(function(){
     //     if($('.dia_radio li:eq(0)').hasClass('zhifu_cur')){
@@ -194,28 +194,29 @@ $(function(){
         $(this).find('span').addClass('cur3');
         $('.zhifu1').find('i').hide();
         $(this).find('i').show();
-        $('.zhifu1').find('input').attr('checked','false');
-        $(this).find('input').attr('checked','true');
+        // $('.zhifu1').find('input').attr('checked','false');
+        // $(this).find('input').attr('checked','true');
     });
     //默认选择
     $('.zhifu1').eq(0).find('span').addClass('cur3');
     $('.zhifu1').eq(0).find('i').show();
-    $('.zhifu1').eq(0).find('input').attr('checked','true');
+    // $('.zhifu1').eq(0).find('input').attr('checked','true');
     //铺货选择
     $('.dia_puhuo li').click(function(){
         $('.dia_puhuo li').find('span').removeClass('cur');
         $(this).find('span').addClass('cur');
         $('.dia_puhuo li').find('i').hide();
         $(this).find('i').show();
-        $('.dia_puhuo li').find('input').attr('checked','false');
-        $(this).find('input').attr('checked','true');
+        // $('.dia_puhuo li').find('input').attr('checked','false');
+        // $(this).find('input').attr('checked','true');
         //biaoji
         $(this).addClass('zhifu_cur').siblings().removeClass('zhifu_cur');
+
     });
-    //铺货默认选择
-    $('.dia_puhuo li').eq(1).find('span').addClass('cur');
-    $('.dia_puhuo li').eq(1).find('i').show();
-    $('.dia_puhuo li').eq(1).find('input').attr('checked','true');
+    // //铺货默认选择
+    $('.dia_puhuo li').eq(0).find('span').addClass('cur');
+    $('.dia_puhuo li').eq(0).find('i').show();
+    // $('.dia_puhuo li').eq(1).find('input').attr('checked','true');
 
     //uu_baodan
     var uu_l=$('.uu_img_ul li').length;
@@ -261,15 +262,15 @@ $(function(){
         $(this).find('span').addClass('cur');
         $('.kc_radio li').find('i').hide();
         $(this).find('i').show();
-        $('.kc_radio li').find('input').attr('checked','false');
-        $(this).find('input').attr('checked','true');
+        // $('.kc_radio li').find('input').attr('checked','false');
+        // $(this).find('input').attr('checked','true');
         //biaoji
         $(this).addClass('kucun_cur').siblings().removeClass('kucun_cur');
     });
     //铺货默认选择
     $('.kc_radio li').eq(1).find('span').addClass('cur');
     $('.kc_radio li').eq(1).find('i').show();
-    $('.kc_radio li').eq(1).find('input').attr('checked','true');
+    // $('.kc_radio li').eq(1).find('input').attr('checked','true');
     $('.kc_type a').click(function(){
         if($('.kc_radio li:eq(0)').hasClass('kucun_cur')){
             window.location.href='type_inner.html';
@@ -280,14 +281,14 @@ $(function(){
     /*baotuan*/
     $('.bt_ul li').eq(0).find('span').addClass('cur');
     $('.bt_ul li').eq(0).find('i').show();
-    $('.bt_ul li').eq(0).find('input').attr('checked','true');
+    // $('.bt_ul li').eq(0).find('input').attr('checked','true');
     $('.bt_ul li').click(function(){
         $('.bt_ul li').find('span').removeClass('cur');
         $(this).find('span').addClass('cur');
         $('.bt_ul li').find('i').hide();
         $(this).find('i').show();
-        $('.bt_ul li').find('input').attr('checked','false');
-        $(this).find('input').attr('checked','true');
+        // $('.bt_ul li').find('input').attr('checked','false');
+        // $(this).find('input').attr('checked','true');
     });
 
     $('.biaozhun a').hover(function(){
