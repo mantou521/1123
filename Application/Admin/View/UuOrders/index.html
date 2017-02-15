@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
@@ -7,26 +7,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <!--[if lt IE 9]>
-    <script type="text/javascript" src="/Public/lib/html5.js"></script>
-    <script type="text/javascript" src="/Public/lib/respond.min.js"></script>
-    <script type="text/javascript" src="/Public/lib/PIE_IE678.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/lib/html5.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/lib/respond.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/lib/PIE_IE678.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui/css/H-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/H-ui.admin.css" />
-    <link rel="stylesheet" type="text/css" href="/Public/lib/Hui-iconfont/1.0.7/iconfont.css" />
-    <link rel="stylesheet" type="text/css" href="/Public/lib/icheck/icheck.css" />
-    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
-    <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/style.css" />
-    <link rel="stylesheet" href="/Public/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/lib/Hui-iconfont/1.0.7/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/lib/icheck/icheck.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" href="__PUBLIC__/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
     <!--[if IE 6]>
     <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
-    <title><?php echo ($title); ?></title>
+    <title>{$title}</title>
 </head>
 <body class="pos-r">
 <div style="margin-left:0px;">
-    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 订单管理 <span class="c-gray en">&gt;</span> <?php echo ($title); ?> <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 订单管理 <span class="c-gray en">&gt;</span> {$title} <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
     <div class="page-container">
 
         <div class="mt-20">
@@ -34,47 +34,52 @@
                 <thead>
                 <tr class="text-c">
                     <th width="40"><input name="" type="checkbox" value=""></th>
-                    <th width="40">ID</th>
-                    <th width="60">缩略图</th>
                     <th width="60">订单号</th>
-                    <th width="250">名称</th>
-                    <th width="50">出发日期</th>
-                    <th width="100">人数</th>
-                    <th width="100">交通方式</th>
+                    <th width="60">工号</th>
+                    <th width="250">uu册名称</th>
+                    <th width="250">uu册编号</th>
+                    <th width="100">数量</th>
+                    <th width="100">总价</th>
+                    <th width="100">收件人</th>
+                    <th width="100">地址</th>
+                    <th width="100">电话</th>
                     <th width="60">支付状态</th>
-                    <th width="60">反馈状态</th>
                     <th width="100">操作</th>
                 </tr>
                 </thead>
                 <tbody>
-                <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr class="text-c va-m">
+                <foreach name="list" item="vo">
+                    <tr class="text-c va-m">
                         <td><input name="" type="checkbox" value=""></td>
-                        <td><?php echo ($vo["id"]); ?></td>
-                        <td><a onClick="product_show('','product-show.html','<?php echo ($vo['tr_id']); ?>')" href="javascript:;"><img width="60" class="product-thumb" src="/Public/Uploads/travel/<?php echo ($vo['thumb']); ?>"></a></td>
-                        <td class="text-l"><a style="text-decoration:none" onClick="product_show('<?php echo ($vo['tr_name']); ?>','product-show.html','10001')" href="javascript:;"> <b class="text-success"></b> <?php echo ($vo['order_sn']); ?></a></td>
-                        <td class="text-l"><?php echo ($vo['tr_name']); ?></td>
-                        <td class="text-l"><?php echo ($vo['t']); ?></td>
-                        <td class="text-l"><a style="text-decoration:none" onClick="product_show('<?php echo ($vo['tr_name']); ?>','<?php echo U('Admin/Travel/travel_user',array('order_sn'=>$vo['order_sn']));?>','10001')" href="javascript:;"> <b class="text-success"></b> <?php echo ($vo['y_num']); ?>成人,<?php echo ($vo["c_num"]); ?>儿童</a></td>
-                        <td class="text-l"><?php if(($vo["type"] == 1)): ?>火车<?php else: ?>飞机<?php endif; ?></td>
-                        <td class="text-l"><?php if(($vo["pay_status"] == 1)): ?>已支付<?php else: ?>未支付<?php endif; ?></td>
-                        <td class="text-l"><?php if(($vo["reback"] == 1)): ?>已反馈<?php else: ?>未反馈<?php endif; ?></td>
-                        <form name="form" method="post" action="/index.php/Admin/Travel/order_edit">
-                            <input type="hidden" name="order_sn" value="<?php echo ($vo['order_sn']); ?>">
-                            <td class="td-manage"><i ><input class="Hui-iconfont" title="编辑" type="submit" name="member_edit" value="&#xe6df;"></i> <a style="text-decoration:none" class="ml-5" onClick="change_password('合作商业务提成','<?php echo U('Travel/commission',array('id'=>$vo['id']));?>','<?php echo ($vo['id']); ?>','600','270')" href="javascript:;" title="合作商业务提成"><i class="Hui-iconfont" style="font-size:16px;">&#xe6b7;</i></a><a style="text-decoration:none" class="ml-5" onClick="change_password('旅游销售提成','<?php echo U('Travel/sales_commissions',array('id'=>$vo['id']));?>','<?php echo ($vo['id']); ?>','600','270')" href="javascript:;" title="旅游销售提成"><i class="Hui-iconfont" style="font-size:16px;">&#xe6b7;</i></a></td>
+                        <td>{$vo.order_sn}</td>
+                        <td>{$vo.nickname}</td>
+                        <td>{$vo.goods_name}</td>
+                        <td>{$vo.goods_sn}</td>
+                        <td>{$vo.goods_num}</td>
+                        <td>{$vo.total}</td>
+                        <td>{$vo.consignee}</td>
+                        <td>{$vo.address}</td>
+                        <td>{$vo.mobile}</td>
+                        <td class="text-l"><if condition="($vo.pay_status eq 1)">已支付<else/>未支付</if></td>
+                        <form name="form" method="post" action="{:U('UuOrders/edit')}">
+                            <input type="hidden" name="order_sn" value="{$vo.order_sn}">
+                            <td class="td-manage"><i ><input class="Hui-iconfont" title="编辑" type="submit" name="member_edit" value="&#xe6df;"></i></td>
                         </form>
-                    </tr><?php endforeach; endif; ?>
+
+                    </tr>
+                </foreach>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-<script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="/Public/lib/layer/2.1/layer.js"></script>
-<script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script>
-<script type="text/javascript" src="/Public/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="/Public/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
-<script type="text/javascript" src="/Public/static/h-ui/js/H-ui.js"></script>
-<script type="text/javascript" src="/Public/static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script type="text/javascript">
     var setting = {
         view: {
@@ -138,7 +143,7 @@
         "aaSorting": [[ 1, "desc" ]],//默认第几个排序
         "bStateSave": true,//状态保存
         "aoColumnDefs": [
-            {"orderable":false,"aTargets":[0,7]}// 制定列不参与排序
+            {"orderable":false,"aTargets":[0,0]}// 制定列不参与排序
         ]
     });
     /*图片-添加*/
@@ -217,7 +222,7 @@
         layer.confirm('确认要删除吗？',function(index){
             $(obj).parents("tr").remove();
             $.ajax({
-//                url:"/index.php/Admin/Travel/product_delete",
+//                url:"__URL__/product_delete",
 //                type:'post',
 //                data:{'id':id},
 //                dataType:'json',

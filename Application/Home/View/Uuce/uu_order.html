@@ -80,10 +80,6 @@
                     <form class="dia_cont" method="post" action="{:U('Home/Uuce/uu_pay')}">
                         <div class="uu_cont1">
                             <div class="uu_ipt _uu_ipt">
-                                <span class="uu_span">购买编号：</span>{$result}
-                            </div>
-                            <input type="hidden" name="goods_sn" value="{$result}">
-                            <div class="uu_ipt _uu_ipt">
                                 <span class="uu_span">收件人姓名：</span>
                                 <input name="consignee" type="text" value=""/>
                             </div>
@@ -115,6 +111,7 @@
                         </div>
                         <input type="hidden" name="total" value="{$total_amount}">
                         <input type="hidden" name="gd" value="{$goods_id}">
+                        <input type="hidden" name="goods_num" value="{$goods_num}">
                         <div class="up_zhifu">
                             <input class="up_zhifu" type="submit"  value="确认支付" >
                             <!--<a href="open_online.html">确认支付</a>-->

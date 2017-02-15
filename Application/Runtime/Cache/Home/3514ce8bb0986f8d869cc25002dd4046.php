@@ -159,20 +159,6 @@
                             <input type="text" name="goods_num" value="1"/>
                             <span class="jiajian jia">+</span>
                         </p>
-                        <p class="buy_right_price">
-                            <label>选择编号：</label>
-                            <!--<div style="display: inline-block;height:32px;line-height:32px;">-->
-                            <i>手动选择：</i>
-                            <!--<span style="display:inline-block;height:32px;line-height:32px;">-->
-                                <input type="radio" name="ch_sn" value="1" class="uu_choose uu_input" id="wechat-share">
-                            <!--</span>-->
-                            <i>自动选择：</i>
-                            <input type="radio" name="ch_sn" value="2" class="uu_number uu_input" checked="checked" >
-                            <!--</div>-->
-                            <!--<a href="javaScript:;" class="uu_choose" id="wechat-share">手动选择</a>-->
-                            <!--<a href="javaScript:;" class="uu_choose">自动选择</a>-->
-                            <textarea name="text" type="text" class="uu_number"></textarea>
-                        </p>
                         <div >
                             <input type="hidden" name="goods_id" value="<?php echo ($good["goods_id"]); ?>">
                             <input type="submit" value="立即报单" class="cur ruzhi_zhifu buy_zhifu" >
@@ -194,48 +180,7 @@
     </div>
 </div>
 <!-- up_bianhao-->
-<div  class="dialog wechat-share-dialog">
-    <div class="dialog-overlay"></div>
-    <div class="dialog-content alert_radios"  style="opacity: 1;">
-        <div class="dia_header">
-            <span>选择编码</span>
-            <img src="/Public/Home/images/dia_close.png" alt="" class="dialog-close"/>
-        </div>
-        <form class="dia_cont tishi_cont">
-            <div class="alert_rad">
-                <ul class="bm_radio">
-                    <?php if(is_array($good_sn)): foreach($good_sn as $key=>$sn): ?><li>
-                        <input type="checkbox" name=""/>
-                        <span><i></i></span>
-                        <em><?php echo ($sn); ?></em>
-                    </li><?php endforeach; endif; ?>
-                </ul>
-                <div class="bm_last">
-                    <div class="bm_ye">
-     <!--                   <a href="" class="bm_prev">上一页</a>
-                        <span class="current">1</span>
-                        <a href="" class="">2</a>
-                        <a href="" class="">3</a>
-                        <a href="" class="">4</a>
-                        <a href="" class="">5</a>
-                        <a href="" class="">6</a>
-                        <span>...</span>
-                        <a href="" class="">20</a>
-                        <a href="" class="bm_next">下一页</a>-->
-                    </div>
-                    <ul class="bm_all">
-                        <li>
-                            <input type="checkbox" name=""/>
-                            <span><i></i></span>
-                            <em>全选</em>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="alert_bm">确认</div>
-        </form>
-    </div>
-</div>
+
 <!-- up_alert-->
 <div style="display: none" class="dialog2 wechat-share-dialog">
     <div class="dialog-overlay"></div>

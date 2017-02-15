@@ -136,10 +136,6 @@
                     <form class="dia_cont" method="post" action="<?php echo U('Home/Uuce/uu_pay');?>">
                         <div class="uu_cont1">
                             <div class="uu_ipt _uu_ipt">
-                                <span class="uu_span">购买编号：</span><?php echo ($result); ?>
-                            </div>
-                            <input type="hidden" name="goods_sn" value="<?php echo ($result); ?>">
-                            <div class="uu_ipt _uu_ipt">
                                 <span class="uu_span">收件人姓名：</span>
                                 <input name="consignee" type="text" value=""/>
                             </div>
@@ -171,6 +167,7 @@
                         </div>
                         <input type="hidden" name="total" value="<?php echo ($total_amount); ?>">
                         <input type="hidden" name="gd" value="<?php echo ($goods_id); ?>">
+                        <input type="hidden" name="goods_num" value="<?php echo ($goods_num); ?>">
                         <div class="up_zhifu">
                             <input class="up_zhifu" type="submit"  value="确认支付" >
                             <!--<a href="open_online.html">确认支付</a>-->

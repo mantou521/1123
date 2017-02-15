@@ -1,5 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!--_meta 作为公共模版分离出去-->
-<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
@@ -21,12 +20,17 @@
     <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/skin/default/skin.css" id="skin" />
     <link rel="stylesheet" type="text/css" href="/Public/static/h-ui.admin/css/style.css" />
     <!--[if IE 6]>
-    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script type="text/javascript" src="/Public/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
-    <!--/meta 作为公共模版分离出去-->
 
-    <link rel="stylesheet" type="text/css" href="/Public/webuploader/0.1.5/webuploader.css" />
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/Public/webuploader/0.1.5/webuploader.css" />
 
 
 </head>
@@ -52,9 +56,9 @@
                 元</div>
         </div>
         <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">产品关键字：</label>
+            <label class="form-label col-xs-4 col-sm-2">数量：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="text" name="keywords" id="" placeholder="多个关键字用英文逗号隔开，限10个关键字" value="" class="input-text">
+                <input type="text" name="goods_num" id="" placeholder="" value="" class="input-text">
             </div>
         </div>
         <div class="row cl">
@@ -63,13 +67,6 @@
                 <textarea name="goods_description" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="textarealength(this,200)"></textarea>
                 <p class="textarea-numberbar"><em class="textarea-length">0</em>/200</p>
             </div>
-        </div>
-        <div class="row cl">
-            <label class="form-label col-xs-4 col-sm-2">uu册编号：</label>
-            <div class="formControls col-xs-8 col-sm-9">
-                <textarea name="goods_sn" cols="10" rows="12" class="textarea"  placeholder="1-100 则添加1-100的编号" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="textarealength(this,1000000)"></textarea>
-                <p class="textarea-numberbar">用英式逗号,隔开</p>
-            </div>1-100  则添加1-100之间所有
         </div>
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">缩略图：</label>

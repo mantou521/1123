@@ -1,0 +1,51 @@
+<include file="Common/nav"/>
+
+<title>{$title}</title>
+</head>
+<body>
+<article class="page-container">
+    <form action="{:U('UuOrders/update')}" method="post" class="form form-horizontal" id="form-member-add">
+
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>{$goods.goods_name}：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text"  value="" placeholder="用英文逗号隔开" id="{$goods.goods_id}" name="goods_sn">
+            </div>
+        </div>
+
+        <input type="hidden" class="input-text"  value="{$order.user_id}" placeholder=""  name="user_id">
+        <input type="hidden" class="input-text"  value="{$order.order_sn}" placeholder=""  name="order_sn">
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <input class="btn btn-primary radius" type="submit"  value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/icheck/jquery.icheck.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/jquery.validation/1.14.0/messages_zh.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js"></script>
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript">
+    $(function(){
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+
+
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

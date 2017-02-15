@@ -127,6 +127,7 @@
             <dd>
                 <ul>
                     <li><a _href="<?php echo U('Admin/Travel/travel_order');?>" data-title="旅游报单" href="javascript:void(0)">旅游报单</a></li>
+                    <li><a _href="<?php echo U('Admin/UuOrders/index');?>" data-title="UU册订单" href="javascript:void(0)">UU册订单</a></li>
                 </ul>
             </dd>
         </dl>

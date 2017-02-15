@@ -12,23 +12,24 @@ class UuceController extends BaseController{
 
 /*列表*/
     public function uu_re(){
-
         $G=M('goods');
-        $count        = $G->where('goods_id>0 and goods_num>0 and goods_sn <> \'\' ')->count();
+        $count        = $G->where('goods_id>0 and goods_num>0  ')->count();
         $Page         =new \Think\Page($count,9);
         $show         =$Page->show();
-        $goods=$G->where('goods_id>0 and goods_num>0 and goods_sn  IS NOT NULL  ')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $goods=$G->where('goods_id > 0 and goods_num > 0   ')->limit($Page->firstRow.','.$Page->listRows)->select();
         $yetotal=ceil($count/9);
         $this->assign('page',$show);
         $this->assign('yetotal',$yetotal);
         $this->assign('goods',$goods);
         $this->display();
     }
+
 /*
  * uu订单列表
  *
 */
     public function uu_orders(){
+
         $M=M('order');
         $count        = $M->where('type=4 and user_id='.session('id'))->count();
         $Page         =new \Think\Page($count,10);
@@ -39,6 +40,7 @@ class UuceController extends BaseController{
             $item['add_time']=date('Y-m-d',$item['add_time']);
             $listn[]=$item;
         }
+
         $yetotal=ceil($count/10);
         $this->assign('page',$show);
         $this->assign('yetotal',$yetotal);
@@ -50,52 +52,43 @@ class UuceController extends BaseController{
     public function uu_info(){
         $good=M('goods')->where('goods_id='.I('goods_id'))->find();
         $good['src']=json_decode($good['src'],ture);
-        $good['goods_sn']=explode(',',$good['goods_sn']);
+//        $good['goods_sn']=explode(',',$good['goods_sn']);
         $this->assign('good',$good);
         $this->assign('img',$good['src']);
-        $this->assign('good_sn',$good['goods_sn']);
+//        $this->assign('good_sn',$good['goods_sn']);
         $this->display();
     }
     /*生成订单*/
     public function uu_order(){
         $good  =  M('goods')->where('goods_id='.I('goods_id'))->find();
         $pur_num=I('goods_num');
-        if ($_POST['ch_sn']==2) {   //自动选择
-            $goods_sn=explode(',',$good['goods_sn']);
-            $sn=$goods_sn['0'];
-            for ($i=1; $i < (I('goods_num')); $i++) {
-                $sn.=','.$goods_sn[$i];
-            }
-        }elseif ($_POST['ch_sn']==1){
-            $User = D("Uurecord");
-            if (!$User->create(I())){
-                $this->error($User->getError());
-            }
-            $sn=$_POST['text'];
-            $sn=str_replace(';',',',$sn);
-            $sn = implode(',',array_unique(explode(',',rtrim($sn,','))));
-            $ar=array_unique(explode(',',rtrim($sn,',')));
-            $pur_num=count($ar);
-        }
+//        if ($_POST['ch_sn']==2) {   //自动选择
+//            $goods_sn=explode(',',$good['goods_sn']);
+//            $sn=$goods_sn['0'];
+//            for ($i=1; $i < (I('goods_num')); $i++) {
+//                $sn.=','.$goods_sn[$i];
+//            }
+//        }elseif ($_POST['ch_sn']==1){
+//            $User = D("Uurecord");
+//            if (!$User->create(I())){
+//                $this->error($User->getError());
+//            }
+//            $sn=$_POST['text'];
+//            $sn=str_replace(';',',',$sn);
+//            $sn = implode(',',array_unique(explode(',',rtrim($sn,','))));
+//            $ar=array_unique(explode(',',rtrim($sn,',')));
+//            $pur_num=count($ar);
+//        }
         if ($good['goods_num']<$pur_num) {
             $this->error('库存不足');
         }
-        $good['goods_sn']=rtrim(str_replace($sn.',','',$good['goods_sn'].','),',');
-        $save['goods_num']=count(array_filter(explode(',',$good['goods_sn'])));
-//        //生成订单
-//        $data['goods_id']=I('goods_id');
-//        $data['order_sn']=build_order_no();
-//        $data['goods_sn']=$sn;
-//        $data['add_time']=time();
-//        $data['user_id']=$_SESSION['id'];
-//        M('order')->add($data);
-//        //减去相应数量uu册编号
-//        $save['goods_sn']=$good['goods_sn'];
-//        M('goods')->where('goods_id='.I('goods_id'))->save($save);
+//        $good['goods_sn']=rtrim(str_replace($sn.',','',$good['goods_sn'].','),',');
+        $save['goods_num'] = $pur_num;
+
         $total=$good['goods_price']*I('goods_num');
         $this->assign('total_amount',$total);
-//        $this->assign('order_sn',$sn);
-        $this->assign('result',$sn);
+        $this->assign('goods_num',$pur_num);
+//        $this->assign('result',$sn);
         $this->assign('goods_id',I('goods_id'));
         $this->display();
     }
@@ -110,24 +103,24 @@ class UuceController extends BaseController{
         $data['address']=I('address').'/'.I('address1');
         //生成订单
         if (I('gd')) {
-            $good = M('goods')->field('goods_num, goods_sn')->where('goods_id =' . I('gd'))->getField('goods_num');
-            $data['goods_num']=count(array_filter(explode(',', I('goods_sn'))));
-            if (($data['goods_num'] > $good['goods_num']) || existUusn($good['goods_sn'], I('goods_sn'))) {
+            $good_num = M('goods')->where('goods_id =' . I('gd'))->getField('goods_num');
+            $data['goods_num']=I('goods_num');
+            if ($good_num < I('goods_num')) {
                 $this->error('库存不足');
             }
         }
 
         $data['goods_id']=I('gd');
         $data['order_sn']=build_order_no();
-        $data['goods_sn']=I('goods_sn');
+//        $data['goods_sn']=I('goods_sn');
         $data['add_time']=time();
         $data['user_id']=$_SESSION['id'];
         $data['type']=4;
         M('order')->add($data);
         //减去相应数量uu册编号
         $goods =M('goods')->where('goods_id='.I('gd'))->find();
-        $save['goods_sn']=orderdel($goods['goods_sn'],$data['goods_sn']);
-        $save['goods_num'] = count(array_filter(explode(',',$save['goods_sn'])));
+//        $save['goods_sn']=orderdel($goods['goods_sn'],$data['goods_sn']);
+        $save['goods_num'] = $good_num - I('goods_num');
         M('goods')->where('goods_id='.I('gd'))->save($save);
         //添加到库存,支付成功后
         $this->assign('total_amount',$data['total']);

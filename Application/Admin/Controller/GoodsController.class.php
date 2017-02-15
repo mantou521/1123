@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class GoodsController extends Controller {
+class GoodsController extends BaseController {
     public function product_list()
     {
         $G=M('goods');
@@ -9,7 +9,8 @@ class GoodsController extends Controller {
         $this->assign('goods',$goods);
         $this->display();
     }
-/*添加商品*/
+
+    /*添加商品*/
     public function product_add()
     {
 
@@ -21,17 +22,17 @@ class GoodsController extends Controller {
     {
             $content=htmlspecialchars_decode(I('editorValue'));
 
-            $num=count(array_filter(explode(',',I('goods_sn'))));
+//            $num=count(array_filter(explode(',',I('goods_sn'))));
             $data['src']=json_encode($_SESSION['webupload']);
             $data['goods_name']=I('goods_name');
             $data['goods_description']=I('goods_description');
             $data['goods_keywords']=I('keywords');
             $data['goods_price']=I('price');
             $data['goods_content']="$content";
-            $data['goods_num']=$num;
+            $data['goods_num']=I('goods_num');
             $data['is_on_sale']='';
             $data['sort']=I('sort');
-            $data['goods_sn'] = implode(',',array_filter(explode(',',I('goods_sn'))));
+//            $data['goods_sn'] = implode(',',array_filter(explode(',',I('goods_sn'))));
             $data['thumb']=upload_uuce($_FILES["pic"]["tmp_name"],1);
             $Goods=M('goods');
             $Goods->add($data);
@@ -41,6 +42,7 @@ class GoodsController extends Controller {
             }
             $this->success('添加成功',U('Admin/Goods/product_list'));
     }
+
 /*
  * 修改商品
 */
@@ -51,21 +53,22 @@ class GoodsController extends Controller {
 
         $this->display();
     }
+
     public function product_edit_post()
     {
        $content=htmlspecialchars_decode(I('post_content'));
 
-        $num=count(array_filter(explode(',',I('goods_sn'))));
+//        $num=count(array_filter(explode(',',I('goods_sn'))));
 //       $data['src']=json_encode($_SESSION['webupload']);
         $data['goods_name']=I('goods_name');
         $data['goods_description']=I('goods_description');
         $data['goods_keywords']=I('keywords');
         $data['goods_price']=I('price');
         $data['goods_content']="$content";
-        $data['goods_num']=$num;
+        $data['goods_num']=I('goods_num');
         $data['is_on_sale']='';
         $data['sort']=I('sort');
-        $data['goods_sn'] = implode(',',array_filter(explode(',',I('goods_sn'))));
+//        $data['goods_sn'] = implode(',',array_filter(explode(',',I('goods_sn'))));
         $_FILES["pic"]["tmp_name"] && $data['thumb']=upload_uuce($_FILES["pic"]["tmp_name"],1);
         $data['thumb'];
         $Goods=M('goods');
