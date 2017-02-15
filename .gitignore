@@ -1,7 +1,7 @@
 /Application/Runtime
 /Upload
 /Public/Home/images/upload
-/Public/Upload
+/Public/Uploads
 Homestead.yaml
 Homestead.json
 .env
