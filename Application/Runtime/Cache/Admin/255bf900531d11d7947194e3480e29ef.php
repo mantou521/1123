@@ -108,6 +108,13 @@
 				<input type="text" class="input-text"  name="postcode" id="postcode" value="<?php echo ($res['postcode']); ?>">
 			</div>
 		</div>
+        <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>加入日期：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+                <input type="text" onfocus="WdatePicker()" id="commentdatemax" name="rdt" value="<?php echo ($res["rdt"]); ?>" class="input-text Wdate">
+			</div>
+		</div>
+
 		<div style="display: none"  class="row cl">
 			<label class="form-label col-xs-4 col-sm-3">附件：</label>
 			<div class="formControls col-xs-8 col-sm-9"> <span class="btn-upload form-group">
@@ -142,7 +149,8 @@
 	</form>
 </article>
 
-<!--_footer 作为公共模版分离出去--> 
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="/Public/lib/My97DatePicker/WdatePicker.js"></script>
 <script type="text/javascript" src="/Public/lib/jquery/1.9.1/jquery.min.js"></script> 
 <script type="text/javascript" src="/Public/lib/layer/2.1/layer.js"></script> 
 <script type="text/javascript" src="/Public/lib/icheck/jquery.icheck.min.js"></script> 

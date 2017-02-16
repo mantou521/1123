@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="线上_分销—test">
     <serverData>
+      <paths name="2期上线分销">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="线上_分销—test">
         <serverdata>
           <mappings>

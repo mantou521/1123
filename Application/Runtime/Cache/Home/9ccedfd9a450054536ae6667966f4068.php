@@ -127,6 +127,7 @@
             <span>业绩</span>
             <ol>
                 <li><a href="<?php echo U('Home/Bonus/bill');?>">账单</a></li>
+                <li><a href="<?php echo U('Home/Bonus/storeBonus');?>">店铺租金支持</a></li>
             </ol>
         </li>
         <li class="cur main_left_li3">

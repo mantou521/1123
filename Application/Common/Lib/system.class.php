@@ -85,12 +85,13 @@ class System
 
     /**
      * 个人uu册销售提成
+     *
      * @param $id
      * @param $amount
      */
     public function bonus3($id, $amount)
     {
-        $user = M('member')->field('nickname,reid')->where('id =' . $id)->find();
+        $user = M('member')->field('nickname, reid, isbd, bdlevel')->where('id =' . $id)->find();
         $reus_nickname = M('member')->where('id =' . $user['reid'])->getField('nickname');
 
         $b3 = $amount * 25 / 100;
@@ -99,10 +100,23 @@ class System
             $beizhu = "游邮册销售提成";
             $this->bonus_laiyuan($id, $user['nickname'], $id, $user['nickname'], 3, $b3, $beizhu);
         }
+
+        if ($user['isbd'] == 1) {
+        	$b18 = 10;
+            $this->Member->where('id =' . $id)->setInc('b18', $b18);
+            $beizhu = "开店报单奖";
+            $this->bonus_laiyuan($id, $user['nickname'], $id, $user['nickname'], 18, $b18, $beizhu);
+
+            $b19 = M('store_level')->where('id =' . $user['bdlevel'])->getField('bonus1');
+            $this->Member->where('id =' . $id)->setInc('b19', $b19);
+            $beizhu = "开店级别奖";
+            $this->bonus_laiyuan($id, $user['nickname'], $id, $user['nickname'], 19, $b19, $beizhu);
+        }
     }
 
     /**
      * 游邮册推荐销售提成
+     *
      * @param $id
      * @param $amount
      */
@@ -146,6 +160,31 @@ class System
                 $pas = $value['ulevel'];
                 $sum = $rate;
             }
+        }
+    }
+
+    public function bonus21($repath, $rel, $source_id, $source_nickname)
+    {
+        $data = [
+            '1' => '15',
+            '2' => '10',
+            '3' => '5'
+        ];
+
+        $list = $this->Member->where(' id in (0' . $repath . '0)  and ' . $rel . '-relevel<= 3  and ispay = 1')->order('id desc')->select();
+        foreach ($list as $value) {
+            $cha = $rel - $value['relevel'];
+            if ($cha == 1) {
+                $bonus = $data[$cha];
+            } elseif ($cha > 1 && $value['isbd'] == 1) {
+                $bonus = $data[$cha];
+            }
+            if ($bonus > 0) {
+                $this->Member->where('id =' . $value['id'])->setInc('b21', $bonus);
+                $note = $cha . "代开店报单奖";
+                $this->bonus_laiyuan($value['id'], $value['nickname'], $source_id, $source_nickname, 21, $bonus, $note);
+            }
+
         }
     }
 
@@ -418,6 +457,24 @@ class System
             }
         }
     }
+
+    public function bonus20($user_id, $store_level, $st_type)
+    {
+        $total = M('store_level')->where('id =' . $store_level)->getField('free');
+        $user = M('member')->field('nickname, reid')->where('id =' . $user_id)->find();
+        $userFather = M('member')->field('nickname, id')->where('id =' . $user['reid'])->find();
+        $bai = [
+            '1' => 1,
+            '2' => 0.8
+        ];
+        $b20 = $total * $bai[$st_type] * 0.1;
+        if ($b20 > 0) {
+            $this->Member->where('id =' . $userFather['id'])->setInc('b20', $b20);
+            $note = "开店推荐奖";
+            $this->bonus_laiyuan($userFather['id'], $userFather['nickname'], $user_id, $user['nickname'], 20, $b20, $note);
+        }
+    }
+
 
     /**
      * 封顶

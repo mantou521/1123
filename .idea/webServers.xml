@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="d59e8192-f593-4ab5-9369-c37ba74544d6" name="2期上线分销" url="http://121.40.157.111">
+        <fileTransfer host="121.40.157.111" port="22" rootFolder="/data/wwwroot/uufx.yoyoce.com" accessType="SFTP" password="dfe2dfe5dfe4dfeddfe8dfe5df9cdf9fdf98df98df92df93df9cdf9cdfc1dfcfdfc0dfc3" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

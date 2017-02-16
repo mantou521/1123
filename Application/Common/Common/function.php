@@ -473,7 +473,10 @@ function updatelevel(){
             $update['wait_time'] = time();
             $update['status'] = 0;
             $Up = M('ulevelup');
-            $Up->data($update)->add();
+            $exit = $Up->where('userid =' . $update['userid'] . ' and ulevel =' . $update['ulevel']. ' and status = 0')->count();
+            if ($exit == 0) {
+                $Up->data($update)->add();
+            }
             $data = array('ulevel' => $touplevel, 'e_ulevel' => $upele);
 //            $Mem->where('id=' . $re['id'] . '')->setField($data);
         }
@@ -522,6 +525,8 @@ function departnum($repath){
 
 function update_pay_status($order_sn, $order_type)
 {
+    $Mon = new \Common\Lib\Mon();
+
     if ($order_type == 'travel') {
         $M = M('travel_order');
     } else {
@@ -532,10 +537,9 @@ function update_pay_status($order_sn, $order_type)
     $M->where('order_sn=' . $order_sn)->save($save);
     $result = $M->where('order_sn=' . $order_sn)->find();
     if ($result['type'] == 1 && !empty($result['act_id'])) {
-        $Mon = new \Common\Lib\Mon();
         $Mon->memact($result['act_id']);
     } elseif ($result['type'] == 2) {
-        store_act(session('id'));
+        $Mon->store_act(session('id'));
     }  elseif ($result['type'] == 4) {
         uu_trasfer($result['order_sn'], $result['total']);
     } elseif ($result['type'] == 5) {
@@ -688,17 +692,8 @@ function store_up($order_sn)
     M('store')->where('user_id='.$record['user_id'])->setField('st_level',$record['tolevel']);
 }
 
-function store_act($user_id)
-{
-    $userStore = M('store')->where('user_id=' . $user_id)->find();
-    $save = [
-        'isbd' => 1,
-        'bdlevel' => $userStore['st_level']
-    ];
 
-    M('member')->where('id =' . $user_id)->save($save);
-    M('store')->where('user_id=' . $user_id)->setField('pay_status', 1);
 
-}
+
 
 

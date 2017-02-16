@@ -121,24 +121,32 @@ class Mon
     public function store_act($id)
     {
         $Store = M('store');
-        $result = $Store->where('id=' . $id)->setField('pay_status', '1');
+        $data = [
+            'pay_status' => '1',
+            'pay_time' => time()
+        ];
+        $result = $Store->where('id=' . $id)->save($data);
 
         $userStore = M('store')->where('id=' . $id)->find();
         $save = [
             'isbd' => 1,
             'bdlevel' => $userStore['st_level']
         ];
-
         M('member')->where('id =' . $userStore['user_id'])->save($save);
+
+        $this->Sys->bonus20($userStore['user_id'], $userStore['st_level'], $userStore['st_type']);
     }
 
     //uu册销售奖
     public function uuSaleBonus($id, $total)
     {
-        $user = M('member')->field('repath, relevel, ulevel, nickname, reid')->where('id =' . $id)->find();
+        $user = M('member')->field('repath, relevel, ulevel, nickname, reid, isbd')->where('id =' . $id)->find();
         $this->Sys->bonus3($id, $total);
         $this->Sys->bonus4($id, $total);
         $this->Sys->bonus5($user['repath'], $user['relevel'], $user['ulevel'], $id, $user['nickname'], $user['reid'], $total);
+        if ($user['isbd'] == 1) {
+            $this->Sys->bonus21($user['repath'], $user['relevel'], $id, $user['nickname']);
+        }
         $this->Sys->b0bonus();
     }
 

@@ -35,10 +35,12 @@ class MemController extends BaseController {
         if ($_POST['member_edit']) {
             $M = M('member');
             $res = $M->where("id=" . $_POST['userid'] . "")->join('think_ulevel ON think_ulevel.ulevel = think_member.ulevel')->order('id asc')->find();
+            $res['rdt'] = date('Y-m-d', $res['rdt']);
             $this->assign('res', $res);
             $this->display();
         } elseif ($_POST['submit_edit']) {
             $data['sex'] = $_POST['sex'];
+            $data['rdt'] = strtotime($_POST['rdt']);
             $data['username'] = $_POST['username'];
             $data['usertel'] = $_POST['mobile'];
             $data['usercard'] = $_POST['usercard'];

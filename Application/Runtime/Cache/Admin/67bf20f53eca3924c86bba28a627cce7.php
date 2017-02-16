@@ -63,7 +63,7 @@
                 <td> <?php if(($vo["pay_type"] == 1)): ?>在线支付<?php else: ?> 线下支付<?php endif; ?></td>
                 <td> <?php if(($vo["pay_status"] == 1)): ?>已支付<?php else: ?> 未支付<?php endif; ?></td>
                 <td><?php echo date("Y-m-d",$vo['date']); ?></td>
-                <td class="td-manage"><a style="text-decoration:none" class="Hui-iconfont"  href="<?php echo U('Admin/Store/store_edit', array('store_id' => $vo['id'], 'user_id' => $vo['user_id']));?>" title="修改"><i class="Hui-iconfont" style="font-size:16px;">&#xe6df;</i></a>
+                <td class="td-manage"><a style="text-decoration:none" class="Hui-iconfont"  href="<?php echo U('Admin/Store/store_edit', array('store_id' => $vo['id'], 'user_id' => $vo['user_id']));?>" title="铺货"><i class="Hui-iconfont" style="font-size:16px;">&#xe6df;</i></a><a style="text-decoration:none" class="Hui-iconfont"  href="<?php echo U('Admin/Store/store_edit', array('store_id' => $vo['id'], 'user_id' => $vo['user_id']));?>" title="首期管理费"><i class="Hui-iconfont" style="font-size:16px;">&#xe6df;</i></a></td>
             </tr><?php endforeach; endif; ?>
 
 

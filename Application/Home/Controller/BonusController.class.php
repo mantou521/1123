@@ -27,4 +27,10 @@ class BonusController extends BaseController
         $this->assign('yetotal', $count);
         $this->display();
     }
+
+    public function storeBonus()
+    {
+
+        $this->display();
+    }
 }
