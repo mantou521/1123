@@ -63,10 +63,8 @@
                 <td> <?php if(($vo["pay_type"] == 1)): ?>在线支付<?php else: ?> 线下支付<?php endif; ?></td>
                 <td> <?php if(($vo["pay_status"] == 1)): ?>已支付<?php else: ?> 未支付<?php endif; ?></td>
                 <td><?php echo date("Y-m-d",$vo['date']); ?></td>
-                <td class="td-manage"><a style="text-decoration:none" class="Hui-iconfont"  href="<?php echo U('Admin/Store/store_edit', array('store_id' => $vo['id'], 'user_id' => $vo['user_id']));?>" title="铺货"><i class="Hui-iconfont" style="font-size:16px;">&#xe6df;</i></a><a style="text-decoration:none" class="Hui-iconfont"  href="<?php echo U('Admin/Store/store_edit', array('store_id' => $vo['id'], 'user_id' => $vo['user_id']));?>" title="首期管理费"><i class="Hui-iconfont" style="font-size:16px;">&#xe6df;</i></a></td>
+                <td class="td-manage"><a style="text-decoration:none" class="Hui-iconfont"  href="<?php echo U('Admin/Store/store_edit', array('store_id' => $vo['id'], 'user_id' => $vo['user_id']));?>" title="铺货"><i class="Hui-iconfont" style="font-size:16px;">&#xe6df;</i></a>    &nbsp;<a style="text-decoration:none" class="Hui-iconfont"  href="javascript:;" onclick="manage_active('<?php echo ($vo["id"]); ?>', '<?php echo ($vo["user_id"]); ?>')" title="首期管理费"><i class="Hui-iconfont" style="font-size:16px;">&#xe6e1;</i></a></td>
             </tr><?php endforeach; endif; ?>
-
-
         </tbody>
 	</table>
 	</div>
@@ -99,33 +97,26 @@ $(function(){
 	});
 });
 
-/*用户-激活*/
-function member_huanyuan(obj,id){
-	layer.confirm('确认要激活吗？',function(index){
+/*首期管理费-激活*/
+function manage_active(id, user_id){
+	layer.confirm('确认缴纳首期管理费吗？',function(index){
         $.ajax({
-            url:"/index.php/Admin/Mem/store_act",
+            url:"<?php echo U('Store/manage_active');?>",
             type:'post',
-            data:{'id':id},
+            data:{'id':id,'user_id':user_id},
             dataType:'json',
+            success:function(data){
+//                    if (data.status == 'success') {
+                layer.msg('操作成功!',{icon:1,time:1000});
+//                    } else {
+//                        layer.msg('操作失败!',{icon:1,time:1000});
+//                    }
+            }
         })
-		$(obj).remove();
-		layer.msg('已激活!',{icon: 6,time:1000});
 	});
 }
 
-/*用户-删除*/
-function member_del(obj,id){
-	layer.confirm('确认要删除吗？',function(index){
-		$(obj).parents("tr").remove();
-        $.ajax({
-            url:"/index.php/Admin/Mem/member_delete",
-            type:'post',
-            data:{'id':id},
-            dataType:'json',
-        })
-		layer.msg('已删除!',{icon:1,time:1000});
-	});
-}
+
 </script> 
 </body>
 </html>

@@ -3,7 +3,7 @@ namespace Admin\Controller;
 
 use Think\Controller;
 
-class StoreController extends Controller
+class StoreController extends BaseController
 {
 
     public function store_update()
@@ -67,4 +67,17 @@ class StoreController extends Controller
             $this->success('添加成功',U('Admin/Mem/store_list'));
         }
     }
+
+    //首期管理费
+    public function manage_active()
+    {
+        $result = M('store')->where('id =' . I('post.id'))->setField('manage_active', '1');
+        if ($result) {
+            $this->ajaxSuccess('成功');
+        } else {
+            $this->ajaxError('失败');
+        }
+    }
+
+
 }
