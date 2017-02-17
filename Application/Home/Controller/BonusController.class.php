@@ -17,10 +17,10 @@ class BonusController extends BaseController
 //        my_scandir('D:\htdocs\uufx\Public\Home\images\upload'); //遍历当前目录
 
         $user = M('member')->field('mey, maxmey')->where('id =' . session('id'))->find();
-        $count = M('bonus_log')->field('*, FROM_UNIXTIME( `date` , \'%Y-%m-%d %h:%i:%s\' ) AS t')->where('uid =' . session('id'))->order('id desc')->count();
+        $count = M('bonus_log')->field('*, FROM_UNIXTIME( `date` , \'%Y-%m-%d %h:%i:%s\' ) AS t')->where('lx < 18 and uid =' . session('id'))->order('id desc')->count();
         $Page = new \Think\Page($count, 10);
         $show = $Page->show();
-        $bonusList = M('bonus_log')->field('*, FROM_UNIXTIME( `date` , \'%Y-%m-%d %h:%i:%s\' ) AS t')->where('uid =' . session('id'))->limit($Page->firstRow . ',' . $Page->listRows)->order('id desc')->select();
+        $bonusList = M('bonus_log')->field('*, FROM_UNIXTIME( `date` , \'%Y-%m-%d %h:%i:%s\' ) AS t')->where('lx < 18 and uid =' . session('id'))->limit($Page->firstRow . ',' . $Page->listRows)->order('id desc')->select();
         $this->assign('user', $user);
         $this->assign('list', $bonusList);
         $this->assign('page', $show);
@@ -30,7 +30,15 @@ class BonusController extends BaseController
 
     public function storeBonus()
     {
-
+        $user = M('member')->field('store_bonus')->where('id =' . session('id'))->find();
+        $count = M('bonus_log')->field('*, FROM_UNIXTIME( `date` , \'%Y-%m-%d %h:%i:%s\' ) AS t')->where('lx >= 18 and uid =' . session('id'))->order('id desc')->count();
+        $Page = new \Think\Page($count, 10);
+        $show = $Page->show();
+        $bonusList = M('bonus_log')->field('*, FROM_UNIXTIME( `date` , \'%Y-%m-%d %h:%i:%s\' ) AS t')->where('lx >= 18 and uid =' . session('id'))->limit($Page->firstRow . ',' . $Page->listRows)->order('id desc')->select();
+        $this->assign('user', $user);
+        $this->assign('list', $bonusList);
+        $this->assign('page', $show);
+        $this->assign('yetotal', $count);
         $this->display();
     }
 }

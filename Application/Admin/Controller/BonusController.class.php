@@ -66,4 +66,37 @@ class BonusController extends BaseController {
             $this->display();
         }
     }
+
+    //店铺租金支持
+    public function storeManageBonus()
+    {
+        if (!empty(I('post.id'))) {
+            $result = $this->Mon->storeManageBonus();
+            if ($result) {
+                $this->ajaxSuccess('成功');
+            } else {
+                $this->ajaxError('失败');
+            }
+        } else {
+            $this->assign('title', '店铺管理费和租金支持');
+            $this->display();
+        }
+    }
+
+    //店铺管UU销售和销售超额奖
+    public function storeUUsale()
+    {
+        if (!empty(I('post.id'))) {
+            $result = $this->Mon->storeManageBonus();
+            if ($result) {
+                $this->ajaxSuccess('成功');
+            } else {
+                $this->ajaxError('失败');
+            }
+        } else {
+            $this->assign('title', '店铺管UU销售和销售超额奖');
+            $this->display();
+        }
+    }
+
 }

@@ -475,6 +475,55 @@ class System
         }
     }
 
+    public function b22bonus($user_id, $bonus, $num)
+    {
+        $nickname = $this->Member->where('id =' . $user_id)->getField('nickname');
+        $bonus = $bonus * $num;
+        if ($bonus > 0) {
+            $this->Member->where('id =' . $user_id)->setInc('b22', $bonus);
+            $note = "店铺租金支持";
+            $this->bonus_laiyuan($user_id, $nickname, $user_id, $nickname, 22, $bonus, $note);
+            return true;
+        }
+    }
+
+    public function b23manage($user_id, $manageFree)
+    {
+        $nickname = $this->Member->where('id =' . $user_id)->getField('nickname');
+        if ($manageFree > 0) {
+            $this->Member->where('id =' . $user_id)->setDec('store_bonus', $manageFree);
+            $note = "管理费";
+            $this->bonus_laiyuan($user_id, $nickname, $user_id, $nickname, 23, $manageFree, $note);
+        }
+    }
+
+
+    public function b24bonus()
+    {
+        $list = $this->Member->field('id, nickname, uu_num, bdlevel')->where('ispay = 1 and isbd = 1')->select();
+        if ($list) {
+            foreach ($list as $item) {
+                $total = $item['uu_num'];
+                $storeLevel = M('store_level')->where('id =' . $item['bdlevel'])->find();
+                if ($total >= $storeLevel['y3']) {
+                    $bonus = $storeLevel['bonus3'];
+                    if ($bonus > 0) {
+                        $this->Member->where('id =' . $item['id'])->setInc('b12', $bonus);
+                        $note = "个人超额奖";
+                        $this->bonus_laiyuan($item['id'], $item['nickname'], $item['id'], $item['nickname'], 12, $bonus, $note);
+                    }
+                }
+                if ($total >= 20) {
+                    $bonus = 500;
+                    if ($bonus > 0) {
+                        $this->Member->where('id =' . $item['id'])->setInc('b10', $bonus);
+                        $note = "个人达成奖";
+                        $this->bonus_laiyuan($item['id'], $item['nickname'], $item['id'], $item['nickname'], 10, $bonus, $note);
+                    }
+                }
+            }
+        }
+    }
 
     /**
      * 封顶
@@ -539,7 +588,7 @@ class System
      */
     function b0bonus()
     {
-        $bonus = $this->Member->where('b1>0 or b2>0 or b3>0 or b4>0 or b5>0 or b6>0 or b7>0 or b8>0 or b9>0 or b10>0 or b11>0 or b12>0 or b13>0 or b14>0 or b15>0 or b16>0 or b17>0')->select();
+        $bonus = $this->Member->where('b1>0 or b2>0 or b3>0 or b4>0 or b5>0 or b6>0 or b7>0 or b8>0 or b9>0 or b10>0 or b11>0 or b12>0 or b13>0 or b14>0 or b15>0 or b16>0 or b17>0 or b18>0 or b19>0 or b20>0 or b21>0 or b22>0 or b23>0')->select();
         foreach ($bonus as $row) {
             $b1 = $row['b1'];
             $b2 = $row['b2'];
@@ -558,8 +607,15 @@ class System
             $b15 = $row['b15'];
             $b16 = $row['b16'];
             $b17 = $row['b17'];
+            $b18 = $row['b18'];
+            $b19 = $row['b19'];
+            $b20 = $row['b20'];
+            $b21 = $row['b21'];
+            $b22 = $row['b22'];
+            $b23 = $row['b23'];
 
-            $b0 = $b1 + $b2 + $b3 + $b4 + $b5 + $b6 + $b7 + $b8 + $b9 + $b10 + $b11 + $b12 + $b13 + $b14 + $b15 + $b16 + $b17;
+            $b0 = $b1 + $b2 + $b3 + $b4 + $b5 + $b6 + $b7 + $b8 + $b9 + $b10 + $b11 + $b12 + $b13 + $b14 + $b15 + $b16 + $b17 ;
+            $storeBonus =  $b18 + $b19 + $b20 + $b21 + $b22;
 
             $member_update['b0'] = 0;
             $member_update['b1'] = 0;
@@ -579,6 +635,15 @@ class System
             $member_update['b15'] = 0;
             $member_update['b16'] = 0;
             $member_update['b17'] = 0;
+            $member_update['b18'] = 0;
+            $member_update['b19'] = 0;
+            $member_update['b20'] = 0;
+            $member_update['b21'] = 0;
+            $member_update['b22'] = 0;
+            $member_update['b23'] = 0;
+            $member_update['cfxf'] = $row['cfxf'] + $b23;
+            $member_update['store_bonus'] = $row['store_bonus'] + $storeBonus;
+            $member_update['max_store_bonus'] = $row['max_store_bonus'] + $storeBonus;
             $member_update['mey'] = $row['mey'] + $b0;
             $member_update['maxmey'] = $row['maxmey'] + $b0;
             $this->Member->where('id =' . $row['id'])->save($member_update);
@@ -602,6 +667,12 @@ class System
             $bonus_update['b15'] = $b15;
             $bonus_update['b16'] = $b16;
             $bonus_update['b17'] = $b17;
+            $bonus_update['b18'] = $b18;
+            $bonus_update['b19'] = $b19;
+            $bonus_update['b20'] = $b20;
+            $bonus_update['b21'] = $b21;
+            $bonus_update['b22'] = $b22;
+            $bonus_update['b23'] = $b23;
             $this->bonus_insert($bonus_update);
         }
 //        $_systemyeji->yejitongji(0, 0, 0, $lj, 0, 0, 0);

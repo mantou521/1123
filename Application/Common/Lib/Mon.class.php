@@ -318,5 +318,57 @@ class Mon
                 
     }
 
+    public function storeManageBonus()
+    {
+
+        $stores = M('store')->where('manage_active = 1 and pay_status = 1')->select();
+        foreach ($stores as $store) {
+            $store['last_time'] = $store['last_time'] == NUll ? $store['pay_time'] : $store['last_time'];
+            $diff = timeDiff(strtotime(date('Y-m-d', $store['last_time'])), strtotime(date('Y-m-d')));
+//            deductManage(strtotime(date('Y-m-d', $store['pay_time'])), $diff['day']);
+            //扣除
+            $num = 0;
+            $cha = $diff['day'];
+            if ($store['num'] < 12) {
+            	$num = 12 - $store['num'];
+                if ($diff['day'] <= $num) {
+                	$cha = 0;
+                } else {
+                    $cha = $diff['day'] - $num;
+                }
+            }
+            $storeLevel = M('store_level')->field('kou2, bonus2')->where('id =' . $store['st_level'])->find();
+            $manageFree = $cha * $storeLevel['kou2'];
+            $user = M('member')->field('store_bonus')->where('id =' . $store['user_id'])->find();
+            if ($user['store_bonus'] >= $manageFree) {
+                $cha > 0 && $this->Sys->b23manage($store['user_id'], $manageFree);
+                //发奖
+               $result = $this->Sys->b22bonus($store['user_id'], $storeLevel['bonus2'], $diff['day']);
+                if ($result) {
+                	M('store')->where('id =' . $store['id'])->setField('last_time', time());
+                	M('store')->where('id =' . $store['id'])->setInc('num', 1);
+                }
+            }
+        }
+        $this->Sys->b0bonus();
+        if ($result) {
+            return true;
+        }
+    }
+
+    public function storeUUsale()
+    {
+        $set['uu_num'] = 0;
+        M('member')->where('isbd = 1')->save($set);
+
+        $uu = M('order')->field('user_id, sum(goods_num) as num')->where('type = 4 and pay_status = 1  and  period_diff(date_format(now() , \'%Y%m\') , date_format(from_UNIXTIME(`pay_time`), \'%Y%m\')) =1 ')->group('user_id')->select();
+        if ($uu) {
+            foreach ($uu as $key => $item) {
+                M('member')->where('id =' . $item['user_id'])->setField('uu_num', $item['num']);
+            }
+        }
+        
+    }
+
 
 }

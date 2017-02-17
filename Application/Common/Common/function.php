@@ -6,6 +6,11 @@
  * Time: 10:32
  */
 
+//首期12天管理费
+function deductManage($s_time, $day){
+    
+}
+
 /**
  * 更改会员级别
  *

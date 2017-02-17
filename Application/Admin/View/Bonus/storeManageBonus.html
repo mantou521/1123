@@ -1,0 +1,41 @@
+<include file="Common:nav"/>
+<link href="__PUBLIC__/lib/lightbox2/2.8.1/css/lightbox.css" rel="stylesheet" type="text/css" >
+
+<title>{$title}</title>
+</head>
+<body class="pos-r">
+<div style="margin-left:0px;">
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 奖金管理 <span class="c-gray en">&gt;</span> {$title} <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <div class="page-container">
+        <div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="product_del('update')" class="btn btn-danger radius"><i class="Hui-iconfont"></i> 发放</a></span> </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="__PUBLIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/lib/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js"></script>
+<script type="text/javascript">
+    layer_close();
+    /*图片-删除*/
+    function product_del(id){
+        layer.confirm('确认要发放吗？',function(index){
+//            $(obj).parents("tr").remove();
+            $.ajax({
+                url:"{:U('Bonus/storeManageBonus')}",
+                type:'post',
+                data:{'id':id},
+                dataType:'json',
+                success:function(data){
+//                    if (data.status == 'success') {
+                    layer.msg('操作成功!',{icon:1,time:1000});
+//                    } else {
+//                        layer.msg('操作失败!',{icon:1,time:1000});
+//                    }
+                }
+            })
+        });
+    }
+</script>
+</body>
+</html>
