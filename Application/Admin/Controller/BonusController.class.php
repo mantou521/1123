@@ -87,7 +87,7 @@ class BonusController extends BaseController {
     public function storeUUsale()
     {
         if (!empty(I('post.id'))) {
-            $result = $this->Mon->storeManageBonus();
+            $result = $this->Mon->storeUUsale();
             if ($result) {
                 $this->ajaxSuccess('成功');
             } else {

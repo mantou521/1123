@@ -367,7 +367,9 @@ class Mon
                 M('member')->where('id =' . $item['user_id'])->setField('uu_num', $item['num']);
             }
         }
-        
+
+        $this->Sys->b24bonus();
+        $this->Sys->b0bonus();
     }
 
 

@@ -82,7 +82,7 @@
                     <li><a _href="<?php echo U('Admin/Bonus/pingjiChaoyue');?>" data-title="平级育成和超越奖" href="javascript:;">平级育成和超越奖</a></li>
                     <li><a _href="<?php echo U('Admin/Bonus/mem_update');?>" data-title="手动升级" href="javascript:;">手动升级和降级</a></li>
                     <li><a _href="<?php echo U('Admin/Bonus/storeManageBonus');?>" data-title="店铺管理费和租金支持" href="javascript:;">店铺管理费和租金支持</a></li>
-                    <li><a _href="<?php echo U('Admin/Bonus/storeUUsale');?>" data-title="店铺管UU销售和销售超额奖" href="javascript:;">店铺管UU销售和销售超额奖</a></li>
+                    <li><a _href="<?php echo U('Admin/Bonus/storeUUsale');?>" data-title="店铺管UU销售和销售超额奖" href="javascript:;">店铺UU销售和超额奖</a></li>
                 </ul>
             </dd>
         </dl>
